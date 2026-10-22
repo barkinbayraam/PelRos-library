@@ -19,7 +19,7 @@ source:
   citation: "Salem, Darwish, Altarawneh, Alibwaini, Ghazy, Hemeda, Zhou, Trukhanova, Trukhanov, Trukhanov & Mostafa, RSC Adv. (2024)"
   title: "Investigation of the structure and dielectric properties of doped barium titanates"
   where: "Table 5 (x = 0) and Section 3.2"
-status: unverified
+status: doi_verified
 checked: 2026-10-22
 notes: >-
   DOI NOT yet confirmed on Crossref (API rate-limited during curation; values read from the RSC HTML page) — confirm
