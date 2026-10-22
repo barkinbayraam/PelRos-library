@@ -1,0 +1,30 @@
+id: ftir/ptfe-eigenschink2026
+technique: ftir
+material: PTFE
+formula: PTFE
+aliases: [polytetrafluoroethylene, Teflon]
+category: polymer, fluoropolymer, triboelectric (negative)
+conditions:
+  form: solid
+  mode: ATR
+peaks:
+  - position: 1202
+    intensity: null
+    label: "CF2 asymmetric stretch"
+  - position: 1146
+    intensity: null
+    label: "CF2 symmetric stretch"
+  - position: 639
+    intensity: null
+    label: "CF2 wagging"
+source:
+  doi: 10.3390/polym18151929
+  citation: "Eigenschink, Mastalir, Harasek & Paulik, Polymers 18, 1929 (2026)"
+  title: "Thermal Depolymerization Challenges of PTFE:Silicone Rubber Mixtures and Composite Materials"
+  where: "Section 3.5 text (spectra in Fig. S2)"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  Bands reported for the white solid recovered after co-pyrolysis, which the authors state matches virgin PTFE; ATR,
+  4000–400 cm⁻¹. The CF2 stretching pair (~1200/~1150) is very strong and often saturates in ATR. FEP shows the same
+  CF2 bands plus a CF3 band near 980 cm⁻¹ (not from this source). Intensities not stated.

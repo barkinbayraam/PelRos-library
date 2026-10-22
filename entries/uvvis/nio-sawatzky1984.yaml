@@ -1,0 +1,22 @@
+id: uvvis/nio-sawatzky1984
+technique: uvvis
+material: "NiO"
+formula: NiO
+aliases: ["nickel oxide", "bunsenite"]
+category: "oxide"
+conditions:
+  form: "bulk"
+  temperature_K: 295
+values:
+  - quantity: band_gap_direct
+    value: 4.3
+    unit: eV
+    note: "charge-transfer gap from combined XPS/BIS"
+source:
+  doi: 10.1103/PhysRevLett.53.2339
+  citation: "Sawatzky & Allen, Phys. Rev. Lett. 53, 2339 (1984)"
+  title: "Magnitude and Origin of the Band Gap in NiO"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Gap from photoemission + inverse photoemission, not UV-Vis; optical Tauc gaps of NiO films are typically 3.4–4.0 eV. Weak d–d bands in the visible. DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper."

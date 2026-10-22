@@ -1,0 +1,59 @@
+id: xrd/hbn-pease1952
+technique: xrd
+material: h-BN (hexagonal boron nitride)
+formula: BN
+aliases:
+- hexagonal boron nitride
+- white graphite
+category: nitride
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 26.746
+  d: 3.3305
+  hkl: '002'
+  intensity: s
+  width: null
+  label: null
+- position: 41.614
+  d: 2.1685
+  hkl: '100'
+  intensity: w
+  width: null
+  label: null
+- position: 43.872
+  d: 2.062
+  hkl: '101'
+  intensity: w
+  width: null
+  label: null
+- position: 50.159
+  d: 1.8173
+  hkl: '102'
+  intensity: w
+  width: null
+  label: null
+- position: 55.106
+  d: 1.6652
+  hkl: '004'
+  intensity: w
+  width: null
+  label: null
+- position: 75.941
+  d: 1.252
+  hkl: '110'
+  intensity: w
+  width: null
+  label: null
+source:
+  doi: 10.1107/S0365110X52001064
+  citation: Pease, Acta Cryst. 5, 356–361 (1952)
+  title: An X-ray study of boron nitride
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: Computed here from lattice parameters recalled from this source (NOT read in this session) — check the paper;
+  intensities qualitative from general knowledge, not from the source. P6₃/mmc, a = 2.504, c = 6.661 Å, recalled.
+  Turbostratic BN shows a broad (002) at lower angle (≈25–26°).

@@ -1,0 +1,73 @@
+id: xrd/ceo2-nbs-circ539v1
+technique: xrd
+material: CeO₂ (ceria)
+formula: CeO2
+aliases:
+- ceria
+- cerium dioxide
+- cerianite
+category: oxide
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 28.549
+  d: 3.124
+  hkl: '111'
+  intensity: s
+  width: null
+  label: null
+- position: 33.084
+  d: 2.7055
+  hkl: '200'
+  intensity: m
+  width: null
+  label: null
+- position: 47.488
+  d: 1.9131
+  hkl: '220'
+  intensity: s
+  width: null
+  label: null
+- position: 56.348
+  d: 1.6315
+  hkl: '311'
+  intensity: s
+  width: null
+  label: null
+- position: 59.095
+  d: 1.562
+  hkl: '222'
+  intensity: w
+  width: null
+  label: null
+- position: 69.421
+  d: 1.3527
+  hkl: '400'
+  intensity: w
+  width: null
+  label: null
+- position: 76.709
+  d: 1.2414
+  hkl: '331'
+  intensity: w
+  width: null
+  label: null
+- position: 79.084
+  d: 1.2099
+  hkl: '420'
+  intensity: w
+  width: null
+  label: null
+source:
+  doi: 10.6028/NBS.CIRC.539v1
+  citation: Swanson & Tatge, NBS Circular 539, Vol. 1 (1953)
+  title: 'Circular of the Bureau of Standards no. 539 volume 1: standard x-ray diffraction powder patterns'
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: Computed here from lattice parameters recalled from this source (NOT read in this session) — check the paper;
+  intensities qualitative from general knowledge, not from the source. a = 5.411 Å (fluorite, Fm-3m) recalled for
+  NBS Sec. 2.30. Nanoceria and doped ceria show lattice expansion (Ce3+/oxygen vacancies) — peaks shift to lower
+  2θ.

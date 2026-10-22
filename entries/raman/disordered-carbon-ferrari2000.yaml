@@ -1,0 +1,40 @@
+id: raman/disordered-carbon-ferrari2000
+technique: raman
+material: Disordered / amorphous carbon (D, G, D′, 2D, D+G)
+formula: C
+aliases:
+- amorphous carbon
+- carbon black
+- glassy carbon
+- a-C
+- nanocrystalline graphite
+category: carbon
+conditions:
+  laser_nm: 514
+peaks:
+- position: 1350
+  intensity: s
+  label: D (A1g breathing, disorder-activated)
+- position: 1590
+  intensity: s
+  label: G (E2g, upshifted in nanocrystalline graphite)
+- position: 1620
+  intensity: w
+  label: D′ (shoulder on G)
+- position: 2700
+  intensity: w
+  label: 2D
+- position: 2940
+  intensity: w
+  label: D+G
+source:
+  doi: 10.1103/PhysRevB.61.14095
+  citation: Ferrari & Robertson, Phys. Rev. B 61, 14095 (2000)
+  title: Interpretation of Raman spectra of disordered and amorphous carbon
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. Values typical for
+  ~514 nm excitation. The paper's three-stage amorphisation model (graphite → nanocrystalline graphite → a-C → ta-C)
+  explains G moving ~1580→1600→~1510 cm⁻¹ and I(D)/I(G) rising then falling. D, 2D and D+G disperse with excitation;
+  D′ and D+G are often unresolved in GO/rGO/carbon black.

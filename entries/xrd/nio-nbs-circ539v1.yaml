@@ -1,0 +1,54 @@
+id: xrd/nio-nbs-circ539v1
+technique: xrd
+material: NiO (bunsenite)
+formula: NiO
+aliases:
+- nickel oxide
+- bunsenite
+category: oxide
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 37.256
+  d: 2.4115
+  hkl: '111'
+  intensity: s
+  width: null
+  label: null
+- position: 43.288
+  d: 2.0884
+  hkl: '200'
+  intensity: s
+  width: null
+  label: null
+- position: 62.881
+  d: 1.4768
+  hkl: '220'
+  intensity: m
+  width: null
+  label: null
+- position: 75.418
+  d: 1.2594
+  hkl: '311'
+  intensity: w
+  width: null
+  label: null
+- position: 79.412
+  d: 1.2058
+  hkl: '222'
+  intensity: w
+  width: null
+  label: null
+source:
+  doi: 10.6028/NBS.CIRC.539v1
+  citation: Swanson & Tatge, NBS Circular 539, Vol. 1 (1953)
+  title: 'Circular of the Bureau of Standards no. 539 volume 1: standard x-ray diffraction powder patterns'
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: Computed here from lattice parameters recalled from this source (NOT read in this session) — check the paper;
+  intensities qualitative from general knowledge, not from the source. a = 4.1769 Å (rock salt, Fm-3m) recalled
+  for NBS Sec. 2.24. Below the Néel temperature NiO has a slight rhombohedral distortion, invisible on lab diffractometers.
+  (200) is the strongest line, (111) close behind.

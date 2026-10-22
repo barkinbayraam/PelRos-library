@@ -1,0 +1,38 @@
+id: raman/pvdf-alpha-kobayashi1975
+technique: raman
+material: PVDF α-phase (form II)
+formula: PVDF
+aliases:
+- polyvinylidene fluoride
+- PVDF form II
+- PVF2
+category: polymer
+conditions:
+  form: film
+  temperature_K: 295
+peaks:
+- position: 612
+  intensity: w
+  label: CF2 bend / skeletal (α)
+- position: 795
+  intensity: s
+  label: CH2 rock (α marker)
+- position: 875
+  intensity: m
+  label: C–C / CF2 symmetric stretch
+- position: 2975
+  intensity: m
+  label: CH2 symmetric stretch
+- position: 3020
+  intensity: w
+  label: CH2 antisymmetric stretch
+source:
+  doi: 10.1021/ma60044a013
+  citation: Kobayashi, Tashiro & Tadokoro, Macromolecules 8, 158 (1975)
+  title: Molecular Vibrations of Three Crystal Forms of Poly(vinylidene fluoride)
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: 'DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. Phase markers commonly
+  used: α 795 (and 612), β 839, γ ~811. Paper covers forms I (β), II (α), III (γ); positions here are typical literature
+  values.'

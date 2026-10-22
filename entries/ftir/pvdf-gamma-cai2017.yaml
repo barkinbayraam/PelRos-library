@@ -1,0 +1,37 @@
+id: ftir/pvdf-gamma-cai2017
+technique: ftir
+material: PVDF (γ phase)
+formula: PVDF
+aliases: [poly(vinylidene fluoride), gamma-PVDF, form III]
+category: polymer, fluoropolymer, piezoelectric polymer
+conditions:
+  form: film
+peaks:
+  - position: 431
+    intensity: null
+    label: "γ-exclusive band (~431)"
+  - position: 482
+    intensity: null
+    label: "γ-exclusive band (~482)"
+  - position: 811
+    intensity: null
+    label: "γ-exclusive band (~811)"
+  - position: 840
+    intensity: null
+    label: "β and/or γ (840*, shared)"
+  - position: 1234
+    intensity: null
+    label: "γ-exclusive (~1234) — recommended γ marker (Eq. 2b, peak-to-valley height)"
+  - position: 1429
+    intensity: null
+    label: "suggested γ assignment (1429; β at 1431)"
+source:
+  doi: 10.1039/C7RA01267E
+  citation: "Cai, Lei, Sun & Lin, RSC Adv. 7, 15382–15389 (2017)"
+  title: "A critical analysis of the α, β and γ phases in poly(vinylidene fluoride) using FTIR"
+  where: "Section 'Procedure for phase identification' (exclusive bands, Fig. 1); section on 840*/510* assignment; Eqs. 1–2"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  1234 cm⁻¹ without 1275 cm⁻¹ indicates γ; both together indicate a β+γ mixture. Several of these bands (431, 482, 840,
+  1234) have conflicting literature assignments (paper's Table 1). Intensities not given in the source list (null).

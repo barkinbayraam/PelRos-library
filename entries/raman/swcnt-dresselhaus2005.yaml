@@ -1,0 +1,35 @@
+id: raman/swcnt-dresselhaus2005
+technique: raman
+material: Single-wall carbon nanotubes (RBM, G±, D, G′)
+formula: C
+aliases:
+- SWCNT
+- SWNT
+- CNT
+- carbon nanotube
+- RBM
+category: carbon
+peaks:
+- position: 1591
+  intensity: s
+  label: G+ (axial)
+- position: 1570
+  intensity: m
+  label: G− (circumferential; broad BWF shape in metallic tubes)
+- position: 1350
+  intensity: w
+  label: D (excitation dependent)
+- position: 2700
+  intensity: m
+  label: G′ (2D), excitation dependent
+source:
+  doi: 10.1016/j.physrep.2004.10.006
+  citation: Dresselhaus et al., Phys. Rep. 409, 47 (2005)
+  title: Raman spectroscopy of carbon nanotubes
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: 'DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. RBM: radial breathing
+  modes at ~100–350 cm⁻¹ with ω_RBM ≈ 248/d_t (cm⁻¹, d_t in nm) for isolated SWNTs on Si; bundles/environment add
+  a constant (ω = A/d_t + B). RBM intensities are resonant, so only tubes in resonance with the laser appear. G−
+  position depends on diameter. MWCNTs show no useful RBM and look like defective graphite (D, G, D′, 2D).'

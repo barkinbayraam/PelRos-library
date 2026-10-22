@@ -1,0 +1,43 @@
+id: raman/pbtio3-burns1973
+technique: raman
+material: PbTiO₃ (tetragonal)
+formula: PbTiO3
+aliases:
+- lead titanate
+- PTO
+category: perovskite oxide
+conditions:
+  form: single crystal
+  temperature_K: 295
+peaks:
+- position: 88
+  intensity: s
+  label: E(1TO), soft mode
+- position: 149
+  intensity: m
+  label: A1(1TO)
+- position: 218
+  intensity: m
+  label: E(2TO)
+- position: 289
+  intensity: m
+  label: B1 + E
+- position: 359
+  intensity: m
+  label: A1(2TO)
+- position: 505
+  intensity: m
+  label: E(3TO)
+- position: 647
+  intensity: m
+  label: A1(3TO)
+source:
+  doi: 10.1103/PhysRevB.7.3088
+  citation: Burns & Scott, Phys. Rev. B 7, 3088 (1973)
+  title: 'Lattice Modes in Ferroelectric Perovskites: PbTiO3'
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. Room-temperature
+  single-crystal TO frequencies (LO partners omitted). The E(1TO) soft mode softens strongly towards Tc ≈ 763 K.
+  Values in thin films/ceramics shift with strain and grain size.

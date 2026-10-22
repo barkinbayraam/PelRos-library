@@ -1,0 +1,22 @@
+id: uvvis/tio2-rutile-pascual1978
+technique: uvvis
+material: "TiO₂ (rutile)"
+formula: TiO2
+aliases: ["titania", "titanium dioxide"]
+category: "oxide"
+conditions:
+  form: "bulk single crystal"
+  temperature_K: 1.6
+values:
+  - quantity: band_gap_direct
+    value: 3.031
+    unit: eV
+    note: "dipole-forbidden direct edge (exciton-related fine structure) at 1.6 K; ≈3.0 eV at room temperature"
+source:
+  doi: 10.1103/PhysRevB.18.5606
+  citation: "Pascual, Camassel & Mathieu, Phys. Rev. B 18, 5606 (1978)"
+  title: "Fine structure in the intrinsic absorption edge of TiO2"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Classic low-temperature single-crystal absorption-edge study; polarization-dependent (E⊥c vs E∥c). DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper."

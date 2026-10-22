@@ -1,0 +1,39 @@
+id: xrd/ti3c2tx-delaminated-film-rasool2017
+technique: xrd
+material: Ti₃C₂Tₓ MXene (delaminated film)
+formula: Ti3C2Tx
+aliases:
+- Ti3C2
+- MXene
+- delaminated Ti3C2Tx
+- d-Ti3C2Tx
+- MXene membrane
+category: MXene
+conditions:
+  form: film
+  radiation: not stated (assumed Cu Kα)
+  wavelength_A: 1.540598
+peaks:
+- position: 5.8
+  d: 15.2254
+  hkl: '002'
+  intensity: s
+  width: null
+  label: delaminated Ti3C2Tx film, (00l) basal
+- position: 6.6
+  d: 13.3816
+  hkl: '002'
+  intensity: s
+  width: null
+  label: Ti3C2Tx film on PVDF support
+source:
+  doi: 10.1038/s41598-017-01714-3
+  citation: Rasool et al., Sci. Rep. 7, 1598 (2017)
+  title: Efficient Antibacterial Membrane based on Two-Dimensional Ti3C2Tx (MXene) Nanosheets
+  where: Results, "Physical and chemical characterization of Ti3C2Tx based membranes" (Fig. 1G)
+status: doi_verified
+checked: 2026-10-22
+notes: 2θ as stated in the text; the paper does not state the radiation, so d was computed assuming Cu Kα1 — treat
+  d as approximate. The (002) shift from 5.8° to 6.6° on PVDF was interpreted as a smaller c-LP. Further Ti3C2Tx
+  peaks between 18 and 40° are mentioned without values. Delaminated films lose the ≈60° (110) non-basal reflection
+  in θ–2θ geometry because of strong preferred orientation.

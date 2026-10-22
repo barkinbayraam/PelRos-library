@@ -1,0 +1,22 @@
+id: uvvis/g-c3n4-wang2009
+technique: uvvis
+material: "g-C₃N₄ (graphitic carbon nitride)"
+formula: C3N4
+aliases: ["graphitic carbon nitride", "melon"]
+category: "2D material / polymer semiconductor"
+conditions:
+  form: "powder (melamine-derived)"
+  temperature_K: 295
+values:
+  - quantity: band_gap_direct
+    value: 2.7
+    unit: eV
+    note: "absorption edge ≈450–460 nm"
+source:
+  doi: 10.1038/nmat2317
+  citation: "Wang et al., Nat. Mater. 8, 76 (2009)"
+  title: "A metal-free polymeric photocatalyst for hydrogen production from water under visible light"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Crossref 'issued' year is 2008 (online); print 2009. DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper. Edge varies 2.6–2.9 eV with precursor/condensation temperature; exfoliated nanosheets blue-shift."

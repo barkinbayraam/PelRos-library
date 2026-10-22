@@ -1,0 +1,34 @@
+id: raman/rutile-porto1967
+technique: raman
+material: Rutile TiO₂
+formula: TiO2
+aliases:
+- titania
+- titanium dioxide
+category: oxide
+conditions:
+  form: single crystal
+  temperature_K: 295
+peaks:
+- position: 143
+  intensity: w
+  label: B1g
+- position: 447
+  intensity: s
+  label: Eg
+- position: 612
+  intensity: s
+  label: A1g
+- position: 826
+  intensity: w
+  label: B2g
+source:
+  doi: 10.1103/PhysRev.154.522
+  citation: Porto, Fleury & Damen, Phys. Rev. 154, 522 (1967)
+  title: Raman Spectra of TiO2, MgF2, ZnF2, FeF2, and MnF2
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. Rutile also shows
+  a broad second-order (multi-phonon) band at ~235 cm⁻¹ that is often stronger than B1g; it is not a first-order
+  mode. B1g 143 coincides with anatase Eg 144 — use 447/612 to identify rutile.

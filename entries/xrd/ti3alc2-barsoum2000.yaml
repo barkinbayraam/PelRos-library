@@ -1,0 +1,80 @@
+id: xrd/ti3alc2-barsoum2000
+technique: xrd
+material: Ti₃AlC₂ (MAX phase)
+formula: Ti3AlC2
+aliases:
+- MAX phase
+- Ti3AlC2
+- MXene precursor
+category: MAX phase
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 9.514
+  d: 9.289
+  hkl: '002'
+  intensity: m
+  width: null
+  label: null
+- position: 19.093
+  d: 4.6445
+  hkl: '004'
+  intensity: w
+  width: null
+  label: null
+- position: 33.981
+  d: 2.6361
+  hkl: '101'
+  intensity: w
+  width: null
+  label: null
+- position: 35.024
+  d: 2.5599
+  hkl: '102'
+  intensity: w
+  width: null
+  label: null
+- position: 38.954
+  d: 2.3102
+  hkl: '104'
+  intensity: s
+  width: null
+  label: null
+- position: 41.694
+  d: 2.1645
+  hkl: '105'
+  intensity: w
+  width: null
+  label: null
+- position: 48.38
+  d: 1.8798
+  hkl: '107'
+  intensity: w
+  width: null
+  label: null
+- position: 52.222
+  d: 1.7502
+  hkl: '108'
+  intensity: w
+  width: null
+  label: null
+- position: 60.133
+  d: 1.5375
+  hkl: '110'
+  intensity: w
+  width: null
+  label: null
+source:
+  doi: 10.1016/S0079-6786(00)00006-6
+  citation: Barsoum, Prog. Solid State Chem. 28, 201–281 (2000)
+  title: 'The MN+1AXN phases: A new class of solids'
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: Computed here from lattice parameters recalled from this source (NOT read in this session) — check the paper;
+  intensities qualitative from general knowledge, not from the source. P6₃/mmc, a = 3.075, c = 18.578 Å, recalled
+  (lattice-parameter table of this review). Mashtalir et al. 2013 (see ti3c2tx-multilayer-intercalated-mashtalir2013)
+  give a-LP 3.058 Å for their Ti3AlC2. Etching to Ti3C2Tx removes (104) ≈39° and shifts (002) from ≈9.5° to lower
+  angle; residual (104) is the usual unreacted-MAX check. TiC (≈36°, 42°) is a common impurity.

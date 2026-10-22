@@ -1,0 +1,28 @@
+id: ftir/mxene-ti3c2tx-tang2022
+technique: ftir
+material: Ti₃C₂Tₓ MXene
+formula: Ti3C2Tx
+aliases: [MXene, titanium carbide MXene, Ti3C2]
+category: MXene, 2D material
+conditions:
+  form: film / powder
+peaks:
+  - position: 3400
+    intensity: null
+    label: "O–H stretch of surface –OH terminations / intercalated water (~3400)"
+  - position: 550
+    intensity: null
+    label: "Ti–O vibration (~550)"
+source:
+  doi: 10.3390/sym14112232
+  citation: "Tang, Li, Wang, Han, Xu, Lu, Zhang & Li, Symmetry 14, 2232 (2022)"
+  title: "Surface Terminations of MXene: Synthesis, Characterization, and Properties"
+  where: "Section 3.5 text, Fig. 20b (review; reproduced from a cited study)"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  Review article; values are approximate and taken from a reproduced figure (Ti3C2 vs Ti3C2–PEG6). The ~3400 O–H
+  band disappears after esterification of the –OH groups, while ~550 (Ti–O) is unchanged. MXene FTIR is weak and
+  featureless compared with polymers (metallic/free-carrier absorption); some primary papers report no clear peaks.
+  Other often-quoted bands (H–O–H bend ~1630, C=O ~1700, weak C–F ~1216) depend on etchant, intercalants and drying
+  and are not given in this source. No sampling mode given.

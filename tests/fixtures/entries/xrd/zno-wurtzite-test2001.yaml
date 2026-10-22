@@ -1,0 +1,14 @@
+id: xrd/zno-wurtzite-test2001
+technique: xrd
+material: ZnO (test fixture)
+formula: ZnO
+conditions: {radiation: Cu Kα1, wavelength_A: 1.540598}
+peaks:
+  - {position: 31.770, d: 2.8143, hkl: "100", intensity: 57}
+  - {position: 34.422, d: 2.6033, hkl: "002", intensity: 44}
+  - {position: 36.253, d: 2.4759, hkl: "101", intensity: 100}
+source:
+  doi: 10.1000/test.2
+  citation: "Tester, J. Test. 2, 2 (2001)"
+  title: "Powder pattern of zinc oxide"
+status: unverified

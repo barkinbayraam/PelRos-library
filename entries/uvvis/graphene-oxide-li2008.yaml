@@ -1,0 +1,26 @@
+id: uvvis/graphene-oxide-li2008
+technique: uvvis
+material: "Graphene oxide (aqueous dispersion)"
+formula: GO
+aliases: ["GO"]
+category: "carbon"
+conditions:
+  form: "aqueous dispersion"
+  temperature_K: 295
+values:
+  - quantity: absorption_max
+    value: 231
+    unit: nm
+    note: "π–π* (C=C) band; red-shifts to ≈270 nm on hydrazine reduction"
+  - quantity: absorption_max
+    value: 300
+    unit: nm
+    note: "shoulder, n–π* (C=O) — generic literature value"
+source:
+  doi: 10.1038/nnano.2007.451
+  citation: "Li, Müller, Gilje, Kaner & Wallace, Nat. Nanotechnol. 3, 101 (2008)"
+  title: "Processable aqueous dispersions of graphene nanosheets"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "The ~300 nm n–π* shoulder is standard GO lore and may not be numerically stated in this paper. Peak positions depend on oxidation degree. DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper."

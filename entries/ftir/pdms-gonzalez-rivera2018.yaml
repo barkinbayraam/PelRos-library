@@ -1,0 +1,49 @@
+id: ftir/pdms-gonzalez-rivera2018
+technique: ftir
+material: PDMS (Sylgard 184, cured)
+formula: PDMS
+aliases: [polydimethylsiloxane, Sylgard 184, silicone]
+category: polymer, silicone elastomer
+conditions:
+  form: bulk / foam
+  mode: ATR
+peaks:
+  - position: 2965
+    intensity: null
+    label: "asymmetric C–H stretch (CH3)"
+  - position: 2905
+    intensity: null
+    label: "symmetric C–H stretch (CH3)"
+  - position: 1414
+    intensity: null
+    label: "asymmetric C–H bend (CH3)"
+  - position: 1260
+    intensity: null
+    label: "symmetric C–H bend (Si–CH3)"
+  - position: 1023
+    intensity: null
+    label: "asymmetric Si–O–Si stretch"
+  - position: 912
+    intensity: w
+    label: "Si–H bend — residual uncrosslinked curing agent (910 in text, 'small signal')"
+  - position: 843
+    intensity: null
+    label: "C–H (–CH2) rocking (as printed; usually Si–CH3 rock)"
+  - position: 790
+    intensity: null
+    label: "Si–C stretch (Si–CH3)"
+  - position: 690
+    intensity: null
+    label: "Si–C stretch"
+source:
+  doi: 10.3390/polym10060616
+  citation: "González-Rivera, Iglio, Barillaro, Duce & Tinè, Polymers 10, 616 (2018)"
+  title: "Structural and Thermoanalytical Characterization of 3D Porous PDMS Foam Materials: The Effect of Impurities Derived from a Sugar Templating Process"
+  where: "Table 1 (assignments of main FTIR bands of silicon-based materials); Section 3.1 text; spectra in Fig. S1"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  Table 1 is a general assignment table for the silicon-based materials in the study (base, curing agent, cured PDMS),
+  with assignments taken from cited references. The Si–H stretch at 2158 cm⁻¹ is strong in the Sylgard curing agent
+  and absent in cured PDMS. The Si–O–Si stretch of PDMS is normally a broad doublet (~1080/~1010); only 1023 is listed.
+  Intensities not given except the 'small' 910 band.

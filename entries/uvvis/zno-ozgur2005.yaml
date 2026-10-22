@@ -1,0 +1,22 @@
+id: uvvis/zno-ozgur2005
+technique: uvvis
+material: "ZnO (wurtzite)"
+formula: ZnO
+aliases: ["zinc oxide"]
+category: "oxide"
+conditions:
+  form: "bulk single crystal"
+  temperature_K: 300
+values:
+  - quantity: exciton
+    value: 0.060
+    unit: eV
+    note: "free-exciton binding energy, 60 meV (stated in abstract)"
+source:
+  doi: 10.1063/1.1992666
+  citation: "Özgür et al., J. Appl. Phys. 98, 041301 (2005)"
+  title: "A comprehensive review of ZnO materials and devices"
+  where: "abstract (60 meV exciton binding energy)"
+status: doi_verified
+checked: 2026-10-22
+notes: "Room-temperature direct band gap ≈3.37 eV (≈3.44 eV at 4 K) is given in the review body — not checked here, treat 3.37 eV as recalled. Near-band-edge PL ≈3.27–3.3 eV (≈375–380 nm) at RT."

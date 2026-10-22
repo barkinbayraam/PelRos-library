@@ -1,0 +1,34 @@
+id: raman/pvdf-beta-kobayashi1975
+technique: raman
+material: PVDF β-phase (form I)
+formula: PVDF
+aliases:
+- polyvinylidene fluoride
+- PVDF form I
+category: polymer
+conditions:
+  form: film
+  temperature_K: 295
+peaks:
+- position: 839
+  intensity: s
+  label: CH2 rock + CF2 antisymmetric stretch (β marker)
+- position: 884
+  intensity: m
+  label: C–C / CF2 symmetric stretch
+- position: 1280
+  intensity: w
+  label: CF2 symmetric stretch + C–C (trans sequences)
+- position: 2975
+  intensity: m
+  label: CH2 symmetric stretch
+source:
+  doi: 10.1021/ma60044a013
+  citation: Kobayashi, Tashiro & Tadokoro, Macromolecules 8, 158 (1975)
+  title: Molecular Vibrations of Three Crystal Forms of Poly(vinylidene fluoride)
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. β fraction is usually
+  estimated from the 839/795 Raman (or 840/763 IR) ratio; electrospun/poled films and PVDF-TrFE are β-rich. The
+  884 band is common to all phases.

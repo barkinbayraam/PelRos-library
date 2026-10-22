@@ -1,0 +1,26 @@
+id: uvvis/si-bludau1974
+technique: uvvis
+material: "Si"
+formula: Si
+aliases: ["silicon"]
+category: "semiconductor"
+conditions:
+  form: "bulk single crystal"
+  temperature_K: 300
+values:
+  - quantity: band_gap_indirect
+    value: 1.170
+    unit: eV
+    note: "fit constant A = Eg(0 K) for 0 < T ≤ 190 K"
+  - quantity: band_gap_indirect
+    value: 1.124
+    unit: eV
+    note: "300 K, computed from the paper's 150–300 K fit (A=1.1785 eV, B=−9.025e-5 eV/K, C=−3.05e-7 eV/K²)"
+source:
+  doi: 10.1063/1.1663501
+  citation: "Bludau, Onton & Heinke, J. Appl. Phys. 45, 1846 (1974)"
+  title: "Temperature dependence of the band gap of silicon"
+  where: "abstract (fit coefficients)"
+status: doi_verified
+checked: 2026-10-22
+notes: "1.124 eV is our evaluation of the published quadratic fit at 300 K, not a number printed in the abstract. Direct gap of Si ≈3.4 eV."

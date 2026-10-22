@@ -1,0 +1,35 @@
+id: ftir/pvdf-beta-cai2017
+technique: ftir
+material: PVDF (β phase)
+formula: PVDF
+aliases: [poly(vinylidene fluoride), beta-PVDF, form I, electroactive PVDF]
+category: polymer, fluoropolymer, piezoelectric polymer
+conditions:
+  form: film
+peaks:
+  - position: 445
+    intensity: null
+    label: "β-exclusive band (~445)"
+  - position: 473
+    intensity: null
+    label: "β-exclusive band (~473)"
+  - position: 840
+    intensity: null
+    label: "β and/or γ (840*, shared; used with 763 for electroactive fraction, Eq. 1)"
+  - position: 1275
+    intensity: null
+    label: "β-exclusive (~1275) — recommended β marker (Eq. 2a, peak-to-valley height)"
+  - position: 1431
+    intensity: null
+    label: "suggested β assignment (1431; γ at 1429)"
+source:
+  doi: 10.1039/C7RA01267E
+  citation: "Cai, Lei, Sun & Lin, RSC Adv. 7, 15382–15389 (2017)"
+  title: "A critical analysis of the α, β and γ phases in poly(vinylidene fluoride) using FTIR"
+  where: "Section 'Procedure for phase identification' (exclusive bands, Fig. 1); section on 840*/510* assignment; Eqs. 1–2"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  840 and 510 cm⁻¹ are common to β and γ: 1275 present without 1234 → β; 1234 without 1275 → γ; both → β+γ.
+  The commonly quoted "840 = β" assignment is ambiguous (Table 1 of the paper). P(VDF-TrFE) crystallises directly in a
+  β-like all-trans form. Intensities not given in the source list (null).

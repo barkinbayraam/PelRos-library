@@ -1,0 +1,85 @@
+id: xrd/lab6-srm660c-black2020
+technique: xrd
+material: LaB₆ (NIST SRM 660c)
+formula: LaB6
+aliases:
+- lanthanum hexaboride
+- SRM 660c
+category: boride (calibration standard)
+conditions:
+  form: powder
+  temperature_K: 295.65
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 21.358
+  d: 4.15683
+  hkl: '100'
+  intensity: null
+  width: null
+  label: null
+- position: 30.386
+  d: 2.93932
+  hkl: '110'
+  intensity: null
+  width: null
+  label: null
+- position: 37.443
+  d: 2.39994
+  hkl: '111'
+  intensity: null
+  width: null
+  label: null
+- position: 43.508
+  d: 2.07841
+  hkl: '200'
+  intensity: null
+  width: null
+  label: null
+- position: 48.959
+  d: 1.85899
+  hkl: '210'
+  intensity: null
+  width: null
+  label: null
+- position: 53.99
+  d: 1.69702
+  hkl: '211'
+  intensity: null
+  width: null
+  label: null
+- position: 63.22
+  d: 1.46966
+  hkl: '220'
+  intensity: null
+  width: null
+  label: null
+- position: 67.549
+  d: 1.38561
+  hkl: '300'
+  intensity: null
+  width: null
+  label: null
+- position: 71.747
+  d: 1.3145
+  hkl: '310'
+  intensity: null
+  width: null
+  label: null
+- position: 75.846
+  d: 1.25333
+  hkl: '311'
+  intensity: null
+  width: null
+  label: null
+source:
+  doi: 10.1017/s0885715620000068
+  citation: Black et al., Powder Diffraction 35, 17–22 (2020)
+  title: Certification of Standard Reference Material 660c for powder diffraction
+  where: abstract (certified lattice parameter)
+status: doi_verified
+checked: 2026-10-22
+notes: Computed from a = 0.4156826 ± 0.0000008 nm (95 %) certified at 22.5 °C, reported in the abstract of this
+  paper; intensities not given. Pm-3m (CaB6 type; space group not stated in the text read). 2θ for Cu Kα1 by Bragg's
+  law, no instrument/peak-shift corrections. Previous generations 660/660a/660b have slightly different certified
+  a.

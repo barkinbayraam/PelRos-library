@@ -1,0 +1,72 @@
+id: xrd/tio2-brookite-baur1961
+technique: xrd
+material: TiO₂ (brookite)
+formula: TiO2
+aliases:
+- brookite
+- titania
+category: oxide
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 25.348
+  d: 3.5109
+  hkl: '210'
+  intensity: s
+  width: null
+  label: null
+- position: 25.697
+  d: 3.464
+  hkl: '111'
+  intensity: s
+  width: null
+  label: null
+- position: 30.808
+  d: 2.9
+  hkl: '211'
+  intensity: m
+  width: null
+  label: null
+- position: 32.859
+  d: 2.7235
+  hkl: '020'
+  intensity: w
+  width: null
+  label: null
+- position: 42.362
+  d: 2.1319
+  hkl: '221'
+  intensity: w
+  width: null
+  label: null
+- position: 36.234
+  d: 2.4772
+  hkl: '102'
+  intensity: w
+  width: null
+  label: null
+- position: 48.045
+  d: 1.8922
+  hkl: '321'
+  intensity: w
+  width: null
+  label: null
+- position: 52.056
+  d: 1.7554
+  hkl: '420'
+  intensity: w
+  width: null
+  label: null
+source:
+  doi: 10.1107/S0365110X61000747
+  citation: Baur, Acta Cryst. 14, 214–216 (1961)
+  title: Atomabstände und Bindungswinkel im Brookit, TiO<sub>2</sub>
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: Computed here from lattice parameters recalled from this source (NOT read in this session) — check the paper;
+  intensities qualitative from general knowledge, not from the source. Pbca, a = 9.184, b = 5.447, c = 5.145 Å (setting
+  with a longest), recalled. In the common ICDD setting (a = 5.456, b = 9.182, c = 5.143 Å) the same lines are indexed
+  120, 111, 121. The ≈30.8° line is the brookite fingerprint; the ≈25.3/25.7° pair overlaps anatase (101).

@@ -1,0 +1,90 @@
+id: xrd/batio3-tetragonal-nbs-circ539v3
+technique: xrd
+material: BaTiO₃ (tetragonal)
+formula: BaTiO3
+aliases:
+- barium titanate
+category: perovskite oxide
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 21.995
+  d: 4.038
+  hkl: '001'
+  intensity: w
+  width: null
+  label: null
+- position: 22.24
+  d: 3.994
+  hkl: '100'
+  intensity: w
+  width: null
+  label: null
+- position: 31.48
+  d: 2.8396
+  hkl: '101'
+  intensity: s
+  width: null
+  label: null
+- position: 31.656
+  d: 2.8242
+  hkl: '110'
+  intensity: s
+  width: null
+  label: null
+- position: 38.883
+  d: 2.3143
+  hkl: '111'
+  intensity: m
+  width: null
+  label: null
+- position: 44.856
+  d: 2.019
+  hkl: '002'
+  intensity: m
+  width: null
+  label: null
+- position: 45.378
+  d: 1.997
+  hkl: '200'
+  intensity: m
+  width: null
+  label: null
+- position: 50.618
+  d: 1.8019
+  hkl: '102'
+  intensity: w
+  width: null
+  label: null
+- position: 50.976
+  d: 1.7901
+  hkl: '201'
+  intensity: w
+  width: null
+  label: null
+- position: 55.938
+  d: 1.6425
+  hkl: '112'
+  intensity: m
+  width: null
+  label: null
+- position: 56.272
+  d: 1.6335
+  hkl: '211'
+  intensity: m
+  width: null
+  label: null
+source:
+  doi: 10.6028/NBS.CIRC.539v3
+  citation: Swanson, Fuyat & Ugrinic, NBS Circular 539, Vol. 3 (1954)
+  title: 'Circular of the Bureau of Standards no. 539 volume 3: standard x-ray diffraction powder patterns'
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: Computed here from lattice parameters recalled from this source (NOT read in this session) — check the paper;
+  intensities qualitative from general knowledge, not from the source. a = 3.994, c = 4.038 Å (P4mm, room temperature)
+  recalled for NBS Vol. 3, p. 45. The tetragonal fingerprint is the (002)/(200) doublet near 45° (≈1:2 intensity);
+  a single 200 peak indicates the cubic (Pm-3m, above ≈120 °C) or nanosized pseudo-cubic form (a ≈ 4.01 Å — no verified
+  source found for a cubic entry).

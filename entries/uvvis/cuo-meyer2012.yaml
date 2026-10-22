@@ -1,0 +1,22 @@
+id: uvvis/cuo-meyer2012
+technique: uvvis
+material: "CuO (tenorite)"
+formula: CuO
+aliases: ["cupric oxide", "copper(II) oxide"]
+category: "oxide"
+conditions:
+  form: "thin film"
+  temperature_K: 295
+values:
+  - quantity: band_gap_indirect
+    value: 1.40
+    unit: eV
+    note: "lower bound of the copper-oxide gap range (CuO)"
+source:
+  doi: 10.1002/pssb.201248128
+  citation: "Meyer et al., Phys. Status Solidi B 249, 1487 (2012)"
+  title: "Binary copper oxide semiconductors: From materials towards devices"
+  where: "abstract"
+status: doi_verified
+checked: 2026-10-22
+notes: "Abstract gives 1.40 eV as the low end of the copper-oxide gap range, i.e. CuO; reported CuO gaps scatter 1.2–1.9 eV (direct vs indirect Tauc, nanostructure)."

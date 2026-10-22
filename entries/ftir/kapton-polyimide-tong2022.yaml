@@ -1,0 +1,56 @@
+id: ftir/kapton-polyimide-tong2022
+technique: ftir
+material: Polyimide (Kapton, PMDA–ODA)
+formula: PI
+aliases: [Kapton, Kapton HN, polyimide, PMDA-ODA]
+category: polymer, polyimide
+conditions:
+  form: film
+peaks:
+  - position: 1774
+    intensity: null
+    label: "imide I: C=O symmetric stretch (five-membered imide ring)"
+  - position: 1704
+    intensity: null
+    label: "imide II: C=O asymmetric stretch"
+  - position: 1596
+    intensity: null
+    label: "aromatic ring C=C skeletal stretch"
+  - position: 1502
+    intensity: null
+    label: "aromatic ring C=C skeletal stretch"
+  - position: 1366
+    intensity: null
+    label: "imide III: C–N stretch"
+  - position: 1232
+    intensity: s
+    label: "aryl ether C–O–C stretch (described as wide and strong)"
+  - position: 1163
+    intensity: null
+    label: "in-plane =C–H bend, substituted benzene ring"
+  - position: 1111
+    intensity: null
+    label: "in-plane =C–H bend, substituted benzene ring"
+  - position: 1012
+    intensity: null
+    label: "in-plane H rocking, para-substituted phenyl"
+  - position: 880
+    intensity: null
+    label: "out-of-plane C–H deformation, isolated ring H"
+  - position: 813
+    intensity: null
+    label: "out-of-plane C–H deformation, ring H"
+  - position: 719
+    intensity: null
+    label: "imide IV: C=O bending/deformation (printed as 'C=O symmetric stretching')"
+source:
+  doi: 10.3390/coatings12020179
+  citation: "Tong, Wei, Hu & Chen, Coatings 12, 179 (2022)"
+  title: "Asynchronous Synergistic Damage Effect of Atomic Oxygen and Space Micro Debris on Kapton Film"
+  where: "Section 3.4 text (original film; spectra in Fig. 9)"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  Bruker Vertex 80v, 2000–400 cm⁻¹; sampling mode (ATR vs transmission) not stated. The 1774/1704 doublet plus 1366
+  and ~720 cm⁻¹ are the diagnostic imide bands. The source labels the 719 band "C=O symmetric stretching"; it is
+  conventionally assigned to imide-ring C=O bending (imide IV).

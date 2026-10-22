@@ -1,0 +1,33 @@
+id: ftir/pvc-tham2019
+technique: ftir
+material: PVC
+formula: PVC
+aliases: [poly(vinyl chloride), polyvinyl chloride, vinyl]
+category: polymer
+conditions:
+  form: film
+peaks:
+  - {position: 2970, intensity: null, label: "C–H stretch of CHCl (printed 'CHCl ν_oop')"}
+  - {position: 2912, intensity: null, label: "CH2 asymmetric stretch"}
+  - {position: 2855, intensity: null, label: "CH2 symmetric stretch"}
+  - {position: 1430, intensity: null, label: "CH2 bend"}
+  - {position: 1331, intensity: null, label: "C–H out-of-plane bend (CHCl)"}
+  - {position: 1253, intensity: null, label: "C–H in-plane bend (CHCl)"}
+  - {position: 1097, intensity: null, label: "C–C stretch"}
+  - {position: 1065, intensity: null, label: "C–C stretch"}
+  - {position: 962, intensity: null, label: "trans CHCl wagging"}
+  - {position: 835, intensity: null, label: "CH2 rocking"}
+  - {position: 692, intensity: null, label: "C–Cl stretch"}
+  - {position: 636, intensity: null, label: "C–Cl stretch"}
+  - {position: 614, intensity: null, label: "C–Cl stretch"}
+source:
+  doi: 10.15625/2525-2518/57/1/12682
+  citation: "Tham, Mai, Hoang, Trang, Chinh & Thang, Vietnam J. Sci. Technol. 57(1), 48 (2019)"
+  title: "PREPARATION AND FTIR STUDIES OF PMMA/PVC POLYMER BLENDS, PVC-g-PMMA GRAFT COPOLYMERS AND EVALUATING GRAFT CONTENT"
+  where: "Table 2 (FTIR assignments for specific groups in neat PMMA, neat PVC and PMMA/PVC blends)"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  Nicolet Nexus 670, 4000–500 cm⁻¹; sampling mode not stated. The table layout makes the pairing of 2970/2912/2855 and
+  1097/1065 with specific modes somewhat ambiguous. Commercial (plasticised) PVC often shows strong phthalate bands
+  (C=O ~1720–1730, 1270, 1120, 1070) that are not PVC. Intensities not reported.

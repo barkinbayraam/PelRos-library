@@ -1,0 +1,90 @@
+id: xrd/cuo-tenorite-asbrink1970
+technique: xrd
+material: CuO (tenorite)
+formula: CuO
+aliases:
+- cupric oxide
+- tenorite
+- copper(II) oxide
+category: oxide
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 32.534
+  d: 2.7499
+  hkl: '110'
+  intensity: w
+  width: null
+  label: null
+- position: 35.468
+  d: 2.5289
+  hkl: '002'
+  intensity: s
+  width: null
+  label: null
+- position: 35.559
+  d: 2.5226
+  hkl: '-111'
+  intensity: s
+  width: null
+  label: null
+- position: 38.754
+  d: 2.3217
+  hkl: '111'
+  intensity: s
+  width: null
+  label: null
+- position: 38.968
+  d: 2.3095
+  hkl: '200'
+  intensity: s
+  width: null
+  label: null
+- position: 48.754
+  d: 1.8663
+  hkl: '-202'
+  intensity: m
+  width: null
+  label: null
+- position: 53.503
+  d: 1.7113
+  hkl: '020'
+  intensity: w
+  width: null
+  label: null
+- position: 58.359
+  d: 1.5799
+  hkl: '202'
+  intensity: m
+  width: null
+  label: null
+- position: 61.57
+  d: 1.505
+  hkl: '-113'
+  intensity: m
+  width: null
+  label: null
+- position: 66.284
+  d: 1.4089
+  hkl: '-311'
+  intensity: w
+  width: null
+  label: null
+- position: 68.144
+  d: 1.375
+  hkl: '220'
+  intensity: w
+  width: null
+  label: null
+source:
+  doi: 10.1107/S0567740870001838
+  citation: Åsbrink & Norrby, Acta Cryst. B26, 8–15 (1970)
+  title: A refinement of the crystal structure of copper(II) oxide with a discussion of some exceptional e.s.d.'s
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: Computed here from lattice parameters recalled from this source (NOT read in this session) — check the paper;
+  intensities qualitative from general knowledge, not from the source. C2/c, a = 4.6837, b = 3.4226, c = 5.1288
+  Å, β = 99.54°, recalled. The (002)/(-111) pair at ≈35.5° and (111)/(200) pair at ≈38.7° are the main CuO lines.

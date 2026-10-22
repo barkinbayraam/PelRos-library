@@ -1,0 +1,90 @@
+id: xrd/si-nbs-circ539v2
+technique: xrd
+material: Si (silicon)
+formula: Si
+aliases:
+- silicon
+category: semiconductor
+conditions:
+  form: powder
+  temperature_K: 299
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 28.42
+  d: 3.138
+  hkl: '111'
+  intensity: 100
+  width: null
+  label: null
+- position: 47.306
+  d: 1.92
+  hkl: '220'
+  intensity: 60
+  width: null
+  label: null
+- position: 56.103
+  d: 1.638
+  hkl: '311'
+  intensity: 35
+  width: null
+  label: null
+- position: 69.173
+  d: 1.357
+  hkl: '400'
+  intensity: 8
+  width: null
+  label: null
+- position: 76.372
+  d: 1.246
+  hkl: '331'
+  intensity: 13
+  width: null
+  label: null
+- position: 88.059
+  d: 1.1083
+  hkl: '422'
+  intensity: 17
+  width: null
+  label: null
+- position: 94.975
+  d: 1.045
+  hkl: '511'
+  intensity: 9
+  width: null
+  label: null
+- position: 106.735
+  d: 0.9599
+  hkl: '440'
+  intensity: 5
+  width: null
+  label: null
+- position: 114.13
+  d: 0.9178
+  hkl: '531'
+  intensity: 11
+  width: null
+  label: null
+- position: 127.574
+  d: 0.8586
+  hkl: '620'
+  intensity: 9
+  width: null
+  label: null
+- position: 136.932
+  d: 0.8281
+  hkl: '533'
+  intensity: 5
+  width: null
+  label: null
+source:
+  doi: 10.6028/NBS.CIRC.539v2
+  citation: Swanson & Fuyat, NBS Circular 539, Vol. 2 (1953)
+  title: 'Circular of the Bureau of Standards no. 539 volume 2: standard x-ray diffraction powder patterns'
+  where: Silicon, p. 6 (Swanson & Fuyat 1953 column)
+status: doi_verified
+checked: 2026-10-22
+notes: d and I as printed (26 °C, Johnson Matthey Si). Cu Kα (1.5405 Å) as used by NBS; 2θ values here are recomputed
+  from the printed d for Cu Kα1 = 1.540598 Å (Bragg's law), not read from the source. Fd-3m; NBS a = 5.4301 Å (1953).
+  The 1953 d(111) = 3.138 Å is slightly larger than the modern certified value (3.1357 Å from SRM 640f, see si-srm640f-black2020);
+  prefer the SRM entry for calibration.

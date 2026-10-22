@@ -1,0 +1,26 @@
+id: uvvis/hbn-watanabe2004
+technique: uvvis
+material: "h-BN"
+formula: BN
+aliases: ["hexagonal boron nitride", "white graphene"]
+category: "2D material / nitride"
+conditions:
+  form: "bulk single crystal"
+  temperature_K: 8
+values:
+  - quantity: band_gap_direct
+    value: 5.971
+    unit: eV
+    note: "claimed direct gap from absorption/CL"
+  - quantity: emission_max
+    value: 215
+    unit: nm
+    note: "UV lasing / dominant CL line"
+source:
+  doi: 10.1038/nmat1134
+  citation: "Watanabe, Taniguchi & Kanda, Nat. Mater. 3, 404 (2004)"
+  title: "Direct-bandgap properties and evidence for ultraviolet lasing of hexagonal boron nitride single crystal"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Later work (Cassabois et al., Nat. Photon. 2016) reassigned h-BN as indirect (≈5.955 eV) with strong phonon-assisted emission; that DOI was not checked here. DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper."

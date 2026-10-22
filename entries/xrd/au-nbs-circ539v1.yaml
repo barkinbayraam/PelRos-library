@@ -1,0 +1,53 @@
+id: xrd/au-nbs-circ539v1
+technique: xrd
+material: Au (gold)
+formula: Au
+aliases:
+- gold
+category: metal
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 38.188
+  d: 2.3548
+  hkl: '111'
+  intensity: s
+  width: null
+  label: null
+- position: 44.386
+  d: 2.0393
+  hkl: '200'
+  intensity: m
+  width: null
+  label: null
+- position: 64.578
+  d: 1.442
+  hkl: '220'
+  intensity: m
+  width: null
+  label: null
+- position: 77.569
+  d: 1.2297
+  hkl: '311'
+  intensity: m
+  width: null
+  label: null
+- position: 81.724
+  d: 1.1774
+  hkl: '222'
+  intensity: w
+  width: null
+  label: null
+source:
+  doi: 10.6028/NBS.CIRC.539v1
+  citation: Swanson & Tatge, NBS Circular 539, Vol. 1 (1953)
+  title: 'Circular of the Bureau of Standards no. 539 volume 1: standard x-ray diffraction powder patterns'
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: 'Computed here from lattice parameters recalled from this source (NOT read in this session) — check the paper;
+  intensities qualitative from general knowledge, not from the source. a = 4.0786 Å (Fm-3m) recalled for the NBS
+  gold pattern (Sec. 2.15); only the first ~25 pages of this scanned volume were readable online, so the table was
+  not checked. Au nanoparticles: broadened peaks, same positions.'

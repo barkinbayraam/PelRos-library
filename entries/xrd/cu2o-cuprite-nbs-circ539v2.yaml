@@ -1,0 +1,61 @@
+id: xrd/cu2o-cuprite-nbs-circ539v2
+technique: xrd
+material: Cu₂O (cuprite)
+formula: Cu2O
+aliases:
+- cuprous oxide
+- cuprite
+- copper(I) oxide
+category: oxide
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 29.564
+  d: 3.0191
+  hkl: '110'
+  intensity: w
+  width: null
+  label: null
+- position: 36.418
+  d: 2.4651
+  hkl: '111'
+  intensity: s
+  width: null
+  label: null
+- position: 42.302
+  d: 2.1348
+  hkl: '200'
+  intensity: m
+  width: null
+  label: null
+- position: 61.366
+  d: 1.5095
+  hkl: '220'
+  intensity: m
+  width: null
+  label: null
+- position: 73.506
+  d: 1.2873
+  hkl: '311'
+  intensity: m
+  width: null
+  label: null
+- position: 77.361
+  d: 1.2325
+  hkl: '222'
+  intensity: w
+  width: null
+  label: null
+source:
+  doi: 10.6028/NBS.CIRC.539v2
+  citation: Swanson & Fuyat, NBS Circular 539, Vol. 2 (1953)
+  title: 'Circular of the Bureau of Standards no. 539 volume 2: standard x-ray diffraction powder patterns'
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: Computed here from lattice parameters recalled from this source (NOT read in this session) — check the paper;
+  intensities qualitative from general knowledge, not from the source. a = 4.2696 Å (Pn-3m) recalled for the NBS
+  cuprite pattern (Vol. 2, p. 23; not readable online here). Cu2O(111) at ≈36.4° sits next to CuO(111)/(200) at
+  ≈35.5/38.7° — check both when Cu oxidises.

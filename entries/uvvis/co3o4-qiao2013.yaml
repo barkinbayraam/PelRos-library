@@ -1,0 +1,26 @@
+id: uvvis/co3o4-qiao2013
+technique: uvvis
+material: "Co₃O₄ (spinel)"
+formula: Co3O4
+aliases: ["cobalt oxide", "cobalt(II,III) oxide"]
+category: "oxide"
+conditions:
+  form: "thin film"
+  temperature_K: 295
+values:
+  - quantity: band_gap_direct
+    value: 1.5
+    unit: eV
+    note: "lower absorption band (often reported as Eg1 ≈1.4–1.5 eV)"
+  - quantity: band_gap_direct
+    value: 2.1
+    unit: eV
+    note: "upper absorption band (Eg2 ≈2.1–2.2 eV)"
+source:
+  doi: 10.1039/c3tc30861h
+  citation: "Qiao et al., J. Mater. Chem. C 1, 4628 (2013)"
+  title: "Nature of the band gap and origin of the electro-/photo-activity of Co3O4"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "The two-edge Tauc reading of Co3O4 is contested: this paper argues the low-energy features involve d–d/charge-transfer transitions and revisits the true gap. Use with caution. DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper."

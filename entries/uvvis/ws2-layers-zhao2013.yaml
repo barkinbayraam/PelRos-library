@@ -1,0 +1,26 @@
+id: uvvis/ws2-layers-zhao2013
+technique: uvvis
+material: "WS₂ (1L–bulk)"
+formula: WS2
+aliases: ["tungsten disulfide"]
+category: "2D material"
+conditions:
+  form: "exfoliated flakes, 1 layer to bulk"
+  temperature_K: 295
+values:
+  - quantity: exciton
+    value: 2.0
+    unit: eV
+    note: "A exciton absorption/PL ≈2.0 eV in monolayer"
+  - quantity: band_gap_indirect
+    value: 1.3
+    unit: eV
+    note: "bulk indirect gap ≈1.3–1.4 eV"
+source:
+  doi: 10.1021/nn305275h
+  citation: "Zhao et al., ACS Nano 7, 791 (2013)"
+  title: "Evolution of Electronic Structure in Atomically Thin Sheets of WS2 and WSe2"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Crossref issued year 2012 (online). DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper."

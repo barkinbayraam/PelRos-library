@@ -1,0 +1,55 @@
+id: ftir/pet-benke2022
+technique: ftir
+material: PET
+formula: PET
+aliases: [poly(ethylene terephthalate), polyethylene terephthalate, Mylar, polyester]
+category: polymer, polyester
+conditions:
+  form: film
+  mode: ATR
+peaks:
+  - position: 3430
+    intensity: null
+    label: "first overtone of C=O stretch"
+  - position: 3050
+    intensity: null
+    label: "aromatic C–H stretch"
+  - position: 2950
+    intensity: null
+    label: "aliphatic CH2 stretch"
+  - position: 1714
+    intensity: null
+    label: "C=O stretch (ester carbonyl, main maximum)"
+  - position: 1408
+    intensity: null
+    label: "aromatic ring skeletal stretch (used as internal reference band)"
+  - position: 1340
+    intensity: null
+    label: "CH2 deformation (wagging)"
+  - position: 1255
+    intensity: null
+    label: "C–O stretch (ester), reported region 1240–1270"
+  - position: 1115
+    intensity: null
+    label: "C–O stretch, reported region 1080–1150"
+  - position: 970
+    intensity: null
+    label: "ester linkage–related band"
+  - position: 900
+    intensity: null
+    label: "ester linkage–related band"
+  - position: 723
+    intensity: null
+    label: "aromatic ring vibration (C–H out-of-plane), region 700–750"
+source:
+  doi: 10.3390/environments9110134
+  citation: "Benke, Sonnenberg, Oelschlägel, Schneider, Lux & Potthoff, Environments 9, 134 (2022)"
+  title: "Wettability after Artificial and Natural Weathering of Polyethylene Terephthalate"
+  where: "Section 3.2 and 4.1 text (Figs. 4–6, 9)"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  Diamond ATR (Bruker Tensor 27). Where the paper gives a region, the position is the midpoint (1255 for 1240–1270,
+  1115 for 1080–1150); the paper also describes a triplet of ring/C=C maxima over 1500–1630. The 1340 and 970/900
+  bands are conformation (trans/crystalline)-sensitive. Intensities not stated in the text.
+  O–H bands at 3550/3630 grow with weathering.

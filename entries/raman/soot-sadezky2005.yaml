@@ -1,0 +1,37 @@
+id: raman/soot-sadezky2005
+technique: raman
+material: Soot / carbonaceous materials (five-band fit)
+formula: C
+aliases:
+- carbon black
+- D3 band
+- D4 band
+category: carbon
+conditions:
+  form: powder (soot, carbon black)
+peaks:
+- position: 1580
+  intensity: s
+  label: G (ideal graphitic lattice, E2g)
+- position: 1350
+  intensity: s
+  label: D1 (disordered graphitic lattice, A1g)
+- position: 1620
+  intensity: m
+  label: D2 (disordered graphitic lattice, surface layers, E2g)
+- position: 1500
+  intensity: w
+  label: D3 (amorphous carbon)
+- position: 1200
+  intensity: w
+  label: D4 (disordered lattice, polyenes, ionic impurities)
+source:
+  doi: 10.1016/j.carbon.2005.02.018
+  citation: Sadezky et al., Carbon 43, 1731 (2005)
+  title: 'Raman microspectroscopy of soot and related carbonaceous materials: Spectral analysis and structural information'
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. Band set used for
+  curve-fitting first-order spectra of soot, carbon black and other poorly ordered carbons (4 Lorentzians + Gaussian
+  D3 recommended). Positions are nominal and excitation-dependent.

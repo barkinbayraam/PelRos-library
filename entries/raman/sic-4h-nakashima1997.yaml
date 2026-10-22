@@ -1,0 +1,34 @@
+id: raman/sic-4h-nakashima1997
+technique: raman
+material: SiC (4H polytype)
+formula: SiC
+aliases:
+- silicon carbide
+- 4H-SiC
+category: semiconductor
+conditions:
+  form: single crystal (c-face backscattering)
+  temperature_K: 295
+peaks:
+- position: 204
+  intensity: w
+  label: FTA (E2, folded transverse acoustic)
+- position: 776
+  intensity: s
+  label: FTO (E2)
+- position: 797
+  intensity: m
+  label: E1(TO)
+- position: 964
+  intensity: m
+  label: A1(LO)
+source:
+  doi: 10.1002/1521-396X(199707)162:1<39::AID-PSSA39>3.0.CO;2-L
+  citation: Nakashima & Harima, Phys. Status Solidi A 162, 39 (1997)
+  title: Raman Investigation of SiC Polytypes
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. Folded-mode positions
+  are the polytype fingerprint. A1(LO) shifts up and broadens with free-carrier density (LO-phonon–plasmon coupling),
+  used to estimate doping.

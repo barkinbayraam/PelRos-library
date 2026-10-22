@@ -1,0 +1,73 @@
+id: xrd/v2alc-barsoum2000
+technique: xrd
+material: V₂AlC (MAX phase)
+formula: V2AlC
+aliases:
+- MAX phase
+- V2AlC
+- MXene precursor
+category: MAX phase
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 13.415
+  d: 6.595
+  hkl: '002'
+  intensity: m
+  width: null
+  label: null
+- position: 27.018
+  d: 3.2975
+  hkl: '004'
+  intensity: w
+  width: null
+  label: null
+- position: 35.545
+  d: 2.5236
+  hkl: '100'
+  intensity: w
+  width: null
+  label: null
+- position: 36.212
+  d: 2.4786
+  hkl: '101'
+  intensity: w
+  width: null
+  label: null
+- position: 41.213
+  d: 2.1887
+  hkl: '103'
+  intensity: s
+  width: null
+  label: null
+- position: 41.024
+  d: 2.1983
+  hkl: '006'
+  intensity: w
+  width: null
+  label: null
+- position: 55.382
+  d: 1.6576
+  hkl: '106'
+  intensity: w
+  width: null
+  label: null
+- position: 63.834
+  d: 1.457
+  hkl: '110'
+  intensity: w
+  width: null
+  label: null
+source:
+  doi: 10.1016/S0079-6786(00)00006-6
+  citation: Barsoum, Prog. Solid State Chem. 28, 201–281 (2000)
+  title: 'The MN+1AXN phases: A new class of solids'
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: Computed here from lattice parameters recalled from this source (NOT read in this session) — check the paper;
+  intensities qualitative from general knowledge, not from the source. 211 MAX phase, P6₃/mmc, a ≈ 2.914, c ≈ 13.19
+  Å as recalled from the lattice-parameter table of this review; (103) is the strongest line. Precursor of V2CTx
+  MXene.

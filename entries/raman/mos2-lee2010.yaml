@@ -1,0 +1,28 @@
+id: raman/mos2-lee2010
+technique: raman
+material: MoS₂ (2H, bulk → monolayer)
+formula: MoS2
+aliases:
+- molybdenum disulfide
+- molybdenite
+category: 2D material
+conditions:
+  form: exfoliated flakes on SiO2/Si
+  laser_nm: 532
+peaks:
+- position: 383
+  intensity: s
+  label: E¹2g (in-plane), bulk
+- position: 408
+  intensity: s
+  label: A1g (out-of-plane), bulk
+source:
+  doi: 10.1021/nn1003937
+  citation: Lee et al., ACS Nano 4, 2695 (2010)
+  title: Anomalous Lattice Vibrations of Single- and Few-Layer MoS2
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. With decreasing thickness
+  E¹2g stiffens and A1g softens; the separation A1g − E¹2g falls from ~25 cm⁻¹ (bulk) to ~19 cm⁻¹ (monolayer) and
+  is the usual layer-number indicator. Strain and doping (A1g) shift these.

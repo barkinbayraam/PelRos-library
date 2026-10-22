@@ -1,0 +1,57 @@
+id: ftir/pvdf-alpha-cai2017
+technique: ftir
+material: PVDF (α phase)
+formula: PVDF
+aliases: [poly(vinylidene fluoride), polyvinylidene fluoride, alpha-PVDF, form II]
+category: polymer, fluoropolymer, piezoelectric polymer
+conditions:
+  form: film
+peaks:
+  - position: 410
+    intensity: null
+    label: "α-exclusive band (~410)"
+  - position: 489
+    intensity: null
+    label: "α-exclusive band (~489)"
+  - position: 532
+    intensity: null
+    label: "α-exclusive band (~532)"
+  - position: 614
+    intensity: null
+    label: "α-exclusive (~614) — recommended α marker"
+  - position: 763
+    intensity: null
+    label: "α-exclusive (~763) — recommended α marker; used in β/γ electroactive fraction (Eq. 1)"
+  - position: 795
+    intensity: null
+    label: "α-exclusive band (~795)"
+  - position: 854
+    intensity: null
+    label: "α-exclusive band (~854)"
+  - position: 975
+    intensity: null
+    label: "α-exclusive band (~975)"
+  - position: 1149
+    intensity: null
+    label: "α-exclusive band (~1149)"
+  - position: 1209
+    intensity: null
+    label: "α-exclusive band (~1209)"
+  - position: 1383
+    intensity: null
+    label: "α-exclusive band (~1383)"
+  - position: 1423
+    intensity: null
+    label: "α-exclusive band (~1423)"
+source:
+  doi: 10.1039/C7RA01267E
+  citation: "Cai, Lei, Sun & Lin, RSC Adv. 7, 15382–15389 (2017)"
+  title: "A critical analysis of the α, β and γ phases in poly(vinylidene fluoride) using FTIR"
+  where: "Section 'Procedure for phase identification' (text list of exclusive bands; Fig. 1 flow diagram); Conclusions"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  The paper is a critical review of literature assignments; values are "about" positions of bands exclusive to the α
+  phase. Use 763 and/or 614 cm⁻¹ to identify α. Table 1 of the paper lists bands whose assignment is disputed in the
+  literature (431, 482, 510, 840, 881, 1071, 1176, 1234, 1275, 1401 cm⁻¹). Intensities are not given in the source
+  list, so they are left null.

@@ -1,0 +1,23 @@
+id: pl/ws2-monolayer-gutierrez2013
+technique: pl
+material: "WS₂ (monolayer)"
+formula: WS2
+aliases: ["tungsten disulfide"]
+category: "2D material"
+conditions:
+  form: "CVD triangular monolayers"
+  temperature_K: 295
+  laser_nm: 488
+values:
+  - quantity: emission_max
+    value: 1.98
+    unit: eV
+    note: "A-exciton PL, ≈626 nm (approximate; check)"
+source:
+  doi: 10.1021/nl3026357
+  citation: "Gutiérrez et al., Nano Lett. 13, 3447 (2013)"
+  title: "Extraordinary Room-Temperature Photoluminescence in Triangular WS2 Monolayers"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Crossref issued year 2012 (online). Strong PL at triangle edges; monolayer A exciton typically 1.95–2.02 eV. DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper."

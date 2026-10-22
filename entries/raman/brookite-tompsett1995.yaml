@@ -1,0 +1,35 @@
+id: raman/brookite-tompsett1995
+technique: raman
+material: Brookite TiO₂
+formula: TiO2
+aliases:
+- titania
+category: oxide
+conditions:
+  form: natural single crystal
+peaks:
+- position: 153
+  intensity: s
+  label: A1g
+- position: 247
+  intensity: m
+  label: A1g
+- position: 322
+  intensity: w
+  label: B1g
+- position: 366
+  intensity: w
+  label: B2g
+- position: 636
+  intensity: m
+  label: A1g
+source:
+  doi: 10.1002/jrs.1250260110
+  citation: Tompsett et al., J. Raman Spectrosc. 26, 57 (1995)
+  title: The Raman spectrum of brookite, TiO2 (Pbca, Z = 8)
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. Brookite has 36 Raman-active
+  modes; only the strongest are listed. The 153 band overlaps anatase 144 — the 247, 322 and 366 bands distinguish
+  brookite from anatase/rutile mixtures.

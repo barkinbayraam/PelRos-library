@@ -1,0 +1,38 @@
+id: uvvis/ag-np-paramelle2014
+technique: uvvis
+material: "Ag nanoparticles (citrate-capped)"
+formula: Ag
+aliases: ["silver nanoparticles", "AgNP"]
+category: "metal"
+conditions:
+  form: "colloidal nanoparticles, 10–100 nm"
+  temperature_K: 295
+values:
+  - quantity: absorption_max
+    value: 392.1
+    unit: nm
+    note: "10 nm (Mie simulation)"
+  - quantity: absorption_max
+    value: 400.8
+    unit: nm
+    note: "20 nm"
+  - quantity: absorption_max
+    value: 412.3
+    unit: nm
+    note: "40 nm"
+  - quantity: absorption_max
+    value: 431.5
+    unit: nm
+    note: "60 nm"
+  - quantity: absorption_max
+    value: 492.8
+    unit: nm
+    note: "100 nm"
+source:
+  doi: 10.1039/c4an00978a
+  citation: "Paramelle et al., Analyst 139, 4855 (2014)"
+  title: "A rapid method to estimate the concentration of citrate capped silver nanoparticles from UV-visible light spectra"
+  where: "Table 1"
+status: doi_verified
+checked: 2026-10-22
+notes: "Simulated (Mie) λmax in water; measured spectra for 20–100 nm agree well per the paper. Full set in ESI Table S1."

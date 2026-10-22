@@ -1,0 +1,22 @@
+id: uvvis/mapbi3-noh2013
+technique: uvvis
+material: "MAPbI₃"
+formula: CH3NH3PbI3
+aliases: ["methylammonium lead iodide"]
+category: "halide perovskite"
+conditions:
+  form: "mesoporous-TiO2-infiltrated film"
+  temperature_K: 295
+values:
+  - quantity: band_gap_direct
+    value: 1.58
+    unit: eV
+    note: "absorption onset ≈785 nm"
+source:
+  doi: 10.1021/nl400349b
+  citation: "Noh, Im, Heo, Mandal & Seok, Nano Lett. 13, 1764 (2013)"
+  title: "Chemical Management for Colorful, Efficient, and Stable Inorganic–Organic Hybrid Nanostructured Solar Cells"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Paper tunes MAPb(I1−xBrx)3 across the series. RT PL peak of MAPbI3 films is typically ≈765–780 nm (not from this paper). DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper."

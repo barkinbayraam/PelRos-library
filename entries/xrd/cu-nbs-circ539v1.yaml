@@ -1,0 +1,71 @@
+id: xrd/cu-nbs-circ539v1
+technique: xrd
+material: Cu (copper)
+formula: Cu
+aliases:
+- copper
+category: metal
+conditions:
+  form: powder
+  temperature_K: 299
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 43.298
+  d: 2.088
+  hkl: '111'
+  intensity: 100
+  width: null
+  label: null
+- position: 50.434
+  d: 1.808
+  hkl: '200'
+  intensity: 46
+  width: null
+  label: null
+- position: 74.132
+  d: 1.278
+  hkl: '220'
+  intensity: 20
+  width: null
+  label: null
+- position: 89.934
+  d: 1.09
+  hkl: '311'
+  intensity: 17
+  width: null
+  label: null
+- position: 95.143
+  d: 1.0436
+  hkl: '222'
+  intensity: 5
+  width: null
+  label: null
+- position: 116.923
+  d: 0.9038
+  hkl: '400'
+  intensity: 3
+  width: null
+  label: null
+- position: 136.514
+  d: 0.8293
+  hkl: '331'
+  intensity: 9
+  width: null
+  label: null
+- position: 144.723
+  d: 0.8083
+  hkl: '420'
+  intensity: 8
+  width: null
+  label: null
+source:
+  doi: 10.6028/NBS.CIRC.539v1
+  citation: Swanson & Tatge, NBS Circular 539, Vol. 1 (1953)
+  title: 'Circular of the Bureau of Standards no. 539 volume 1: standard x-ray diffraction powder patterns'
+  where: Sec. 2.4 Copper, Table 5 (Swanson & Tatge column)
+status: doi_verified
+checked: 2026-10-22
+notes: d and I as printed by NBS (Swanson & Tatge, 26 °C). Cu Kα (1.5405 Å) as used by NBS; 2θ values here are recomputed
+  from the printed d for Cu Kα1 = 1.540598 Å (Bragg's law), not read from the source. Fm-3m; NBS lattice constant
+  a = 3.6150 Å at 25 °C. Modern ICDD data (e.g. 04-0836 successors) agree within ~0.001 Å.

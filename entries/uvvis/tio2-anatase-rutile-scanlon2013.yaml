@@ -1,0 +1,26 @@
+id: uvvis/tio2-anatase-rutile-scanlon2013
+technique: uvvis
+material: "TiO₂ (anatase vs rutile)"
+formula: TiO2
+aliases: ["titania"]
+category: "oxide"
+conditions:
+  form: "bulk / powder reference values"
+  temperature_K: 295
+values:
+  - quantity: band_gap_indirect
+    value: 3.20
+    unit: eV
+    note: "anatase, commonly quoted experimental gap"
+  - quantity: band_gap_direct
+    value: 3.03
+    unit: eV
+    note: "rutile, commonly quoted experimental gap"
+source:
+  doi: 10.1038/nmat3697
+  citation: "Scanlon et al., Nat. Mater. 12, 798 (2013)"
+  title: "Band alignment of rutile and anatase TiO2"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Paper is about band alignment (anatase EA higher by ~0.2 eV); the 3.20/3.03 eV gaps are the literature values it quotes. DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper. Anatase is usually treated as indirect, rutile as direct(-forbidden) in Tauc plots."

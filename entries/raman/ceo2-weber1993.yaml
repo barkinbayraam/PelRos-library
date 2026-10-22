@@ -1,0 +1,25 @@
+id: raman/ceo2-weber1993
+technique: raman
+material: CeO₂ (fluorite)
+formula: CeO2
+aliases:
+- ceria
+- cerium dioxide
+category: oxide
+conditions:
+  form: powder / single crystal
+  temperature_K: 295
+peaks:
+- position: 465
+  intensity: s
+  label: F2g (symmetric Ce–O8 breathing)
+source:
+  doi: 10.1103/PhysRevB.48.178
+  citation: Weber, Hass & McBride, Phys. Rev. B 48, 178 (1993)
+  title: 'Raman study of CeO2: Second-order scattering, lattice dynamics, and particle-size effects'
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. The single F2g line
+  downshifts and broadens asymmetrically with decreasing particle size (paper's subject). Weak second-order features
+  (e.g. ~1170 2LO) and defect bands ~550–600 (oxygen vacancies) may appear.

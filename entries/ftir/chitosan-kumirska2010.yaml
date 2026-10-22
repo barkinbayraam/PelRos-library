@@ -1,0 +1,41 @@
+id: ftir/chitosan-kumirska2010
+technique: ftir
+material: Chitosan
+formula: chitosan
+aliases: [poly(D-glucosamine), deacetylated chitin]
+category: polymer, biopolymer, polysaccharide
+conditions:
+  form: powder
+  mode: transmission
+peaks:
+  - position: 3429
+    intensity: null
+    label: "O–H stretch overlapping N–H stretch"
+  - position: 2921
+    intensity: null
+    label: "C–H stretch"
+  - position: 2867
+    intensity: null
+    label: "C–H stretch"
+  - position: 1640
+    intensity: null
+    label: "amide band, C–O stretch of acetyl group (printed as 'amide II'; usually amide I)"
+  - position: 1592
+    intensity: null
+    label: "amide II / N–H bend (printed 'N–H stretching')"
+  - position: 1035
+    intensity: null
+    label: "C–O–C bridge stretch of glucosamine residue"
+source:
+  doi: 10.3390/md8051567
+  citation: "Kumirska, Czerwicka, Kaczyński, Bychowska, Brzozowski, Thöming & Stepnowski, Mar. Drugs 8, 1567–1636 (2010)"
+  title: "Application of Spectroscopic Methods for Structural Analysis of Chitin and Chitosan"
+  where: "Section 2.2.4 text accompanying Fig. 10"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  Review article; mode is the review's general KBr-pellet transmission description, not explicitly stated for Fig. 10.
+  Also reported in the text: asymmetric CH2 bending over 1485–1380 cm⁻¹. The printed labels for 1640/1592 are
+  inconsistent with standard amide I/II nomenclature — positions are reliable, labels should be read with care.
+  For α-chitin the text gives amide I split at 1660 and 1630, amide II at 1558 and β-glycosidic C–H at 895 cm⁻¹ (KBr).
+  Band positions depend on degree of deacetylation and moisture.

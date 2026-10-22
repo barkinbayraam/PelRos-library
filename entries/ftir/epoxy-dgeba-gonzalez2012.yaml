@@ -1,0 +1,50 @@
+id: ftir/epoxy-dgeba-gonzalez2012
+technique: ftir
+material: Epoxy resin (DGEBA, uncured)
+formula: DGEBA
+aliases: [epoxy, bisphenol A diglycidyl ether, BADGE, epoxy resin]
+category: polymer, thermoset
+conditions:
+  form: liquid resin
+peaks:
+  - position: 3500
+    intensity: null
+    label: "O–H stretch"
+  - position: 3057
+    intensity: null
+    label: "C–H stretch of oxirane ring"
+  - position: 2965
+    intensity: null
+    label: "C–H stretch of CH2/CH, aromatic and aliphatic (range 2965–2873)"
+  - position: 2873
+    intensity: null
+    label: "C–H stretch of CH2/CH (lower end of range)"
+  - position: 1608
+    intensity: null
+    label: "aromatic C=C stretch"
+  - position: 1509
+    intensity: null
+    label: "aromatic C–C stretch (common internal reference)"
+  - position: 1036
+    intensity: null
+    label: "ether C–O–C stretch"
+  - position: 915
+    intensity: null
+    label: "oxirane C–O stretch (epoxide band; decreases on cure)"
+  - position: 831
+    intensity: null
+    label: "oxirane C–O–C stretch"
+  - position: 772
+    intensity: null
+    label: "CH2 rocking"
+source:
+  doi: 10.5772/36323
+  citation: "González González, Cabanelas & Baselga, in Infrared Spectroscopy – Materials Science, Engineering and Technology (InTech, 2012), ch. 14"
+  title: "Applications of FTIR on Epoxy Resins - Identification, Monitoring the Curing Process, Phase Separation and Water Uptake"
+  where: "Table 1 (Characteristic bands of DGEBA and HDGEBA in the mid IR), p. 267"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  Book chapter (CC BY). Values are for the uncured DGEBA monomer/prepolymer. On curing, 915 (and 3057) decrease while
+  O–H (~3500) grows; conversion is usually tracked as A915/A1509. Cured epoxies with amine hardeners add N–H bands.
+  Measurement mode not specified in the table. NIR epoxy band at 4531 cm⁻¹ (Table 2).

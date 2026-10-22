@@ -1,0 +1,22 @@
+id: uvvis/gan-vurgaftman2003
+technique: uvvis
+material: "GaN (wurtzite)"
+formula: GaN
+aliases: ["gallium nitride"]
+category: "nitride"
+conditions:
+  form: "bulk / epitaxial film"
+  temperature_K: 0
+values:
+  - quantity: band_gap_direct
+    value: 3.510
+    unit: eV
+    note: "recommended Eg at 0 K; ≈3.43–3.44 eV at 300 K"
+source:
+  doi: 10.1063/1.1600519
+  citation: "Vurgaftman & Meyer, J. Appl. Phys. 94, 3675 (2003)"
+  title: "Band parameters for nitrogen-containing semiconductors"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Recommended-parameter review (Varshni α, β given there). Near-band-edge PL ≈3.4 eV (≈364 nm) at RT; yellow defect band ≈2.2 eV. DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper."

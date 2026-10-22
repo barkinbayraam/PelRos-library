@@ -1,0 +1,77 @@
+id: xrd/si-srm640f-black2020
+technique: xrd
+material: Si (NIST SRM 640f)
+formula: Si
+aliases:
+- silicon
+- SRM 640f
+category: semiconductor (calibration standard)
+conditions:
+  form: powder
+  temperature_K: 295.65
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 28.441
+  d: 3.13567
+  hkl: '111'
+  intensity: null
+  width: null
+  label: null
+- position: 47.301
+  d: 1.9202
+  hkl: '220'
+  intensity: null
+  width: null
+  label: null
+- position: 56.12
+  d: 1.63755
+  hkl: '311'
+  intensity: null
+  width: null
+  label: null
+- position: 69.127
+  d: 1.35779
+  hkl: '400'
+  intensity: null
+  width: null
+  label: null
+- position: 76.373
+  d: 1.24599
+  hkl: '331'
+  intensity: null
+  width: null
+  label: null
+- position: 88.026
+  d: 1.10863
+  hkl: '422'
+  intensity: null
+  width: null
+  label: null
+- position: 94.948
+  d: 1.04522
+  hkl: '511'
+  intensity: null
+  width: null
+  label: null
+- position: 106.703
+  d: 0.9601
+  hkl: '440'
+  intensity: null
+  width: null
+  label: null
+- position: 114.086
+  d: 0.91803
+  hkl: '531'
+  intensity: null
+  width: null
+  label: null
+source:
+  doi: 10.1017/s0885715620000366
+  citation: Black et al., Powder Diffraction 35, 156–159 (2020)
+  title: Certification of SRM 640f line position and line shape standard for powder diffraction
+  where: abstract (certified lattice parameter)
+status: doi_verified
+checked: 2026-10-22
+notes: Computed from a = 0.5431144 ± 0.000008 nm certified at 22.5 °C, reported in this paper; intensities not given.
+  Fd-3m (diamond). Use for 2θ zero/displacement calibration.

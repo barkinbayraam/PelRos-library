@@ -1,0 +1,39 @@
+id: raman/ti3c2tx-sarycheva2020
+technique: raman
+material: Ti₃C₂Tₓ MXene
+formula: Ti3C2Tx
+aliases:
+- MXene
+- Ti3C2
+- titanium carbide MXene
+category: MXene
+conditions:
+  form: delaminated film / multilayer powder
+  laser_nm: 785
+peaks:
+- position: 120
+  intensity: m
+  label: Ti/C/Tx in-plane (Eg) + flake/resonance feature
+- position: 203
+  intensity: s
+  label: A1g (Ti, C, Tx out-of-plane)
+- position: 380
+  intensity: m
+  label: Eg region of Tx (O, OH, F) vibrations, broad (~230–470)
+- position: 620
+  intensity: m
+  label: Eg (C) region, broad (~580–630)
+- position: 720
+  intensity: m
+  label: A1g (C), out-of-plane carbon
+source:
+  doi: 10.1021/acs.chemmater.0c00359
+  citation: Sarycheva & Gogotsi, Chem. Mater. 32, 3480 (2020)
+  title: Raman Spectroscopy Analysis of the Structure and Surface Chemistry of Ti3C2Tx MXene
+  where: abstract (~120 resonant peak with red/785 nm laser only); other bands recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. Band shapes and positions
+  depend strongly on excitation (785 nm commonly used; 514/532 nm can damage and gives weaker spectra), on terminations,
+  intercalants and hydration. The A1g(C) near 720–730 is the sharpest MXene marker. Oxidation produces anatase (~150
+  Eg) — check for it. Positions here are nominal.

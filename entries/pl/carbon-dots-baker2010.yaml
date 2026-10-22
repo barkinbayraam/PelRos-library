@@ -1,0 +1,22 @@
+id: pl/carbon-dots-baker2010
+technique: pl
+material: "Carbon dots (C-dots)"
+formula: C
+aliases: ["CDs", "carbon quantum dots", "CQDs"]
+category: "carbon"
+conditions:
+  form: "colloidal nanodots (<10 nm)"
+  temperature_K: 295
+values:
+  - quantity: emission_max
+    value: 450
+    unit: nm
+    note: "indicative blue emission only — HIGHLY variable (≈400–600 nm), excitation-dependent"
+source:
+  doi: 10.1002/anie.200906623
+  citation: "Baker & Baker, Angew. Chem. Int. Ed. 49, 6726 (2010)"
+  title: "Luminescent Carbon Nanodots: Emergent Nanolights"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Review; abstract has no numbers. Carbon-dot PL depends on synthesis, surface passivation, size and excitation wavelength (excitation-dependent emission); absorption typically ~230 nm π–π* and ~300–350 nm n–π*. Do not use as a fingerprint. DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper."

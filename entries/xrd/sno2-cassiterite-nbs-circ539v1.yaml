@@ -1,0 +1,78 @@
+id: xrd/sno2-cassiterite-nbs-circ539v1
+technique: xrd
+material: SnO₂ (cassiterite)
+formula: SnO2
+aliases:
+- tin dioxide
+- stannic oxide
+- cassiterite
+category: oxide
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 26.585
+  d: 3.3503
+  hkl: '110'
+  intensity: s
+  width: null
+  label: null
+- position: 33.863
+  d: 2.645
+  hkl: '101'
+  intensity: s
+  width: null
+  label: null
+- position: 37.95
+  d: 2.369
+  hkl: '200'
+  intensity: m
+  width: null
+  label: null
+- position: 51.763
+  d: 1.7647
+  hkl: '211'
+  intensity: s
+  width: null
+  label: null
+- position: 54.754
+  d: 1.6751
+  hkl: '220'
+  intensity: m
+  width: null
+  label: null
+- position: 57.796
+  d: 1.594
+  hkl: '002'
+  intensity: w
+  width: null
+  label: null
+- position: 61.877
+  d: 1.4983
+  hkl: '310'
+  intensity: w
+  width: null
+  label: null
+- position: 64.709
+  d: 1.4394
+  hkl: '112'
+  intensity: w
+  width: null
+  label: null
+- position: 65.955
+  d: 1.4152
+  hkl: '301'
+  intensity: w
+  width: null
+  label: null
+source:
+  doi: 10.6028/NBS.CIRC.539v1
+  citation: Swanson & Tatge, NBS Circular 539, Vol. 1 (1953)
+  title: 'Circular of the Bureau of Standards no. 539 volume 1: standard x-ray diffraction powder patterns'
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: Computed here from lattice parameters recalled from this source (NOT read in this session) — check the paper;
+  intensities qualitative from general knowledge, not from the source. a = 4.738, c = 3.188 Å (rutile type, P4₂/mnm)
+  recalled for NBS Sec. 2.29.

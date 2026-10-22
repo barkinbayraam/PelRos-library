@@ -1,0 +1,41 @@
+id: raman/nio-mironovaulmane2007
+technique: raman
+material: NiO (rock salt)
+formula: NiO
+aliases:
+- nickel oxide
+- bunsenite
+category: oxide
+conditions:
+  form: bulk and nanocrystalline powders
+  temperature_K: 295
+peaks:
+- position: 400
+  intensity: w
+  label: 1P TO (defect-activated)
+- position: 570
+  intensity: m
+  label: 1P LO (defect-activated)
+- position: 730
+  intensity: w
+  label: 2P 2TO
+- position: 906
+  intensity: w
+  label: 2P TO+LO
+- position: 1090
+  intensity: s
+  label: 2P 2LO
+- position: 1500
+  intensity: m
+  label: 2M two-magnon (bulk, < TN)
+source:
+  doi: 10.1088/1742-6596/93/1/012039
+  citation: 'Mironova-Ulmane et al., J. Phys.: Conf. Ser. 93, 012039 (2007)'
+  title: Raman scattering in nanosized nickel oxide NiO
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. Rock-salt NiO has
+  no first-order Raman modes in the ideal lattice; one-phonon bands are activated by rhombohedral distortion/defects
+  and grow in nanocrystals, while the two-magnon band (~1500) weakens and disappears in small particles. Positions
+  approximate.

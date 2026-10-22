@@ -1,0 +1,36 @@
+id: raman/sic-6h-nakashima1997
+technique: raman
+material: SiC (6H polytype)
+formula: SiC
+aliases:
+- silicon carbide
+- 6H-SiC
+category: semiconductor
+conditions:
+  form: single crystal (c-face backscattering)
+  temperature_K: 295
+peaks:
+- position: 150
+  intensity: w
+  label: FTA (E2)
+- position: 767
+  intensity: m
+  label: FTO (E2)
+- position: 789
+  intensity: s
+  label: FTO (E2)
+- position: 797
+  intensity: m
+  label: E1(TO)
+- position: 965
+  intensity: m
+  label: A1(LO)
+source:
+  doi: 10.1002/1521-396X(199707)162:1<39::AID-PSSA39>3.0.CO;2-L
+  citation: Nakashima & Harima, Phys. Status Solidi A 162, 39 (1997)
+  title: Raman Investigation of SiC Polytypes
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: 'DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. The 767/789 doublet
+  distinguishes 6H from 4H (single 776). 3C-SiC: TO ~796, LO ~972 only.'

@@ -1,0 +1,28 @@
+id: raman/graphite-tuinstra1970
+technique: raman
+material: Graphite
+formula: C
+aliases:
+- HOPG
+- pyrolytic graphite
+category: carbon
+conditions:
+  form: single crystal and polycrystalline graphite
+  temperature_K: 295
+peaks:
+- position: 1575
+  intensity: s
+  label: G (E2g), single-crystal graphite
+- position: 1355
+  intensity: m
+  label: D, disorder-induced; absent in single crystals
+source:
+  doi: 10.1063/1.1674108
+  citation: Tuinstra & Koenig, J. Chem. Phys. 53, 1126 (1970)
+  title: Raman Spectrum of Graphite
+  where: abstract
+status: doi_verified
+checked: 2026-10-22
+notes: Single crystals show only the 1575 line; the 1355 band appears in polycrystalline/microcrystalline carbons
+  and its intensity relative to G scales inversely with crystallite size (Tuinstra-Koenig relation). The D band
+  position disperses with excitation energy (~50 cm⁻¹/eV), so 1355 is excitation-specific.

@@ -1,0 +1,22 @@
+id: uvvis/au-np-haiss2007
+technique: uvvis
+material: "Au nanoparticles (sizing from UV-Vis)"
+formula: Au
+aliases: ["gold nanoparticles", "AuNP"]
+category: "metal"
+conditions:
+  form: "colloidal nanoparticles, ~5–100 nm"
+  temperature_K: 295
+values:
+  - quantity: absorption_max
+    value: 520
+    unit: nm
+    note: "LSPR for ~10–20 nm spheres; paper gives λspr vs diameter and A_spr/A_450 ratio for sizing"
+source:
+  doi: 10.1021/ac0702084
+  citation: "Haiss, Thanh, Aveyard & Fernig, Anal. Chem. 79, 4215 (2007)"
+  title: "Determination of Size and Concentration of Gold Nanoparticles from UV−Vis Spectra"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Standard sizing/concentration reference for AuNPs. DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper."

@@ -1,0 +1,44 @@
+id: raman/sapphire-porto1967
+technique: raman
+material: α-Al₂O₃ (corundum, sapphire)
+formula: Al2O3
+aliases:
+- sapphire
+- corundum
+- alumina
+category: oxide
+conditions:
+  form: single crystal
+  temperature_K: 295
+peaks:
+- position: 378
+  intensity: w
+  label: Eg
+- position: 418
+  intensity: s
+  label: A1g
+- position: 432
+  intensity: w
+  label: Eg
+- position: 451
+  intensity: w
+  label: Eg
+- position: 578
+  intensity: m
+  label: Eg
+- position: 645
+  intensity: w
+  label: A1g
+- position: 751
+  intensity: m
+  label: Eg
+source:
+  doi: 10.1063/1.1711980
+  citation: Porto & Krishnan, J. Chem. Phys. 47, 1009 (1967)
+  title: Raman Effect of Corundum
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. Sapphire substrates
+  contribute 418/751 lines to thin-film spectra. Cr³⁺ fluorescence (ruby R lines, 694 nm) can swamp spectra under
+  532 nm excitation as sharp 'peaks' near ~4380 cm⁻¹ Raman shift.

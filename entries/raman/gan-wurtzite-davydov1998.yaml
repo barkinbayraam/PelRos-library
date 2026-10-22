@@ -1,0 +1,39 @@
+id: raman/gan-wurtzite-davydov1998
+technique: raman
+material: GaN (wurtzite)
+formula: GaN
+aliases:
+- gallium nitride
+category: nitride
+conditions:
+  form: single crystal / epitaxial film
+  temperature_K: 300
+peaks:
+- position: 144
+  intensity: m
+  label: E2 (low)
+- position: 531
+  intensity: w
+  label: A1(TO)
+- position: 560
+  intensity: w
+  label: E1(TO)
+- position: 568
+  intensity: s
+  label: E2 (high)
+- position: 734
+  intensity: m
+  label: A1(LO)
+- position: 741
+  intensity: w
+  label: E1(LO)
+source:
+  doi: 10.1103/PhysRevB.58.12899
+  citation: Davydov et al., Phys. Rev. B 58, 12899 (1998)
+  title: Phonon dispersion and Raman scattering in hexagonal GaN and AlN
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. E2(high) shifts with
+  biaxial strain (GaN on sapphire vs Si); A1(LO) couples to free carriers (LO-phonon–plasmon) and shifts/broadens
+  in doped GaN. In c-plane backscattering only E2 and A1(LO) are allowed.

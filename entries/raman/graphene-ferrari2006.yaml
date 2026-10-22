@@ -1,0 +1,34 @@
+id: raman/graphene-ferrari2006
+technique: raman
+material: Graphene / graphite (G and 2D)
+formula: C
+aliases:
+- graphite
+- few-layer graphene
+- FLG
+category: carbon
+conditions:
+  form: exfoliated flake on SiO2/Si and bulk graphite
+  laser_nm: 514
+  temperature_K: 295
+peaks:
+- position: 1580
+  intensity: s
+  label: G
+- position: 2700
+  intensity: s
+  label: 2D (G′), 514 nm
+- position: 1350
+  intensity: vw
+  label: D (only in defected material)
+source:
+  doi: 10.1103/PhysRevLett.97.187401
+  citation: Ferrari et al., Phys. Rev. Lett. 97, 187401 (2006)
+  title: Raman Spectrum of Graphene and Graphene Layers
+  where: text and Fig. 2(a) (read in arXiv:cond-mat/0606284 version)
+status: doi_verified
+checked: 2026-10-22
+notes: Positions are approximate ('~') as printed. G of single-layer graphene lies 3–5 cm⁻¹ above bulk graphite
+  (text). The 2D band shape (single Lorentzian for monolayer vs. multi-component for bi-/few-layer, Fig. 2b,c) identifies
+  layer number; 2D and D positions disperse strongly with laser energy (633 nm values are lower). Doping and strain
+  shift G and 2D by several cm⁻¹.

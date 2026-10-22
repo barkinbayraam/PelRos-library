@@ -1,0 +1,28 @@
+id: raman/graphene-oxide-kudin2008
+technique: raman
+material: Graphene oxide / functionalised graphene (GO, rGO)
+formula: C
+aliases:
+- GO
+- rGO
+- reduced graphene oxide
+- graphite oxide
+category: carbon
+peaks:
+- position: 1350
+  intensity: s
+  label: D
+- position: 1590
+  intensity: s
+  label: G (upshifted relative to graphite; contains D′)
+source:
+  doi: 10.1021/nl071822y
+  citation: Kudin et al., Nano Lett. 8, 36 (2008)
+  title: Raman Spectra of Graphite Oxide and Functionalized Graphene Sheets
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. The paper attributes
+  the apparent G upshift in GO to isolated double bonds resonating above the G band (and unresolved D′) rather than
+  to graphitic G. I(D)/I(G) of GO vs rGO does not track sp² domain size monotonically; the 2D region (~2700, ~2900
+  D+G) is weak and broad. Positions are typical, ~514 nm.

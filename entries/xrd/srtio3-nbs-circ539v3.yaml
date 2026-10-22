@@ -1,0 +1,70 @@
+id: xrd/srtio3-nbs-circ539v3
+technique: xrd
+material: SrTiO₃
+formula: SrTiO3
+aliases:
+- strontium titanate
+category: perovskite oxide
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 22.754
+  d: 3.905
+  hkl: '100'
+  intensity: w
+  width: null
+  label: null
+- position: 32.397
+  d: 2.7613
+  hkl: '110'
+  intensity: s
+  width: null
+  label: null
+- position: 39.957
+  d: 2.2546
+  hkl: '111'
+  intensity: m
+  width: null
+  label: null
+- position: 46.472
+  d: 1.9525
+  hkl: '200'
+  intensity: m
+  width: null
+  label: null
+- position: 52.346
+  d: 1.7464
+  hkl: '210'
+  intensity: w
+  width: null
+  label: null
+- position: 57.787
+  d: 1.5942
+  hkl: '211'
+  intensity: m
+  width: null
+  label: null
+- position: 67.826
+  d: 1.3806
+  hkl: '220'
+  intensity: m
+  width: null
+  label: null
+- position: 77.187
+  d: 1.2349
+  hkl: '310'
+  intensity: w
+  width: null
+  label: null
+source:
+  doi: 10.6028/NBS.CIRC.539v3
+  citation: Swanson, Fuyat & Ugrinic, NBS Circular 539, Vol. 3 (1954)
+  title: 'Circular of the Bureau of Standards no. 539 volume 3: standard x-ray diffraction powder patterns'
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: Computed here from lattice parameters recalled from this source (NOT read in this session) — check the paper;
+  intensities qualitative from general knowledge, not from the source. a = 3.905 Å (cubic Pm-3m, room temperature)
+  recalled for NBS Vol. 3, p. 44 (not readable online here). Below ≈105 K SrTiO3 becomes tetragonal (I4/mcm).

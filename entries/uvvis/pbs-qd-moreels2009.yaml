@@ -1,0 +1,22 @@
+id: uvvis/pbs-qd-moreels2009
+technique: uvvis
+material: "PbS colloidal QDs"
+formula: PbS
+aliases: ["lead sulfide quantum dots"]
+category: "IV-VI semiconductor"
+conditions:
+  form: "colloidal QDs, ~3–10 nm"
+  temperature_K: 295
+values:
+  - quantity: band_gap_direct
+    value: 0.41
+    unit: eV
+    note: "bulk PbS reference; QD first-exciton tunable ≈0.7–1.5 eV (≈800–1800 nm) with size"
+source:
+  doi: 10.1021/nn900863a
+  citation: "Moreels et al., ACS Nano 3, 3023 (2009)"
+  title: "Size-Dependent Optical Properties of Colloidal PbS Quantum Dots"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Provides the standard empirical gap–diameter sizing relation and extinction coefficients for PbS QDs. DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper."

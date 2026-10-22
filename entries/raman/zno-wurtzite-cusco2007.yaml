@@ -1,0 +1,43 @@
+id: raman/zno-wurtzite-cusco2007
+technique: raman
+material: ZnO (wurtzite)
+formula: ZnO
+aliases:
+- zinc oxide
+- zincite
+category: oxide
+conditions:
+  form: single crystal
+peaks:
+- position: 99
+  intensity: m
+  label: E2 (low)
+- position: 333
+  intensity: w
+  label: E2(high) − E2(low), second order
+- position: 378
+  intensity: w
+  label: A1(TO)
+- position: 410
+  intensity: w
+  label: E1(TO)
+- position: 438
+  intensity: s
+  label: E2 (high)
+- position: 574
+  intensity: w
+  label: A1(LO)
+- position: 590
+  intensity: vw
+  label: E1(LO)
+source:
+  doi: 10.1103/PhysRevB.75.165202
+  citation: Cuscó et al., Phys. Rev. B 75, 165202 (2007)
+  title: Temperature dependence of Raman scattering in ZnO
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. Room-temperature
+  values; the paper gives temperature dependence (80 K upward), so values at 80 K are a few cm⁻¹ higher. Polar A1/E1
+  visibility depends on scattering geometry. A broad ~570–580 band in nanostructures is often attributed to defects/oxygen
+  vacancies.

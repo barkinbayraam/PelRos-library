@@ -1,0 +1,22 @@
+id: pl/zno-green-vanheusden1996
+technique: pl
+material: "ZnO (green defect emission)"
+formula: ZnO
+aliases: ["zinc oxide"]
+category: "oxide"
+conditions:
+  form: "phosphor powder"
+  temperature_K: 295
+values:
+  - quantity: emission_max
+    value: 510
+    unit: nm
+    note: "broad green 'deep-level' band of commercial ZnO phosphors"
+source:
+  doi: 10.1063/1.362349
+  citation: "Vanheusden et al., J. Appl. Phys. 79, 7983 (1996)"
+  title: "Mechanisms behind green photoluminescence in ZnO phosphor powders"
+  where: "abstract"
+status: doi_verified
+checked: 2026-10-22
+notes: "Attributed in this paper to singly ionized oxygen vacancies (correlated with EPR g≈1.96 signal); assignment remains debated (Zn vacancies, surface states, Cu). Green band position varies ≈495–530 nm with sample/annealing."

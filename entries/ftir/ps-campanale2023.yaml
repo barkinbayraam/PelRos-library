@@ -1,0 +1,41 @@
+id: ftir/ps-campanale2023
+technique: ftir
+material: Polystyrene (PS)
+formula: PS
+aliases: [polystyrene, EPS]
+category: polymer
+conditions:
+  form: solid
+  mode: ATR
+peaks:
+  - position: 3060
+    intensity: null
+    label: "aromatic C–H stretch"
+  - position: 3026
+    intensity: null
+    label: "aromatic C–H stretch"
+  - position: 1600
+    intensity: null
+    label: "aromatic C=C ring stretch"
+  - position: 1492
+    intensity: null
+    label: "aromatic C=C ring stretch"
+  - position: 1452
+    intensity: null
+    label: "aromatic C=C ring stretch (overlaps CH2 bend)"
+  - position: 756
+    intensity: null
+    label: "C–H out-of-plane bend, monosubstituted benzene"
+  - position: 698
+    intensity: null
+    label: "C–H out-of-plane / ring bend, monosubstituted benzene"
+source:
+  doi: 10.3390/polym15040911
+  citation: "Campanale, Savino, Massarelli & Uricchio, Polymers 15, 911 (2023)"
+  title: "Fourier Transform Infrared Spectroscopy to Assess the Degree of Alteration of Artificially Aged and Environmentally Weathered Microplastics"
+  where: "Discussion text referring to Fig. 6 (pristine spectra)"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  Pristine PS box, diamond ATR. Aliphatic CH2 stretches (~2920/2850) are also present but not listed in the source text.
+  Intensities not stated in the text.

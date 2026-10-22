@@ -1,0 +1,76 @@
+id: xrd/ag-nbs-circ539v1
+technique: xrd
+material: Ag (silver)
+formula: Ag
+aliases:
+- silver
+category: metal
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 38.117
+  d: 2.359
+  hkl: '111'
+  intensity: 100
+  width: null
+  label: null
+- position: 44.278
+  d: 2.044
+  hkl: '200'
+  intensity: 38
+  width: null
+  label: null
+- position: 64.427
+  d: 1.445
+  hkl: '220'
+  intensity: 25
+  width: null
+  label: null
+- position: 77.475
+  d: 1.231
+  hkl: '311'
+  intensity: 26
+  width: null
+  label: null
+- position: 81.539
+  d: 1.1796
+  hkl: '222'
+  intensity: 13
+  width: null
+  label: null
+- position: 97.891
+  d: 1.0215
+  hkl: '400'
+  intensity: 4
+  width: null
+  label: null
+- position: 110.501
+  d: 0.9375
+  hkl: '331'
+  intensity: 15
+  width: null
+  label: null
+- position: 114.928
+  d: 0.9137
+  hkl: '420'
+  intensity: 10
+  width: null
+  label: null
+- position: 134.889
+  d: 0.8341
+  hkl: '422'
+  intensity: 13
+  width: null
+  label: null
+source:
+  doi: 10.6028/NBS.CIRC.539v1
+  citation: Swanson & Tatge, NBS Circular 539, Vol. 1 (1953)
+  title: 'Circular of the Bureau of Standards no. 539 volume 1: standard x-ray diffraction powder patterns'
+  where: Sec. 2.9 Silver, Table 10 (Swanson & Tatge column)
+status: doi_verified
+checked: 2026-10-22
+notes: d and I as printed by NBS. Cu Kα (1.5405 Å) as used by NBS; 2θ values here are recomputed from the printed
+  d for Cu Kα1 = 1.540598 Å (Bragg's law), not read from the source. Fm-3m; NBS lattice constant a = 4.0862 Å at
+  25 °C (table header gives 27 °C). Ag nanoparticles typically show broadened peaks at the same positions.

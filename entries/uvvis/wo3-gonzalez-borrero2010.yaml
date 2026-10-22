@@ -1,0 +1,22 @@
+id: uvvis/wo3-gonzalez-borrero2010
+technique: uvvis
+material: "WO₃ (nanostructured film)"
+formula: WO3
+aliases: ["tungsten trioxide"]
+category: "oxide"
+conditions:
+  form: "thin film"
+  temperature_K: 295
+values:
+  - quantity: band_gap_indirect
+    value: 2.7
+    unit: eV
+    note: "approximate; WO3 films typically 2.6–3.0 eV depending on phase/crystallinity"
+source:
+  doi: 10.1063/1.3313945
+  citation: "González-Borrero et al., Appl. Phys. Lett. 96, 061909 (2010)"
+  title: "Optical band-gap determination of nanostructured WO3 film"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Abstract (Crossref) gives no number; compares three WO3 polymorphs with first-principles absorption. DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper."

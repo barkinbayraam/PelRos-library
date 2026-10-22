@@ -1,0 +1,28 @@
+id: ftir/h-bn-geick1966
+technique: ftir
+material: h-BN (hexagonal boron nitride)
+formula: BN
+aliases: [hexagonal boron nitride, hBN, white graphene]
+category: nitride, 2D material, triboelectric filler
+conditions:
+  form: pyrolytic BN (oriented polycrystal)
+  temperature_K: 295
+peaks:
+  - position: 1367
+    intensity: null
+    label: "E1u TO, in-plane B–N stretch (E ⊥ c)"
+  - position: 783
+    intensity: null
+    label: "A2u TO, out-of-plane B–N–B bend (E ∥ c)"
+source:
+  doi: 10.1103/PhysRev.146.543
+  citation: "Geick, Perry & Rupprecht, Phys. Rev. 146, 543–547 (1966)"
+  title: "Normal Modes in Hexagonal Boron Nitride"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: >-
+  DOI confirmed on Crossref, but the paper was not readable here (paywalled); the TO frequencies are recalled values
+  (LO counterparts ≈ 1610 and ≈ 828 cm⁻¹ are also given in that work) — check against the paper. Powder ATR/KBr
+  spectra of h-BN nanosheets typically show the in-plane band broadened and shifted to ~1370–1400 and the
+  out-of-plane band at ~800–815 cm⁻¹ (LO–TO / particle-shape effects). Intensities left null.

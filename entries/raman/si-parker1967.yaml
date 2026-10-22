@@ -1,0 +1,29 @@
+id: raman/si-parker1967
+technique: raman
+material: Silicon (crystalline)
+formula: Si
+aliases:
+- c-Si
+- silicon wafer
+category: semiconductor
+conditions:
+  form: single crystal
+  temperature_K: 295
+peaks:
+- position: 520
+  intensity: s
+  label: F2g optical phonon (LO/TO at Γ)
+- position: 960
+  intensity: w
+  label: 2TO, second order
+source:
+  doi: 10.1103/PhysRev.155.712
+  citation: Parker, Feldman & Ashkin, Phys. Rev. 155, 712 (1967)
+  title: Raman Scattering by Silicon and Germanium
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: 'DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. Commonly used calibration
+  line, 520.5–520.7 cm⁻¹ at room temperature for unstrained c-Si; shifts with stress, temperature and laser heating.
+  Amorphous Si: broad band ~480; nanocrystalline Si downshifts/asymmetrically broadens. Weak 2TA band ~300 coincides
+  with Ge.'

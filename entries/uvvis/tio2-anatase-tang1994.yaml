@@ -1,0 +1,22 @@
+id: uvvis/tio2-anatase-tang1994
+technique: uvvis
+material: "TiO₂ (anatase)"
+formula: TiO2
+aliases: ["titania", "titanium dioxide"]
+category: "oxide"
+conditions:
+  form: "thin film"
+  temperature_K: 295
+values:
+  - quantity: band_gap_indirect
+    value: 3.2
+    unit: eV
+    note: "optical absorption gap of anatase films; usual textbook value ≈3.2 eV"
+source:
+  doi: 10.1063/1.356306
+  citation: "Tang, Prasad, Sanjinès, Schmid & Lévy, J. Appl. Phys. 75, 2042 (1994)"
+  title: "Electrical and optical properties of TiO2 anatase thin films"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Abstract (read via Crossref) states only qualitatively that anatase has a wider absorption gap than rutile; the 3.2 eV figure is the commonly quoted value. DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper. Tauc analysis of nanocrystalline anatase gives 3.0–3.3 eV depending on direct/indirect choice and particle size."

@@ -1,0 +1,22 @@
+id: uvvis/ti3c2tx-maleski2017
+technique: uvvis
+material: "Ti₃C₂Tₓ MXene (colloidal)"
+formula: Ti3C2Tx
+aliases: ["MXene", "titanium carbide"]
+category: "MXene"
+conditions:
+  form: "delaminated flakes dispersed in water / organic solvents"
+  temperature_K: 295
+values:
+  - quantity: absorption_max
+    value: 780
+    unit: nm
+    note: "broad plasmon-like (interband/LSPR) band ≈770–800 nm"
+source:
+  doi: 10.1021/acs.chemmater.6b04830
+  citation: "Maleski, Mochalin & Gogotsi, Chem. Mater. 29, 1632 (2017)"
+  title: "Dispersions of Two-Dimensional Titanium Carbide MXene in Organic Solvents"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Peak position shifts with solvent, flake size, terminations and oxidation (loss of the band and rising UV absorption indicates TiO2 formation). DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper."

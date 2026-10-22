@@ -1,0 +1,46 @@
+id: ftir/cellulose-hospodarova2018
+technique: ftir
+material: Cellulose (microcrystalline / wood-pulp fibres, paper)
+formula: (C6H10O5)n
+aliases: [cellulose, microcrystalline cellulose, MCC, paper, wood pulp]
+category: polymer, biopolymer, polysaccharide
+conditions:
+  form: fibre / powder
+  mode: ATR
+peaks:
+  - position: 3331
+    intensity: null
+    label: "O–H stretch (broad; intra- and inter-molecular H-bonds)"
+  - position: 2894
+    intensity: null
+    label: "C–H stretch"
+  - position: 1633
+    intensity: null
+    label: "H–O–H bend of absorbed water (1620–1642)"
+  - position: 1428
+    intensity: null
+    label: "CH2 / CH bending ('crystallinity band', 1420–1430)"
+  - position: 1367
+    intensity: null
+    label: "CH2, CH, OH, C–O stretching/bending"
+  - position: 1334
+    intensity: null
+    label: "CH2, CH, OH, C–O stretching/bending"
+  - position: 1027
+    intensity: null
+    label: "C–O stretch"
+  - position: 896
+    intensity: null
+    label: "amorphous-region band (β-glycosidic C–H), 896–897"
+source:
+  doi: 10.4236/ajac.2018.96023
+  citation: "Hospodarova, Singovszka & Stevulova, Am. J. Anal. Chem. 9, 303–310 (2018)"
+  title: "Characterization of Cellulosic Fibers by FTIR Spectroscopy for Their Further Implementation to Building Materials"
+  where: "Results section text (no band table)"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  Bruker Alpha Platinum-ATR, 4000–400 cm⁻¹; compared with microcrystalline cellulose. Paper/recycled fibres show filler
+  bands: CaCO3 (≈1428 overlap, 875, 712) and kaolinite (3697/3669/3645/3620 OH, 1100–1010 Si–O, 936–914 Al–OH),
+  which must not be mistaken for cellulose bands. The 1428/896 ratio is a common crystallinity indicator.
+  Intensities not given.

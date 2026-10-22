@@ -1,0 +1,72 @@
+id: xrd/fe3o4-magnetite-fleet1981
+technique: xrd
+material: Fe₃O₄ (magnetite)
+formula: Fe3O4
+aliases:
+- magnetite
+- iron(II,III) oxide
+category: oxide
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 18.292
+  d: 4.8463
+  hkl: '111'
+  intensity: w
+  width: null
+  label: null
+- position: 30.088
+  d: 2.9677
+  hkl: '220'
+  intensity: m
+  width: null
+  label: null
+- position: 35.439
+  d: 2.5309
+  hkl: '311'
+  intensity: s
+  width: null
+  label: null
+- position: 37.071
+  d: 2.4231
+  hkl: '222'
+  intensity: w
+  width: null
+  label: null
+- position: 43.07
+  d: 2.0985
+  hkl: '400'
+  intensity: m
+  width: null
+  label: null
+- position: 53.432
+  d: 1.7134
+  hkl: '422'
+  intensity: w
+  width: null
+  label: null
+- position: 56.958
+  d: 1.6154
+  hkl: '511'
+  intensity: m
+  width: null
+  label: null
+- position: 62.546
+  d: 1.4839
+  hkl: '440'
+  intensity: m
+  width: null
+  label: null
+source:
+  doi: 10.1107/S0567740881004597
+  citation: Fleet, Acta Cryst. B37, 917–920 (1981)
+  title: The structure of magnetite
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: Computed here from lattice parameters recalled from this source (NOT read in this session) — check the paper;
+  intensities qualitative from general knowledge, not from the source. Spinel Fd-3m, a ≈ 8.394 Å, recalled. Maghemite
+  γ-Fe2O3 (a ≈ 8.35 Å) has nearly the same pattern, shifted ≈0.2–0.3° to higher 2θ — XRD alone rarely separates
+  them in nanoparticles.

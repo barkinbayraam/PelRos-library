@@ -1,0 +1,24 @@
+id: raman/ge-parker1967
+technique: raman
+material: Germanium (crystalline)
+formula: Ge
+aliases:
+- c-Ge
+category: semiconductor
+conditions:
+  form: single crystal
+  temperature_K: 295
+peaks:
+- position: 300
+  intensity: s
+  label: F2g optical phonon (LO/TO at Γ)
+source:
+  doi: 10.1103/PhysRev.155.712
+  citation: Parker, Feldman & Ashkin, Phys. Rev. 155, 712 (1967)
+  title: Raman Scattering by Silicon and Germanium
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. ≈300–301 cm⁻¹ at
+  room temperature. Overlaps the weak 2TA(X) band of Si (~300) — do not identify Ge on Si substrates from this line
+  alone. SiGe alloys show Ge–Ge, Si–Ge (~400) and Si–Si (~500) bands.

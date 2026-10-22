@@ -1,0 +1,46 @@
+id: raman/ptfe-koenig1969
+technique: raman
+material: PTFE (polytetrafluoroethylene)
+formula: PTFE
+aliases:
+- Teflon
+- polytetrafluoroethylene
+category: polymer
+conditions:
+  form: bulk polymer / film
+  temperature_K: 295
+peaks:
+- position: 292
+  intensity: m
+  label: CF2 twist/bend
+- position: 385
+  intensity: m
+  label: CF2 bend
+- position: 577
+  intensity: w
+  label: CF2 wag
+- position: 598
+  intensity: w
+  label: CF2 bend
+- position: 733
+  intensity: s
+  label: CF2 symmetric stretch (helix breathing)
+- position: 1216
+  intensity: m
+  label: CF2 antisymmetric stretch
+- position: 1300
+  intensity: m
+  label: C–C stretch
+- position: 1380
+  intensity: m
+  label: C–C / CF2 stretch
+source:
+  doi: 10.1063/1.1671470
+  citation: Koenig & Boerio, J. Chem. Phys. 50, 2823 (1969)
+  title: Raman Scattering and Band Assignments in Polytetrafluoroethylene
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. Positions nominal
+  (±2–3 cm⁻¹ between reports); assignments simplified. The 733 band is the strongest and is used to identify PTFE
+  tribo-layers; no C–H bands near 2900.

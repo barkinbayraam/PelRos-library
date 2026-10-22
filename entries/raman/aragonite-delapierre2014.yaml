@@ -1,0 +1,40 @@
+id: raman/aragonite-delapierre2014
+technique: raman
+material: Aragonite (CaCO₃)
+formula: CaCO3
+aliases:
+- calcium carbonate
+category: carbonate
+conditions:
+  form: powder / single crystal
+  temperature_K: 295
+peaks:
+- position: 153
+  intensity: m
+  label: lattice
+- position: 207
+  intensity: m
+  label: lattice
+- position: 701
+  intensity: w
+  label: ν4
+- position: 705
+  intensity: w
+  label: ν4
+- position: 1085
+  intensity: s
+  label: ν1 (CO3 symmetric stretch)
+- position: 1462
+  intensity: vw
+  label: ν3
+source:
+  doi: 10.1063/1.4871900
+  citation: De La Pierre et al., J. Chem. Phys. 140, 164509 (2014)
+  title: 'The Raman spectrum of CaCO3 polymorphs calcite and aragonite: A combined experimental and computational
+    study'
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. ν1 nearly coincides
+  with calcite; discriminate with the 153/207 lattice modes and the ν4 doublet. Aragonite converts to calcite on
+  heating.

@@ -1,0 +1,23 @@
+id: pl/cspbbr3-nc-protesescu2015
+technique: pl
+material: "CsPbBr₃ nanocrystals"
+formula: CsPbBr3
+aliases: ["cesium lead bromide"]
+category: "halide perovskite"
+conditions:
+  form: "colloidal nanocrystals (cubes, ~4–15 nm)"
+  temperature_K: 295
+  laser_nm: 400
+values:
+  - quantity: emission_max
+    value: 512
+    unit: nm
+    note: "green PL, ≈510–515 nm for ~8–10 nm cubes; narrow FWHM ≈12–20 nm"
+source:
+  doi: 10.1021/nl5048779
+  citation: "Protesescu et al., Nano Lett. 15, 3692 (2015)"
+  title: "Nanocrystals of Cesium Lead Halide Perovskites (CsPbX3, X = Cl, Br, and I): Novel Optoelectronic Materials Showing Bright Emission with Wide Color Gamut"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Paper reports halide/size tuning of PL over ≈410–700 nm, QY up to ~90%. Excitation wavelength assumed (check). DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper."

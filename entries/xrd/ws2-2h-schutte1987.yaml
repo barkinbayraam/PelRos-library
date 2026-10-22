@@ -1,0 +1,71 @@
+id: xrd/ws2-2h-schutte1987
+technique: xrd
+material: WS₂ (2H)
+formula: WS2
+aliases:
+- tungsten disulfide
+- tungstenite
+category: 2D material
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 14.309
+  d: 6.185
+  hkl: '002'
+  intensity: s
+  width: null
+  label: null
+- position: 28.847
+  d: 3.0925
+  hkl: '004'
+  intensity: w
+  width: null
+  label: null
+- position: 32.769
+  d: 2.7308
+  hkl: '100'
+  intensity: w
+  width: null
+  label: null
+- position: 33.581
+  d: 2.6665
+  hkl: '101'
+  intensity: w
+  width: null
+  label: null
+- position: 39.551
+  d: 2.2767
+  hkl: '103'
+  intensity: m
+  width: null
+  label: null
+- position: 43.879
+  d: 2.0617
+  hkl: '006'
+  intensity: w
+  width: null
+  label: null
+- position: 49.686
+  d: 1.8335
+  hkl: '105'
+  intensity: w
+  width: null
+  label: null
+- position: 58.495
+  d: 1.5766
+  hkl: '110'
+  intensity: w
+  width: null
+  label: null
+source:
+  doi: 10.1016/0022-4596(87)90057-0
+  citation: Schutte, de Boer & Jellinek, J. Solid State Chem. 70, 207–209 (1987)
+  title: Crystal structures of tungsten disulfide and diselenide
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: Computed here from lattice parameters recalled from this source (NOT read in this session) — check the paper;
+  intensities qualitative from general knowledge, not from the source. 2H-WS2, P6₃/mmc, a ≈ 3.1532, c ≈ 12.37 Å,
+  recalled (the exact digits in the paper may differ in the 3rd–4th decimal).

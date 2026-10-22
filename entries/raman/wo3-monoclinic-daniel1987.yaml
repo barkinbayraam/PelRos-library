@@ -1,0 +1,37 @@
+id: raman/wo3-monoclinic-daniel1987
+technique: raman
+material: WO₃ (monoclinic)
+formula: WO3
+aliases:
+- tungsten trioxide
+- tungsten oxide
+category: oxide
+conditions:
+  form: powder
+  temperature_K: 295
+peaks:
+- position: 807
+  intensity: s
+  label: ν(O–W–O) stretching
+- position: 715
+  intensity: s
+  label: ν(O–W–O) stretching
+- position: 327
+  intensity: m
+  label: δ(O–W–O) bending
+- position: 273
+  intensity: m
+  label: δ(O–W–O) bending
+- position: 134
+  intensity: m
+  label: lattice mode
+source:
+  doi: 10.1016/0022-4596(87)90359-8
+  citation: Daniel et al., J. Solid State Chem. 67, 235 (1987)
+  title: Infrared and Raman study of WO3 tungsten trioxides and WO3, xH2O tungsten trioxide tydrates
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. Title reproduced
+  as on Crossref (including the 'tydrates' typo). Hydrates WO3·xH2O show a terminal W=O band ~950 and broader 600–700
+  bands; hexagonal WO3 and substoichiometric WO3−x differ.

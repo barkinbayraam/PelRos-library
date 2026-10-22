@@ -1,0 +1,31 @@
+id: raman/black-phosphorus-sugai1985
+technique: raman
+material: Black phosphorus (bulk)
+formula: P
+aliases:
+- phosphorene
+- BP
+category: 2D material
+conditions:
+  form: single crystal
+  temperature_K: 295
+peaks:
+- position: 362
+  intensity: m
+  label: A¹g (out-of-plane)
+- position: 440
+  intensity: s
+  label: B2g (in-plane, zigzag)
+- position: 467
+  intensity: s
+  label: A²g (in-plane, armchair)
+source:
+  doi: 10.1016/0038-1098(85)90213-3
+  citation: Sugai & Shirotani, Solid State Commun. 53, 753 (1985)
+  title: Raman and infrared reflection spectroscopy in black phosphorus
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. Intensities depend
+  strongly on polarisation relative to the armchair/zigzag axes. Few-layer phosphorene upshifts slightly; it oxidises
+  quickly in air (PxOy bands, loss of signal) — measure encapsulated or fast.

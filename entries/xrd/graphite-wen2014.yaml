@@ -1,0 +1,28 @@
+id: xrd/graphite-wen2014
+technique: xrd
+material: Graphite
+formula: C
+aliases:
+- pristine graphite
+- PG
+category: carbon
+conditions:
+  form: powder
+  radiation: not stated (assumed Cu Kα)
+  wavelength_A: 1.540598
+peaks:
+- position: 26.6
+  d: 3.36
+  hkl: '002'
+  intensity: s
+  width: null
+  label: graphite (002)
+source:
+  doi: 10.1038/ncomms5033
+  citation: Wen et al., Nat. Commun. 5, 4033 (2014)
+  title: Expanded graphite as superior anode for sodium-ion batteries
+  where: Results, "Material and structural design" (Supplementary Fig. 1)
+status: doi_verified
+checked: 2026-10-22
+notes: Sharp (002) peak at 2θ ≈ 26.6° with interlayer distance 3.36 Å, both stated in the paper. Other graphite
+  lines [(100) ≈ 42.4°, (101) ≈ 44.5°, (004) ≈ 54.6°] are not given in this source. P6₃/mmc (2H).

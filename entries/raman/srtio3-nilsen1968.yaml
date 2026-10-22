@@ -1,0 +1,29 @@
+id: raman/srtio3-nilsen1968
+technique: raman
+material: SrTiO₃ (cubic, second-order spectrum only)
+formula: SrTiO3
+aliases:
+- strontium titanate
+- STO
+category: perovskite oxide
+conditions:
+  form: single crystal
+  temperature_K: 295
+peaks:
+- position: 300
+  intensity: m
+  label: second-order band (broad, ~250–360)
+- position: 680
+  intensity: m
+  label: second-order band (broad, ~620–720)
+source:
+  doi: 10.1063/1.1669418
+  citation: Nilsen & Skinner, J. Chem. Phys. 48, 2240 (1968)
+  title: Raman Spectrum of Strontium Titanate
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: 'DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. Cubic Pm3m SrTiO3
+  has NO first-order Raman-active phonons at room temperature: the spectrum is entirely second order (broad bands).
+  Sharp first-order lines appearing indicate strain, defects, doping, polar distortion or the < 105 K tetragonal
+  phase. Use the broad-band shape, not single peaks, to match.'

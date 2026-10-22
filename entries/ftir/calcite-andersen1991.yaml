@@ -1,0 +1,33 @@
+id: ftir/calcite-andersen1991
+technique: ftir
+material: CaCO₃ (calcite)
+formula: CaCO3
+aliases: [calcite, calcium carbonate, carbonate contamination]
+category: carbonate, mineral
+conditions:
+  form: powder
+  mode: transmission
+peaks:
+  - position: 1420
+    intensity: null
+    label: "ν3 CO3²⁻ antisymmetric stretch (broad)"
+  - position: 876
+    intensity: null
+    label: "ν2 CO3²⁻ out-of-plane bend"
+  - position: 712
+    intensity: null
+    label: "ν4 CO3²⁻ in-plane bend"
+source:
+  doi: 10.3891/acta.chem.scand.45-1018
+  citation: "Andersen & Brečević, Acta Chem. Scand. 45, 1018–1024 (1991)"
+  title: "Infrared Spectra of Amorphous and Crystalline Calcium Carbonate."
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: >-
+  DOI confirmed on Crossref (the Crossref author list also contains unrelated names — a metadata error; the authors are
+  Andersen and Brečević). The scanned PDF could not be read, so positions are recalled — check against the paper's
+  table. Polymorph markers often quoted from this work: aragonite ν1 ≈1083 (IR-active), ν2 ≈854, ν4 doublet ≈713/700;
+  vaterite ν4 ≈745; amorphous CaCO3 has split ν3 (~1490/1420) and no sharp ν4. A small 1420/876 pair in polymer or
+  oxide spectra (e.g. ZnO, BaTiO3, MXene, paper fillers) usually indicates carbonate contamination. Intensities left
+  null. BaCO3 (witherite, common impurity in BaTiO3) has ν2 near 856 cm⁻¹ — not from this source.

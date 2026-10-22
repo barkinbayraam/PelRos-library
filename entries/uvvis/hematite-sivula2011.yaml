@@ -1,0 +1,22 @@
+id: uvvis/hematite-sivula2011
+technique: uvvis
+material: "α-Fe₂O₃ (hematite)"
+formula: Fe2O3
+aliases: ["hematite", "iron oxide"]
+category: "oxide"
+conditions:
+  form: "thin film / photoelectrode"
+  temperature_K: 295
+values:
+  - quantity: band_gap_indirect
+    value: 2.1
+    unit: eV
+    note: "commonly quoted ≈2.0–2.2 eV; weak indirect onset ~1.9–2.1 eV, stronger direct transitions above ~2.5 eV"
+source:
+  doi: 10.1002/cssc.201000416
+  citation: "Sivula, Le Formal & Grätzel, ChemSusChem 4, 432 (2011)"
+  title: "Solar Water Splitting: Progress Using Hematite (α‐Fe2O3) Photoelectrodes"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Review; abstract has no numbers. DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper. Tauc direct/indirect assignments for hematite are inconsistent across the literature (d–d and LMCT bands overlap the edge)."

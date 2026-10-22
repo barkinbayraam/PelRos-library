@@ -1,0 +1,46 @@
+id: raman/hematite-defaria1997
+technique: raman
+material: Hematite α-Fe₂O₃
+formula: Fe2O3
+aliases:
+- iron(III) oxide
+- haematite
+category: oxide
+conditions:
+  form: powder / mineral
+  temperature_K: 295
+peaks:
+- position: 225
+  intensity: s
+  label: A1g
+- position: 247
+  intensity: w
+  label: Eg
+- position: 293
+  intensity: s
+  label: Eg
+- position: 299
+  intensity: w
+  label: Eg (shoulder)
+- position: 412
+  intensity: m
+  label: Eg
+- position: 498
+  intensity: w
+  label: A1g
+- position: 613
+  intensity: m
+  label: Eg
+- position: 1320
+  intensity: m
+  label: two-magnon / 2LO (second order)
+source:
+  doi: 10.1002/(SICI)1097-4555(199711)28:11<873::AID-JRS177>3.0.CO;2-B
+  citation: de Faria, Venâncio Silva & de Oliveira, J. Raman Spectrosc. 28, 873 (1997)
+  title: Raman microspectroscopy of some iron oxides and oxyhydroxides
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. Hematite is also
+  the end product of laser heating of magnetite, maghemite and oxyhydroxides (the paper's central warning) — use
+  low laser power. A ~660 band in 'hematite' often signals disorder or magnetite.

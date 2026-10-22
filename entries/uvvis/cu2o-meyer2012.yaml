@@ -1,0 +1,22 @@
+id: uvvis/cu2o-meyer2012
+technique: uvvis
+material: "Cu₂O (cuprite)"
+formula: Cu2O
+aliases: ["cuprous oxide", "copper(I) oxide"]
+category: "oxide"
+conditions:
+  form: "thin film"
+  temperature_K: 295
+values:
+  - quantity: band_gap_direct
+    value: 2.1
+    unit: eV
+    note: "upper bound of the bandgap range for the copper-oxide phases (Cu2O)"
+source:
+  doi: 10.1002/pssb.201248128
+  citation: "Meyer et al., Phys. Status Solidi B 249, 1487 (2012)"
+  title: "Binary copper oxide semiconductors: From materials towards devices"
+  where: "abstract"
+status: doi_verified
+checked: 2026-10-22
+notes: "Abstract gives the copper-oxide gap range 2.1 eV … 1.40 eV over Cu2O, Cu4O3, CuO; assigning 2.1 eV to Cu2O is the standard reading (body of review). Single-crystal Cu2O: ≈2.17 eV (yellow exciton series, dipole-forbidden)."

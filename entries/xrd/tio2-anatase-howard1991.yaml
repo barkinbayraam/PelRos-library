@@ -1,0 +1,91 @@
+id: xrd/tio2-anatase-howard1991
+technique: xrd
+material: TiO₂ (anatase)
+formula: TiO2
+aliases:
+- anatase
+- titania
+- titanium dioxide
+category: oxide
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 25.307
+  d: 3.5165
+  hkl: '101'
+  intensity: s
+  width: null
+  label: null
+- position: 36.951
+  d: 2.4308
+  hkl: '103'
+  intensity: w
+  width: null
+  label: null
+- position: 37.792
+  d: 2.3786
+  hkl: '004'
+  intensity: m
+  width: null
+  label: null
+- position: 38.57
+  d: 2.3323
+  hkl: '112'
+  intensity: w
+  width: null
+  label: null
+- position: 48.043
+  d: 1.8922
+  hkl: '200'
+  intensity: m
+  width: null
+  label: null
+- position: 53.886
+  d: 1.7001
+  hkl: '105'
+  intensity: m
+  width: null
+  label: null
+- position: 55.068
+  d: 1.6663
+  hkl: '211'
+  intensity: m
+  width: null
+  label: null
+- position: 62.689
+  d: 1.4808
+  hkl: '204'
+  intensity: w
+  width: null
+  label: null
+- position: 68.756
+  d: 1.3642
+  hkl: '116'
+  intensity: w
+  width: null
+  label: null
+- position: 70.297
+  d: 1.338
+  hkl: '220'
+  intensity: w
+  width: null
+  label: null
+- position: 75.05
+  d: 1.2646
+  hkl: '215'
+  intensity: w
+  width: null
+  label: null
+source:
+  doi: 10.1107/S010876819100335X
+  citation: Howard, Sabine & Dickson, Acta Cryst. B47, 462–468 (1991)
+  title: Structural and thermal parameters for rutile and anatase
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: Computed here from lattice parameters recalled from this source (NOT read in this session) — check the paper;
+  intensities qualitative from general knowledge, not from the source. a = 3.7845, c = 9.5143 Å (I4₁/amd), recalled
+  — digits may be the closely similar Burdett et al. (1987) values; check this paper. Strongest line (101) ≈25.3°;
+  (004) ≈37.8° and (200) ≈48.0° are the usual size/strain lines.

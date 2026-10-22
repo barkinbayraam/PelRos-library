@@ -1,0 +1,36 @@
+id: ftir/pmma-tham2019
+technique: ftir
+material: PMMA
+formula: PMMA
+aliases: [poly(methyl methacrylate), acrylic, Plexiglas, Perspex]
+category: polymer, acrylic
+conditions:
+  form: film
+peaks:
+  - {position: 2995, intensity: null, label: "CH3 asymmetric stretch"}
+  - {position: 2951, intensity: null, label: "CH2 asymmetric stretch (CH3–O)"}
+  - {position: 2850, intensity: null, label: "CH2 symmetric stretch"}
+  - {position: 1733, intensity: null, label: "C=O stretch (ester)"}
+  - {position: 1482, intensity: null, label: "CH3 asymmetric bend"}
+  - {position: 1449, intensity: null, label: "CH2 bend"}
+  - {position: 1387, intensity: null, label: "α-CH3 symmetric bend"}
+  - {position: 1271, intensity: null, label: "C–C–O asymmetric stretch"}
+  - {position: 1242, intensity: null, label: "C–C–O asymmetric stretch"}
+  - {position: 1193, intensity: null, label: "CH3 wagging (with C–O–C)"}
+  - {position: 1148, intensity: null, label: "CH3 twisting (with C–O–C)"}
+  - {position: 1066, intensity: null, label: "C–C stretch (amorphous)"}
+  - {position: 989, intensity: null, label: "OCH3 in-plane bend"}
+  - {position: 966, intensity: null, label: "OCH3 rocking"}
+  - {position: 913, intensity: null, label: "CH3 rocking"}
+  - {position: 843, intensity: null, label: "CH2 rocking"}
+  - {position: 752, intensity: null, label: "C=O out-of-plane bend"}
+source:
+  doi: 10.15625/2525-2518/57/1/12682
+  citation: "Tham, Mai, Hoang, Trang, Chinh & Thang, Vietnam J. Sci. Technol. 57(1), 48 (2019)"
+  title: "PREPARATION AND FTIR STUDIES OF PMMA/PVC POLYMER BLENDS, PVC-g-PMMA GRAFT COPOLYMERS AND EVALUATING GRAFT CONTENT"
+  where: "Table 2 (FTIR assignments for specific groups in neat PMMA, neat PVC and PMMA/PVC blends)"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  Nicolet Nexus 670, 4000–500 cm⁻¹, 4 cm⁻¹; sampling mode not stated. Assignments in the table are compiled from
+  cited references. Intensities not reported; in practice 1733 and the 1270–1140 C–O group dominate.

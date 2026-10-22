@@ -1,0 +1,52 @@
+id: xrd/pt-nbs-circ539v1
+technique: xrd
+material: Pt (platinum)
+formula: Pt
+aliases:
+- platinum
+category: metal
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 39.764
+  d: 2.265
+  hkl: '111'
+  intensity: s
+  width: null
+  label: null
+- position: 46.245
+  d: 1.9615
+  hkl: '200'
+  intensity: m
+  width: null
+  label: null
+- position: 67.471
+  d: 1.387
+  hkl: '220'
+  intensity: m
+  width: null
+  label: null
+- position: 81.267
+  d: 1.1829
+  hkl: '311'
+  intensity: m
+  width: null
+  label: null
+- position: 85.715
+  d: 1.1325
+  hkl: '222'
+  intensity: w
+  width: null
+  label: null
+source:
+  doi: 10.6028/NBS.CIRC.539v1
+  citation: Swanson & Tatge, NBS Circular 539, Vol. 1 (1953)
+  title: 'Circular of the Bureau of Standards no. 539 volume 1: standard x-ray diffraction powder patterns'
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: Computed here from lattice parameters recalled from this source (NOT read in this session) — check the paper;
+  intensities qualitative from general knowledge, not from the source. a = 3.9231 Å (Fm-3m) recalled for the NBS
+  platinum pattern (Sec. 2.14); table not readable online here.

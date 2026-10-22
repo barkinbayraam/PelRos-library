@@ -1,0 +1,44 @@
+id: ftir/pp-campanale2023
+technique: ftir
+material: Polypropylene (PP)
+formula: PP
+aliases: [polypropylene, isotactic polypropylene]
+category: polymer, polyolefin
+conditions:
+  form: film
+  mode: ATR
+peaks:
+  - position: 2952
+    intensity: null
+    label: "CH3 asymmetric stretch"
+  - position: 2917
+    intensity: null
+    label: "CH2 stretch"
+  - position: 2838
+    intensity: null
+    label: "CH2 stretch"
+  - position: 1455
+    intensity: null
+    label: "CH2 bend"
+  - position: 1375
+    intensity: null
+    label: "CH3 symmetric bend (umbrella)"
+  - position: 1165
+    intensity: null
+    label: "CH3 rocking ('oscillating') vibration"
+  - position: 997
+    intensity: null
+    label: "CH3 rocking ('oscillating') vibration"
+  - position: 972
+    intensity: null
+    label: "CH3 rocking ('oscillating') vibration"
+source:
+  doi: 10.3390/polym15040911
+  citation: "Campanale, Savino, Massarelli & Uricchio, Polymers 15, 911 (2023)"
+  title: "Fourier Transform Infrared Spectroscopy to Assess the Degree of Alteration of Artificially Aged and Environmentally Weathered Microplastics"
+  where: "Discussion text referring to Fig. 6 (pristine spectra)"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  Pristine PP cup / pellets, diamond ATR. 997 and 841 cm⁻¹ (841 not reported here) are isotactic-helix
+  (crystallinity-sensitive) bands; 972 is less sensitive. Intensities not stated in the text.

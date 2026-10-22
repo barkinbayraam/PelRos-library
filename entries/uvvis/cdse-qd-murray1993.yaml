@@ -1,0 +1,22 @@
+id: uvvis/cdse-qd-murray1993
+technique: uvvis
+material: "CdSe colloidal QDs"
+formula: CdSe
+aliases: ["cadmium selenide"]
+category: "II-VI semiconductor"
+conditions:
+  form: "colloidal QDs, ~1.2–11.5 nm"
+  temperature_K: 295
+values:
+  - quantity: absorption_max
+    value: 1.74
+    unit: eV
+    note: "bulk limit; first-exciton peak tunable from ≈2.7 eV down toward bulk with size"
+source:
+  doi: 10.1021/ja00072a025
+  citation: "Murray, Norris & Bawendi, J. Am. Chem. Soc. 115, 8706 (1993)"
+  title: "Synthesis and characterization of nearly monodisperse CdE (E = sulfur, selenium, tellurium) semiconductor nanocrystallites"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Classic hot-injection synthesis paper with size series of absorption spectra. DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper."

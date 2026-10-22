@@ -1,0 +1,22 @@
+id: uvvis/ceo2-patsalas2003
+technique: uvvis
+material: "CeO₂ (nanocrystalline)"
+formula: CeO2
+aliases: ["ceria", "cerium oxide"]
+category: "oxide"
+conditions:
+  form: "nanocrystalline thin film"
+  temperature_K: 295
+values:
+  - quantity: band_gap_direct
+    value: 3.0
+    unit: eV
+    note: "order-of-magnitude reference; size/stoichiometry dependent (≈3.0–3.6 eV reported)"
+source:
+  doi: 10.1103/PhysRevB.68.035104
+  citation: "Patsalas, Logothetidis, Sygellou & Kennou, Phys. Rev. B 68, 035104 (2003)"
+  title: "Structure-dependent electronic properties of nanocrystalline cerium oxide films"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Gap depends on grain size and Ce3+ content (Ce 4f states); reported O2p→Ce4f absorption onset ≈3 eV. DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper."

@@ -1,0 +1,12 @@
+id: uvvis/zno-film-test2002
+technique: uvvis
+material: ZnO (test fixture)
+formula: ZnO
+values:
+  - {quantity: band_gap_direct, value: 3.37, unit: eV, note: room temperature}
+source:
+  doi: 10.1000/test.3
+  citation: "Tester, J. Test. 3, 3 (2002)"
+  title: "Band gap of ZnO films"
+status: unverified
+checked: 2026-01-01

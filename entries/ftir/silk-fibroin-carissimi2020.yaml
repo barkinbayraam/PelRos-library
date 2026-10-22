@@ -1,0 +1,44 @@
+id: ftir/silk-fibroin-carissimi2020
+technique: ftir
+material: Silk fibroin (Bombyx mori fibres, silk II) — amide I components
+formula: SF
+aliases: [silk fibroin, silk II, Bombyx mori silk, fibroin]
+category: polymer, biopolymer, protein
+conditions:
+  form: fibre (degummed)
+  mode: ATR
+peaks:
+  - position: 1700
+    intensity: null
+    label: "high-wavenumber component of antiparallel β-sheet"
+  - position: 1692
+    intensity: null
+    label: "high-wavenumber component of antiparallel β-sheet"
+  - position: 1678
+    intensity: 9
+    label: "turn-like structures (9 % of amide I area)"
+  - position: 1648
+    intensity: 33
+    label: "irregular and/or turn-like structures (33 %)"
+  - position: 1626
+    intensity: 25
+    label: "distorted β-sheet (25 %)"
+  - position: 1619
+    intensity: 9
+    label: "β-sheet, structure B (9 %)"
+  - position: 1609
+    intensity: 18
+    label: "β-sheet, structure A (18 %)"
+source:
+  doi: 10.3390/polym12061294
+  citation: "Carissimi, Baronio, Montalbán, Víllora & Barth, Polymers 12, 1294 (2020)"
+  title: "On the Secondary Structure of Silk Fibroin Nanoparticles Obtained Using Ionic Liquids: An Infrared Spectroscopy Study"
+  where: "Results text (amide I band fitting of SF fibres; band parameters in Table 1)"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  These are fitted amide I sub-bands (diamond ATR, 2 cm⁻¹), not resolved peaks; numeric "intensity" values are the
+  percentage of the amide I area, not peak heights. Total β-sheet ≈ 58 % for the fibres. Regenerated SF nanoparticles
+  show a main maximum at 1622 cm⁻¹. Amorphous / silk I (water-soluble) fibroin has its amide I maximum higher
+  (~1640–1650, general literature; not from this source).
+  Amide II (~1515–1540) is not covered by this source.

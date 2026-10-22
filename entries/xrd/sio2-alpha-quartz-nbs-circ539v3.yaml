@@ -1,0 +1,117 @@
+id: xrd/sio2-alpha-quartz-nbs-circ539v3
+technique: xrd
+material: α-SiO₂ (quartz)
+formula: SiO2
+aliases:
+- quartz
+- alpha quartz
+- low quartz
+category: oxide
+conditions:
+  form: powder
+  temperature_K: 298
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 20.835
+  d: 4.26
+  hkl: '100'
+  intensity: 35
+  width: null
+  label: null
+- position: 26.644
+  d: 3.343
+  hkl: '101'
+  intensity: 100
+  width: null
+  label: null
+- position: 36.527
+  d: 2.458
+  hkl: '110'
+  intensity: 12
+  width: null
+  label: null
+- position: 39.456
+  d: 2.282
+  hkl: '102'
+  intensity: 12
+  width: null
+  label: null
+- position: 40.284
+  d: 2.237
+  hkl: '111'
+  intensity: 6
+  width: null
+  label: null
+- position: 42.444
+  d: 2.128
+  hkl: '200'
+  intensity: 9
+  width: null
+  label: null
+- position: 45.79
+  d: 1.98
+  hkl: '201'
+  intensity: 6
+  width: null
+  label: null
+- position: 50.167
+  d: 1.817
+  hkl: '112'
+  intensity: 17
+  width: null
+  label: null
+- position: 50.644
+  d: 1.801
+  hkl: '003'
+  intensity: vw
+  width: null
+  label: null
+- position: 54.865
+  d: 1.672
+  hkl: '202'
+  intensity: 7
+  width: null
+  label: null
+- position: 55.332
+  d: 1.659
+  hkl: '103'
+  intensity: 3
+  width: null
+  label: null
+- position: 60.026
+  d: 1.54
+  hkl: '211'
+  intensity: null
+  width: null
+  label: null
+- position: 64.03
+  d: 1.453
+  hkl: '113'
+  intensity: 3
+  width: null
+  label: null
+- position: 65.807
+  d: 1.418
+  hkl: '300'
+  intensity: vw
+  width: null
+  label: null
+- position: 67.75
+  d: 1.382
+  hkl: '212'
+  intensity: 7
+  width: null
+  label: null
+source:
+  doi: 10.6028/NBS.CIRC.539v3
+  citation: Swanson, Fuyat & Ugrinic, NBS Circular 539, Vol. 3 (1954)
+  title: 'Circular of the Bureau of Standards no. 539 volume 3: standard x-ray diffraction powder patterns'
+  where: Silicon dioxide, alpha quartz, pp. 24–25
+status: doi_verified
+checked: 2026-10-22
+notes: 'd and I as printed (natural quartz, Lake Toxaway NC; 25 °C). Cu Kα (1.5405 Å) as used by NBS; 2θ values
+  here are recomputed from the printed d for Cu Kα1 = 1.540598 Å (Bragg''s law), not read from the source. P3₁21/P3₂21;
+  a = 4.913, c = 5.405 Å as given. The OCR of the scanned table was partly garbled: the intensity of the 211 line
+  (1.540 Å) could not be read reliably and is left null (it is a medium line in modern patterns); "<1" intensities
+  written as vw. The 1.608 Å (210) line is omitted (intensity unreadable). Check against the scan.'

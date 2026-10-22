@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/barkinbayraam/PelRos-library/schema/entry.schema.json",
+  "title": "PelRos reference library entry (v1)",
+  "description": "One material + technique + source. See SCHEMA.md for the meaning of each field.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "technique", "material", "formula", "source", "status"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^(raman|ftir|xrd|uvvis|pl)/[a-z0-9]+(-[a-z0-9]+)*$"},
+    "technique": {"enum": ["raman", "ftir", "xrd", "uvvis", "pl"]},
+    "material": {"type": "string", "minLength": 1, "maxLength": 120},
+    "formula": {"type": "string", "minLength": 1, "maxLength": 60},
+    "aliases": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "category": {"type": "string"},
+    "conditions": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "form": {"type": "string"},
+        "temperature_K": {"type": "number", "minimum": 0, "maximum": 3000},
+        "laser_nm": {"type": "number", "minimum": 150, "maximum": 1600},
+        "radiation": {"type": "string"},
+        "wavelength_A": {"type": "number", "minimum": 0.1, "maximum": 3.0},
+        "mode": {"type": "string"}
+      }
+    },
+    "peaks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["position"],
+        "properties": {
+          "position": {"type": "number"},
+          "d": {"type": ["number", "null"], "exclusiveMinimum": 0},
+          "hkl": {"type": ["string", "null"]},
+          "intensity": {"oneOf": [{"enum": ["s", "m", "w", "vw", "vs", null]}, {"type": "number", "minimum": 0, "maximum": 100}]},
+          "width": {"type": ["number", "null"], "minimum": 0},
+          "label": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "values": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["quantity", "value", "unit"],
+        "properties": {
+          "quantity": {"enum": ["band_gap_direct", "band_gap_indirect", "absorption_max", "emission_max", "exciton"]},
+          "value": {"type": "number"},
+          "unit": {"enum": ["eV", "nm"]},
+          "note": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["doi", "citation"],
+      "properties": {
+        "doi": {"type": "string", "pattern": "^10\\.\\d{4,9}/\\S+$"},
+        "citation": {"type": "string", "minLength": 5},
+        "title": {"type": ["string", "null"]},
+        "where": {"type": ["string", "null"]}
+      }
+    },
+    "status": {"enum": ["unverified", "doi_verified", "values_verified"]},
+    "checked": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "notes": {"type": ["string", "null"]}
+  },
+  "allOf": [
+    {"if": {"properties": {"technique": {"enum": ["raman", "ftir", "xrd"]}}},
+     "then": {"required": ["peaks"], "properties": {"peaks": {"minItems": 1}}}},
+    {"if": {"properties": {"technique": {"enum": ["uvvis", "pl"]}}},
+     "then": {"required": ["values"], "properties": {"values": {"minItems": 1}}}}
+  ]
+}

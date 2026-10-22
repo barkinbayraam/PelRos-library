@@ -1,0 +1,22 @@
+id: uvvis/au-np-link1999
+technique: uvvis
+material: "Au nanoparticles (colloidal)"
+formula: Au
+aliases: ["gold nanoparticles", "AuNP"]
+category: "metal"
+conditions:
+  form: "colloidal nanoparticles, ~9–99 nm"
+  temperature_K: 295
+values:
+  - quantity: absorption_max
+    value: 520
+    unit: nm
+    note: "LSPR ≈517–520 nm for ~10–20 nm spheres in water; red-shifts and broadens above ~40 nm"
+source:
+  doi: 10.1021/jp984796o
+  citation: "Link & El-Sayed, J. Phys. Chem. B 103, 4212 (1999)"
+  title: "Size and Temperature Dependence of the Plasmon Absorption of Colloidal Gold Nanoparticles"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Plasmon position depends on size, shape, medium refractive index and aggregation. DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper."

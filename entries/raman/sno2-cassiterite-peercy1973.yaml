@@ -1,0 +1,34 @@
+id: raman/sno2-cassiterite-peercy1973
+technique: raman
+material: SnO₂ (cassiterite, rutile type)
+formula: SnO2
+aliases:
+- tin oxide
+- tin dioxide
+- cassiterite
+category: oxide
+conditions:
+  form: single crystal
+  temperature_K: 295
+peaks:
+- position: 123
+  intensity: vw
+  label: B1g
+- position: 476
+  intensity: m
+  label: Eg
+- position: 634
+  intensity: s
+  label: A1g
+- position: 776
+  intensity: w
+  label: B2g
+source:
+  doi: 10.1103/PhysRevB.7.2779
+  citation: Peercy & Morosin, Phys. Rev. B 7, 2779 (1973)
+  title: Pressure and Temperature Dependences of the Raman-Active Phonons in SnO2
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. Nanocrystalline SnO2
+  shows additional surface/disorder bands (~300–350, ~570) and broadened A1g.

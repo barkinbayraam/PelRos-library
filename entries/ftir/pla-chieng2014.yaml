@@ -1,0 +1,26 @@
+id: ftir/pla-chieng2014
+technique: ftir
+material: PLA
+formula: PLA
+aliases: [poly(lactic acid), polylactide, polylactic acid]
+category: polymer, polyester, biopolymer
+conditions:
+  form: film
+  mode: ATR
+peaks:
+  - {position: 2995, intensity: null, label: "CH3 asymmetric stretch"}
+  - {position: 2946, intensity: null, label: "CH3 symmetric stretch"}
+  - {position: 1746, intensity: null, label: "C=O stretch (ester)"}
+  - {position: 1452, intensity: null, label: "CH3 asymmetric bend"}
+  - {position: 1361, intensity: null, label: "CH3 symmetric bend"}
+  - {position: 1080, intensity: null, label: "C–O stretch"}
+source:
+  doi: 10.3390/polym6010093
+  citation: "Chieng, Ibrahim, Wan Yunus & Hussein, Polymers 6, 93–104 (2014; online Dec 2013 — Crossref issued 2013)"
+  title: "Poly(lactic acid)/Poly(ethylene glycol) Polymer Nanocomposites: Effects of Graphene Nanoplatelets"
+  where: "Section 3.2 (Fourier-Transform Infrared), Fig. 3"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  Universal ATR, 4000–280 cm⁻¹. Only the main bands are listed; PLA also shows strong C–O–C bands near 1180 and
+  1130 cm⁻¹ and the 871/756 skeletal bands (not given in this source). Intensities not stated.

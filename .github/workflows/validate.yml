@@ -1,0 +1,68 @@
+name: validate
+
+# Pull requests: check every entry (schema, ids, plausible values) and look the DOIs up on Crossref.
+# Push to main: the same, then mark entries whose DOI matches as doi_verified, rebuild dist/library.json
+# (the file the PelRos app downloads) and commit both back — only when something changed.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: tools/requirements.txt
+      - run: pip install -r tools/requirements.txt
+      - name: Self-test of the tools
+        run: python -m unittest discover -s tests -v
+      - name: Validate entries and check DOIs on Crossref
+        run: python tools/validate.py --check-doi
+      - name: Build (dry run)
+        run: python tools/build.py --out /tmp/library.json
+
+  publish:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: tools/requirements.txt
+      - run: pip install -r tools/requirements.txt
+      - name: Self-test of the tools
+        run: python -m unittest discover -s tests -v
+      - name: Validate, check DOIs and set doi_verified
+        run: python tools/validate.py --check-doi --write-status
+      - name: Build dist/library.json
+        run: python tools/build.py
+      - name: Commit status changes and the built library
+        run: |
+          if [ -z "$(git status --porcelain -- entries dist)" ]; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add entries dist/library.json
+          git commit -m "Build library.json, update DOI status [skip ci]"
+          git push

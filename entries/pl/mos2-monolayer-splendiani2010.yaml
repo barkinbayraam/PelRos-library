@@ -1,0 +1,23 @@
+id: pl/mos2-monolayer-splendiani2010
+technique: pl
+material: "MoS₂ (monolayer)"
+formula: MoS2
+aliases: ["molybdenum disulfide"]
+category: "2D material"
+conditions:
+  form: "exfoliated monolayer"
+  temperature_K: 295
+  laser_nm: 532
+values:
+  - quantity: emission_max
+    value: 1.85
+    unit: eV
+    note: "A-exciton PL (≈670 nm); B exciton ≈2.0 eV"
+source:
+  doi: 10.1021/nl903868w
+  citation: "Splendiani et al., Nano Lett. 10, 1271 (2010)"
+  title: "Emerging Photoluminescence in Monolayer MoS2"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Monolayer A exciton reported at 1.8–1.9 eV across the literature. DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper."

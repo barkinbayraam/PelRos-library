@@ -1,0 +1,33 @@
+id: raman/cuo-goldstein1990
+technique: raman
+material: CuO (tenorite)
+formula: CuO
+aliases:
+- copper(II) oxide
+- cupric oxide
+- tenorite
+category: oxide
+conditions:
+  form: single crystal
+peaks:
+- position: 290
+  intensity: s
+  label: Ag
+- position: 340
+  intensity: m
+  label: Bg
+- position: 630
+  intensity: m
+  label: Bg
+source:
+  doi: 10.1103/PhysRevB.41.7192
+  citation: Goldstein et al., Phys. Rev. B 41, 7192 (1990)
+  title: Raman study of CuO single crystals
+  where: abstract (Ag ≈ 290 only); Bg values recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. The abstract (read
+  via OpenAlex) gives the Ag mode at 290 cm⁻¹, strongly polarised along one crystal axis; the two Bg values here
+  are typical literature positions and must be checked against the paper. Reported CuO positions span ~288–298 (Ag),
+  ~330–346 and ~620–636 (Bg) depending on size and temperature. A broad ~1100 band (2Bg/multiphonon) is common in
+  powders.

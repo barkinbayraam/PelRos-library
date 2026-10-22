@@ -1,0 +1,39 @@
+id: xrd/reduced-graphene-oxide-wen2014
+technique: xrd
+material: Reduced graphene oxide / expanded graphite (thermally reduced GO)
+formula: rGO
+aliases:
+- rGO
+- reduced graphene oxide
+- thermally reduced graphite oxide
+- expanded graphite
+- EG
+category: carbon
+conditions:
+  form: powder
+  radiation: not stated (assumed Cu Kα)
+  wavelength_A: 1.540598
+peaks:
+- position: 23.0
+  d: 3.8637
+  hkl: '002'
+  intensity: m
+  width: null
+  label: EG-1 h (partially reduced), broad
+- position: 25.3
+  d: 3.5174
+  hkl: '002'
+  intensity: m
+  width: null
+  label: EG-5 h (more reduced), broad
+source:
+  doi: 10.1038/ncomms5033
+  citation: Wen et al., Nat. Commun. 5, 4033 (2014)
+  title: Expanded graphite as superior anode for sodium-ion batteries
+  where: Results, "Material and structural design" (Supplementary Fig. 1)
+status: doi_verified
+checked: 2026-10-22
+notes: 'The paper names a Bruker D8 Advance but does not state the wavelength; d was computed here assuming Cu Kα1
+  (1.540598 Å), except where the paper itself gives d. Thermal reduction of GO moves the broad (002) back towards
+  graphite: ≈23.0° after 1 h and ≈25.3° after 5 h (HRTEM 0.43 and 0.37 nm). Typical rGO: broad (002) at ≈24–26°,
+  position and width set by the reduction degree.'

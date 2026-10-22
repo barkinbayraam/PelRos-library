@@ -1,0 +1,25 @@
+id: ftir/peek-zhao2018
+technique: ftir
+material: PEEK
+formula: PEEK
+aliases: [poly(ether ether ketone), polyetheretherketone]
+category: polymer, high-performance thermoplastic
+conditions:
+  form: granule / filament / printed part
+  mode: ATR
+peaks:
+  - {position: 1650, intensity: null, label: "diaryl ketone C=O stretch"}
+  - {position: 1305, intensity: null, label: "ketone bending (crystallinity-sensitive; ratio with ~1280)"}
+  - {position: 1277, intensity: null, label: "diphenyl ether C–O–C"}
+  - {position: 1185, intensity: null, label: "aryl ether C–O–C"}
+  - {position: 926, intensity: null, label: "diphenyl ether group"}
+source:
+  doi: 10.3390/ma11020288
+  citation: "Zhao, Li & Jin, Materials 11, 288 (2018)"
+  title: "Preliminary Investigation of Poly-Ether-Ether-Ketone Based on Fused Deposition Modeling for Medical Applications"
+  where: "Section 3.2 text, Fig. 7"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  Nicolet iS10 ATR, 550–4000 cm⁻¹, 1 cm⁻¹. The 1305/1280 band-height ratio is used as a crystallinity index.
+  Aromatic ring bands (~1595, ~1490) are strong in PEEK but not listed in this source. Intensities not stated.

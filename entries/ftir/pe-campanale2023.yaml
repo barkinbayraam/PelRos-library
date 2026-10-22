@@ -1,0 +1,40 @@
+id: ftir/pe-campanale2023
+technique: ftir
+material: Polyethylene (PE)
+formula: PE
+aliases: [polyethylene, HDPE, LDPE, polythene]
+category: polymer, polyolefin
+conditions:
+  form: film
+  mode: ATR
+peaks:
+  - position: 2915
+    intensity: null
+    label: "CH2 asymmetric stretch"
+  - position: 2847
+    intensity: null
+    label: "CH2 symmetric stretch"
+  - position: 1472
+    intensity: null
+    label: "CH2 bend (scissoring doublet; printed as '–CH=CH– stretching')"
+  - position: 1462
+    intensity: null
+    label: "CH2 bend (scissoring doublet; printed as '–CH=CH– stretching')"
+  - position: 719
+    intensity: null
+    label: "CH2 rocking (doublet)"
+  - position: 710
+    intensity: null
+    label: "CH2 rocking (doublet)"
+source:
+  doi: 10.3390/polym15040911
+  citation: "Campanale, Savino, Massarelli & Uricchio, Polymers 15, 911 (2023)"
+  title: "Fourier Transform Infrared Spectroscopy to Assess the Degree of Alteration of Artificially Aged and Environmentally Weathered Microplastics"
+  where: "Discussion text referring to Fig. 6 (pristine spectra)"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  Pristine PE mulch sheet / pellets measured with a diamond ATR (Nicolet Summit, 4000–500 cm⁻¹). The 1472/1462 pair is
+  conventionally the CH2 scissoring doublet; the source's "–CH=CH–" label is likely an error. The splitting of the
+  1470 and 720 bands arises from orthorhombic crystallinity (both HDPE and LDPE show it; LDPE has an extra CH3 band
+  near 1377 cm⁻¹ — general knowledge, not reported here). Weathering adds C=O (~1715) used for the carbonyl index. Intensities not stated.

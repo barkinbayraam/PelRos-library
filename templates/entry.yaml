@@ -1,0 +1,36 @@
+# Copy this file to entries/<technique>/<slug>.yaml  (slug: lowercase a–z, 0–9 and '-', e.g. zno-wurtzite-cusco2007)
+# and fill it in. Delete the lines that do not apply. Every number must come from the cited paper.
+id: raman/zno-wurtzite-cusco2007      # = <technique>/<file name without .yaml>
+technique: raman                      # raman | ftir | xrd | uvvis | pl
+material: ZnO (wurtzite)              # name shown in PelRos
+formula: ZnO                          # plain formula (or a polymer abbreviation such as PTFE)
+aliases: [zinc oxide]                 # optional, helps the search
+category: oxide                       # e.g. carbon, 2D material, polymer, oxide, nitride, MXene, metal
+conditions:                           # only the keys that apply
+  form: single crystal                # single crystal | powder | film | ceramic | flake | …
+  temperature_K: 295
+  laser_nm: 532                       # Raman / PL excitation
+  # radiation: Cu Kα1                 # XRD: the 2θ values refer to this radiation …
+  # wavelength_A: 1.540598            # … and this wavelength (always give d as well)
+  # mode: ATR                         # FTIR: ATR | transmission | DRIFTS
+peaks:                                # Raman, FTIR, XRD
+  - position: 438                     # Raman/FTIR: cm⁻¹ ; XRD: 2θ (degrees)
+    intensity: s                      # s | m | w | vw, or a number 0–100
+    label: E2 (high)                  # mode / assignment
+  # - position: 31.77                 # XRD example
+  #   d: 2.8143                       # d-spacing in Å (required for XRD)
+  #   hkl: "100"                      # quote it, otherwise YAML reads 100 as a number
+  #   intensity: 57
+# values:                             # UV-Vis, PL
+#   - quantity: band_gap_direct       # band_gap_direct | band_gap_indirect | absorption_max | emission_max | exciton
+#     value: 3.37
+#     unit: eV                        # eV | nm
+#     note: room temperature
+source:
+  doi: 10.1103/PhysRevB.75.165202     # bare DOI, required
+  citation: "Cuscó et al., Phys. Rev. B 75, 165202 (2007)"
+  title: "Temperature dependence of Raman scattering in ZnO"   # exactly as on the DOI page / Crossref
+  where: "Table I"                    # where the numbers are in the paper ("abstract" if from the abstract)
+status: unverified                    # leave as is: the robot sets doi_verified, a maintainer values_verified
+notes: >-
+  Optional caveats (shifts with size, strain, laser; overlapping phases; …).

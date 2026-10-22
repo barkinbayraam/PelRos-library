@@ -1,0 +1,32 @@
+id: ftir/pva-elumalai2024
+technique: ftir
+material: PVA
+formula: PVA
+aliases: [poly(vinyl alcohol), polyvinyl alcohol, PVOH]
+category: polymer
+conditions:
+  form: film
+  mode: ATR
+peaks:
+  - {position: 3350, intensity: null, label: "O–H stretch, H-bonded (broad band 3600–3100)"}
+  - {position: 2935, intensity: null, label: "CH2 stretch (printed 'symmetric')"}
+  - {position: 2908, intensity: null, label: "CH2 stretch (printed 'asymmetric')"}
+  - {position: 1654, intensity: null, label: "absorbed water"}
+  - {position: 1560, intensity: null, label: "C=O stretch of residual acetate groups (as printed)"}
+  - {position: 1417, intensity: null, label: "O–H in-plane bend"}
+  - {position: 1327, intensity: null, label: "C–H wagging"}
+  - {position: 1141, intensity: null, label: "C–O / C–C stretch — crystallinity-sensitive band"}
+  - {position: 1089, intensity: null, label: "C–O stretch"}
+  - {position: 916, intensity: null, label: "CH2 rocking"}
+  - {position: 845, intensity: null, label: "C–C stretch"}
+source:
+  doi: 10.3390/nano14010005
+  citation: "Elumalai, Rodríguez, Kovtun, Hidalgo, Méndez, Kaleemulla, Joshi & Cuberes, Nanomaterials 14, 5 (2024; published online Dec 2023 — Crossref issued 2023)"
+  title: "Nanostructural Characterization of Luminescent Polyvinyl Alcohol/Graphene Quantum Dots Nanocomposite Films"
+  where: "Section 3 text, Fig. 3 (assignments also summarised in Table 1)"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  Shimadzu IRPrestige-21 with ATR, 500–4000 cm⁻¹. 3350 is the approximate centre of the broad 3600–3100 band (only the
+  range is printed). Residual-acetate C=O of partially hydrolysed PVA is usually seen near 1730–1710 cm⁻¹; the 1560
+  value is reproduced as printed. The 1141/1089 intensity ratio tracks crystallinity. Intensities not given.

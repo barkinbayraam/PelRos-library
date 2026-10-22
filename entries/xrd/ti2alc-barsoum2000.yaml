@@ -1,0 +1,73 @@
+id: xrd/ti2alc-barsoum2000
+technique: xrd
+material: Ti₂AlC (MAX phase)
+formula: Ti2AlC
+aliases:
+- MAX phase
+- Ti2AlC
+- MXene precursor
+category: MAX phase
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 13.009
+  d: 6.8
+  hkl: '002'
+  intensity: m
+  width: null
+  label: null
+- position: 26.189
+  d: 3.4
+  hkl: '004'
+  intensity: w
+  width: null
+  label: null
+- position: 34.026
+  d: 2.6327
+  hkl: '100'
+  intensity: w
+  width: null
+  label: null
+- position: 34.677
+  d: 2.5847
+  hkl: '101'
+  intensity: w
+  width: null
+  label: null
+- position: 39.553
+  d: 2.2766
+  hkl: '103'
+  intensity: s
+  width: null
+  label: null
+- position: 39.734
+  d: 2.2667
+  hkl: '006'
+  intensity: w
+  width: null
+  label: null
+- position: 53.287
+  d: 1.7177
+  hkl: '106'
+  intensity: w
+  width: null
+  label: null
+- position: 60.899
+  d: 1.52
+  hkl: '110'
+  intensity: w
+  width: null
+  label: null
+source:
+  doi: 10.1016/S0079-6786(00)00006-6
+  citation: Barsoum, Prog. Solid State Chem. 28, 201–281 (2000)
+  title: 'The MN+1AXN phases: A new class of solids'
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: Computed here from lattice parameters recalled from this source (NOT read in this session) — check the paper;
+  intensities qualitative from general knowledge, not from the source. 211 MAX phase, P6₃/mmc, a ≈ 3.04, c ≈ 13.6
+  Å as recalled from the lattice-parameter table of this review; (103) is the strongest line. Precursor of Ti2CTx
+  MXene.

@@ -1,0 +1,49 @@
+id: raman/alpha-quartz-scott1967
+technique: raman
+material: α-Quartz (SiO₂)
+formula: SiO2
+aliases:
+- quartz
+- silica
+category: oxide
+conditions:
+  form: single crystal
+  temperature_K: 295
+peaks:
+- position: 128
+  intensity: m
+  label: E
+- position: 207
+  intensity: m
+  label: A1 (soft mode of α–β transition)
+- position: 265
+  intensity: w
+  label: E
+- position: 356
+  intensity: w
+  label: A1
+- position: 464
+  intensity: s
+  label: A1 (Si–O–Si bending)
+- position: 696
+  intensity: vw
+  label: E
+- position: 808
+  intensity: w
+  label: E
+- position: 1085
+  intensity: vw
+  label: A1/E (Si–O stretch)
+- position: 1161
+  intensity: vw
+  label: E
+source:
+  doi: 10.1103/PhysRev.161.903
+  citation: Scott & Porto, Phys. Rev. 161, 903 (1967)
+  title: Longitudinal and Transverse Optical Lattice Vibrations in Quartz
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. The 464 band identifies
+  quartz; fused/amorphous SiO2 instead shows broad bands (~440 network, D1 ~490, D2 ~605, ~800, ~1060–1200). Polar
+  E modes split into TO/LO; listed values are nominal TO positions.

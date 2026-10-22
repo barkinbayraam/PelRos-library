@@ -1,0 +1,77 @@
+id: xrd/zno-wurtzite-kisi1989
+technique: xrd
+material: ZnO (wurtzite)
+formula: ZnO
+aliases:
+- zinc oxide
+- zincite
+category: oxide
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 31.769
+  d: 2.8144
+  hkl: '100'
+  intensity: s
+  width: null
+  label: null
+- position: 34.422
+  d: 2.6033
+  hkl: '002'
+  intensity: m
+  width: null
+  label: null
+- position: 36.254
+  d: 2.4758
+  hkl: '101'
+  intensity: s
+  width: null
+  label: null
+- position: 47.54
+  d: 1.9111
+  hkl: '102'
+  intensity: m
+  width: null
+  label: null
+- position: 56.596
+  d: 1.6249
+  hkl: '110'
+  intensity: m
+  width: null
+  label: null
+- position: 62.858
+  d: 1.4772
+  hkl: '103'
+  intensity: m
+  width: null
+  label: null
+- position: 66.377
+  d: 1.4072
+  hkl: '200'
+  intensity: w
+  width: null
+  label: null
+- position: 67.949
+  d: 1.3784
+  hkl: '112'
+  intensity: m
+  width: null
+  label: null
+- position: 69.088
+  d: 1.3585
+  hkl: '201'
+  intensity: w
+  width: null
+  label: null
+source:
+  doi: 10.1107/S0108270189004269
+  citation: Kisi & Elcombe, Acta Cryst. C45, 1867–1870 (1989)
+  title: u parameters for the wurtzite structure of ZnS and ZnO using powder neutron diffraction
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: Computed here from lattice parameters recalled from this source (NOT read in this session) — check the paper;
+  intensities qualitative from general knowledge, not from the source. a = 3.2498, c = 5.2066 Å (P6₃mc), neutron
+  powder data, recalled. (101) strongest; c-axis-textured films show an enhanced (002) at ≈34.4°.

@@ -1,0 +1,14 @@
+id: raman/si-crystalline-test2000
+technique: raman
+material: Si (test fixture)
+formula: Si
+category: semiconductor
+conditions: {form: single crystal, laser_nm: 532}
+peaks:
+  - {position: 520.7, intensity: s, label: LO/TO}
+source:
+  doi: 10.1000/test.1
+  citation: "Tester, J. Test. 1, 1 (2000)"
+  title: "Raman scattering in crystalline silicon"
+  where: "Fig. 1"
+status: unverified

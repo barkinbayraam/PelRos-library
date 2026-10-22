@@ -1,0 +1,24 @@
+id: raman/mose2-tonndorf2013
+technique: raman
+material: MoSe₂ (monolayer)
+formula: MoSe2
+aliases:
+- molybdenum diselenide
+category: 2D material
+peaks:
+- position: 241
+  intensity: s
+  label: A1g (out-of-plane)
+- position: 287
+  intensity: w
+  label: E¹2g (in-plane)
+source:
+  doi: 10.1364/OE.21.004908
+  citation: Tonndorf et al., Opt. Express 21, 4908 (2013)
+  title: Photoluminescence emission and Raman response of monolayer MoS_2, MoSe_2, and WSe_2
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. A1g dominates; it
+  stiffens slightly towards bulk (~243). The B¹2g mode (~353) is absent in the monolayer and appears in bi-/few-layer,
+  giving a thickness marker.

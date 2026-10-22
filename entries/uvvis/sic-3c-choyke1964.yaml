@@ -1,0 +1,22 @@
+id: uvvis/sic-3c-choyke1964
+technique: uvvis
+material: "3C-SiC (cubic)"
+formula: SiC
+aliases: ["silicon carbide", "β-SiC"]
+category: "carbide"
+conditions:
+  form: "bulk single crystal"
+  temperature_K: 4.2
+values:
+  - quantity: band_gap_indirect
+    value: 2.390
+    unit: eV
+    note: "exciton gap of 3C-SiC at low T (≈2.36 eV at RT)"
+source:
+  doi: 10.1103/PhysRev.133.A1163
+  citation: "Choyke, Hamilton & Patrick, Phys. Rev. 133, A1163 (1964)"
+  title: "Optical Properties of Cubic SiC: Luminescence of Nitrogen-Exciton Complexes, and Interband Absorption"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Polytype matters: 4H-SiC ≈3.26 eV, 6H-SiC ≈3.0 eV (RT, indirect) — not from this paper. DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper."

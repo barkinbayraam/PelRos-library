@@ -1,0 +1,27 @@
+id: raman/gaas-mooradian1966
+technique: raman
+material: GaAs (zinc blende)
+formula: GaAs
+aliases:
+- gallium arsenide
+category: semiconductor
+conditions:
+  form: single crystal
+  temperature_K: 295
+peaks:
+- position: 268
+  intensity: m
+  label: TO(Γ)
+- position: 292
+  intensity: s
+  label: LO(Γ)
+source:
+  doi: 10.1016/0038-1098(66)90321-8
+  citation: Mooradian & Wright, Solid State Commun. 4, 431 (1966)
+  title: First order Raman effect in III–V compounds
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. On (001) GaAs in
+  backscattering only LO is allowed; TO appears for other faces or disorder. In n-doped GaAs the LO couples to plasmons
+  (L± modes). The paper also covers GaP, InP and AlSb.

@@ -1,0 +1,22 @@
+id: uvvis/batio3-wemple1970
+technique: uvvis
+material: "BaTiO₃"
+formula: BaTiO3
+aliases: ["barium titanate"]
+category: "perovskite oxide"
+conditions:
+  form: "bulk single crystal"
+  temperature_K: 295
+values:
+  - quantity: band_gap_indirect
+    value: 3.2
+    unit: eV
+    note: "absorption edge region ≈3.2 eV at room temperature (tetragonal)"
+source:
+  doi: 10.1103/PhysRevB.2.2679
+  citation: "Wemple, Phys. Rev. B 2, 2679 (1970)"
+  title: "Polarization Fluctuations and the Optical-Absorption Edge in BaTiO3"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Edge shifts with temperature and ferroelectric phase (Urbach-like tail linked to polarization fluctuations). DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper. Literature RT values span ≈3.2–3.4 eV."

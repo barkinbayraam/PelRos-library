@@ -1,0 +1,73 @@
+id: xrd/nb2alc-barsoum2000
+technique: xrd
+material: Nb₂AlC (MAX phase)
+formula: Nb2AlC
+aliases:
+- MAX phase
+- Nb2AlC
+- MXene precursor
+category: MAX phase
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 12.819
+  d: 6.9
+  hkl: '002'
+  intensity: m
+  width: null
+  label: null
+- position: 25.803
+  d: 3.45
+  hkl: '004'
+  intensity: w
+  width: null
+  label: null
+- position: 33.348
+  d: 2.6847
+  hkl: '100'
+  intensity: w
+  width: null
+  label: null
+- position: 33.992
+  d: 2.6353
+  hkl: '101'
+  intensity: w
+  width: null
+  label: null
+- position: 38.807
+  d: 2.3187
+  hkl: '103'
+  intensity: s
+  width: null
+  label: null
+- position: 39.134
+  d: 2.3
+  hkl: '006'
+  intensity: w
+  width: null
+  label: null
+- position: 52.337
+  d: 1.7467
+  hkl: '106'
+  intensity: w
+  width: null
+  label: null
+- position: 59.599
+  d: 1.55
+  hkl: '110'
+  intensity: w
+  width: null
+  label: null
+source:
+  doi: 10.1016/S0079-6786(00)00006-6
+  citation: Barsoum, Prog. Solid State Chem. 28, 201–281 (2000)
+  title: 'The MN+1AXN phases: A new class of solids'
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: Computed here from lattice parameters recalled from this source (NOT read in this session) — check the paper;
+  intensities qualitative from general knowledge, not from the source. 211 MAX phase, P6₃/mmc, a ≈ 3.1, c ≈ 13.8
+  Å as recalled from the lattice-parameter table of this review; (103) is the strongest line. Precursor of Nb2CTx
+  MXene.

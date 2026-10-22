@@ -1,0 +1,72 @@
+id: xrd/ti3c2tx-multilayer-intercalated-mashtalir2013
+technique: xrd
+material: Ti₃C₂Tₓ MXene (HF-etched multilayer; intercalated)
+formula: Ti3C2Tx
+aliases:
+- Ti3C2
+- MXene
+- titanium carbide MXene
+- f-Ti3C2
+- multilayer Ti3C2Tx
+category: MXene
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 9.063
+  d: 9.75
+  hkl: '002'
+  intensity: null
+  width: null
+  label: HF-etched multilayer Ti3C2Tx, as etched (c-LP = 19.5 Å)
+- position: 7.066
+  d: 12.5
+  hkl: '002'
+  intensity: null
+  width: null
+  label: urea-intercalated (c-LP = 25.0 Å)
+- position: 6.933
+  d: 12.74
+  hkl: '002'
+  intensity: null
+  width: null
+  label: hydrazine monohydrate intercalated (c-LP = 25.48 Å)
+- position: 5.04
+  d: 17.52
+  hkl: '002'
+  intensity: null
+  width: null
+  label: DMSO-intercalated (c-LP = 35.04 Å)
+- position: 3.941
+  d: 22.4
+  hkl: '002'
+  intensity: null
+  width: null
+  label: DMSO-intercalated, after ~3 weeks (c-LP = 44.8 Å)
+- position: 33.824
+  d: 2.648
+  hkl: null
+  intensity: null
+  width: null
+  label: non-basal in-plane reflection (indices not legible in text read)
+- position: 60.026
+  d: 1.54
+  hkl: null
+  intensity: null
+  width: null
+  label: non-basal in-plane reflection near 60° (vanishes on delamination)
+source:
+  doi: 10.1038/ncomms2664
+  citation: Mashtalir et al., Nat. Commun. 4, 1716 (2013)
+  title: Intercalation and delamination of layered carbides and carbonitrides
+  where: Results, "Intercalation of MXenes" and "Delamination of MXene" (text; Table 1, Supplementary Fig. S5)
+status: doi_verified
+checked: 2026-10-22
+notes: 'The paper reports c lattice parameters (c-LP), not 2θ: (0002) d = c/2 and 2θ were computed here for Cu Kα1.
+  c-LP 19.5 ± 0.1 Å for HF-etched Ti3C2Tx (≈9.1°), rising on intercalation: urea 25.00, hydrazine 25.48 (26.8 in
+  DMF), DMSO 35.04 Å and 44.8 Å after ~3 weeks. Heating the hydrazine sample to 120 °C in vacuum shrinks c-LP to
+  20.6 Å. In-plane spacings 2.648 and 1.540 Å are stated (hkl symbols lost in the web text) and give a-LP = 3.057
+  Å; Ti3AlC2 a-LP 3.058 Å. Measured with Cu Kα (λ≈1.54 Å). General guidance (not from this paper): the (002) position
+  of Ti3C2Tx depends strongly on etchant, cation/water content and drying (≈9–9.5° HF multilayer; ≈6–7° LiF/HCl
+  or delaminated films; <6° with large intercalants).'

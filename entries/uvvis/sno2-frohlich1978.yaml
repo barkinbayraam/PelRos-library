@@ -1,0 +1,22 @@
+id: uvvis/sno2-frohlich1978
+technique: uvvis
+material: "SnO₂ (rutile)"
+formula: SnO2
+aliases: ["tin oxide", "cassiterite"]
+category: "oxide"
+conditions:
+  form: "bulk single crystal"
+  temperature_K: 1.6
+values:
+  - quantity: band_gap_direct
+    value: 3.6
+    unit: eV
+    note: "dipole-forbidden direct gap assigned by two-photon spectroscopy (low T)"
+source:
+  doi: 10.1103/PhysRevLett.41.1750
+  citation: "Fröhlich, Kenklies & Helbig, Phys. Rev. Lett. 41, 1750 (1978)"
+  title: "Band-Gap Assignment in SnO2 by Two-Photon Spectroscopy"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Room-temperature thin-film Tauc gaps are usually quoted 3.6–4.0 eV (Burstein–Moss shift in doped films). DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper. Exact low-T value and temperature to be checked."

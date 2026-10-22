@@ -1,0 +1,46 @@
+id: raman/zro2-monoclinic-phillippi1971
+technique: raman
+material: ZrO₂ (monoclinic, baddeleyite)
+formula: ZrO2
+aliases:
+- zirconia
+- baddeleyite
+- m-ZrO2
+category: oxide
+conditions:
+  form: powder
+  temperature_K: 295
+peaks:
+- position: 178
+  intensity: s
+  label: Ag
+- position: 190
+  intensity: s
+  label: Ag
+- position: 333
+  intensity: m
+  label: Bg
+- position: 347
+  intensity: m
+  label: Ag
+- position: 381
+  intensity: m
+  label: Bg
+- position: 476
+  intensity: m
+  label: Ag
+- position: 616
+  intensity: m
+  label: Bg
+- position: 638
+  intensity: m
+  label: Ag
+source:
+  doi: 10.1111/j.1151-2916.1971.tb12283.x
+  citation: Phillippi & Mazdiyasni, J. Am. Ceram. Soc. 54, 254 (1971)
+  title: Infrared and Raman Spectra of Zirconia Polymorphs
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. The 178/190 doublet
+  is the clearest monoclinic marker. Assignments follow common later literature.

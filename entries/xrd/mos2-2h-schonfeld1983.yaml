@@ -1,0 +1,72 @@
+id: xrd/mos2-2h-schonfeld1983
+technique: xrd
+material: MoS₂ (2H)
+formula: MoS2
+aliases:
+- molybdenum disulfide
+- molybdenite
+category: 2D material
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 14.396
+  d: 6.1475
+  hkl: '002'
+  intensity: s
+  width: null
+  label: null
+- position: 32.692
+  d: 2.737
+  hkl: '100'
+  intensity: w
+  width: null
+  label: null
+- position: 33.516
+  d: 2.6716
+  hkl: '101'
+  intensity: w
+  width: null
+  label: null
+- position: 35.886
+  d: 2.5004
+  hkl: '102'
+  intensity: w
+  width: null
+  label: null
+- position: 39.563
+  d: 2.2761
+  hkl: '103'
+  intensity: m
+  width: null
+  label: null
+- position: 44.161
+  d: 2.0492
+  hkl: '006'
+  intensity: w
+  width: null
+  label: null
+- position: 49.81
+  d: 1.8292
+  hkl: '105'
+  intensity: w
+  width: null
+  label: null
+- position: 58.349
+  d: 1.5802
+  hkl: '110'
+  intensity: w
+  width: null
+  label: null
+source:
+  doi: 10.1107/S0108768183002645
+  citation: Schönfeld, Huang & Moss, Acta Cryst. B39, 404–407 (1983)
+  title: Anisotropic mean-square displacements (MSD) in single-crystals of 2H- and 3R-MoS2
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: Computed here from lattice parameters recalled from this source (NOT read in this session) — check the paper;
+  intensities qualitative from general knowledge, not from the source. 2H-MoS2, P6₃/mmc, a = 3.1604, c = 12.295
+  Å, recalled. Exfoliated or few-layer MoS2 loses or broadens (002) ≈14.4°; intercalated/1T-rich material shows
+  (002) at lower angle.

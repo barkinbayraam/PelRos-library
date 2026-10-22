@@ -1,0 +1,85 @@
+id: xrd/tio2-rutile-howard1991
+technique: xrd
+material: TiO₂ (rutile)
+formula: TiO2
+aliases:
+- rutile
+- titania
+- titanium dioxide
+category: oxide
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 27.436
+  d: 3.2482
+  hkl: '110'
+  intensity: s
+  width: null
+  label: null
+- position: 36.08
+  d: 2.4874
+  hkl: '101'
+  intensity: m
+  width: null
+  label: null
+- position: 39.19
+  d: 2.2969
+  hkl: '200'
+  intensity: w
+  width: null
+  label: null
+- position: 41.239
+  d: 2.1873
+  hkl: '111'
+  intensity: m
+  width: null
+  label: null
+- position: 44.043
+  d: 2.0544
+  hkl: '210'
+  intensity: w
+  width: null
+  label: null
+- position: 54.321
+  d: 1.6875
+  hkl: '211'
+  intensity: s
+  width: null
+  label: null
+- position: 56.626
+  d: 1.6241
+  hkl: '220'
+  intensity: m
+  width: null
+  label: null
+- position: 62.759
+  d: 1.4793
+  hkl: '002'
+  intensity: w
+  width: null
+  label: null
+- position: 64.047
+  d: 1.4527
+  hkl: '310'
+  intensity: w
+  width: null
+  label: null
+- position: 69.004
+  d: 1.3599
+  hkl: '301'
+  intensity: m
+  width: null
+  label: null
+source:
+  doi: 10.1107/S010876819100335X
+  citation: Howard, Sabine & Dickson, Acta Cryst. B47, 462–468 (1991)
+  title: Structural and thermal parameters for rutile and anatase
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: Computed here from lattice parameters recalled from this source (NOT read in this session) — check the paper;
+  intensities qualitative from general knowledge, not from the source. a = 4.5937, c = 2.9587 Å (P4₂/mnm), neutron
+  powder data, recalled — these digits may be the closely similar Burdett et al. (1987) values; check this paper.
+  Rutile (110) ≈27.4° vs anatase (101) ≈25.3° is the standard phase-ratio pair (Spurr–Myers).

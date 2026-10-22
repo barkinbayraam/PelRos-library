@@ -1,0 +1,28 @@
+id: raman/hbn-nemanich1981
+technique: raman
+material: Hexagonal boron nitride
+formula: BN
+aliases:
+- h-BN
+- hBN
+- white graphene
+category: 2D material
+conditions:
+  form: single crystal and microcrystalline powder
+peaks:
+- position: 1366
+  intensity: s
+  label: E2g (high-frequency, in-plane)
+- position: 52
+  intensity: w
+  label: E2g (low-frequency shear/rigid-layer)
+source:
+  doi: 10.1103/PhysRevB.23.6348
+  citation: Nemanich, Solin & Martin, Phys. Rev. B 23, 6348 (1981)
+  title: Light scattering study of boron nitride microcrystals
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. Abstract (checked)
+  reports that the high-frequency E2g mode shifts up and broadens as crystallite size decreases; numbers are not
+  in the abstract. Monolayer h-BN is weak and slightly upshifted (~1367–1370).

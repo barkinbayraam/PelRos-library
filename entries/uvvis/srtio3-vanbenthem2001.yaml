@@ -1,0 +1,26 @@
+id: uvvis/srtio3-vanbenthem2001
+technique: uvvis
+material: "SrTiO₃"
+formula: SrTiO3
+aliases: ["strontium titanate"]
+category: "perovskite oxide"
+conditions:
+  form: "bulk single crystal"
+  temperature_K: 295
+values:
+  - quantity: band_gap_indirect
+    value: 3.25
+    unit: eV
+    note: "experimental (VUV ellipsometry)"
+  - quantity: band_gap_direct
+    value: 3.75
+    unit: eV
+    note: "experimental"
+source:
+  doi: 10.1063/1.1415766
+  citation: "van Benthem, Elsässer & French, J. Appl. Phys. 90, 6156 (2001)"
+  title: "Bulk electronic structure of SrTiO3: Experiment and theory"
+  where: "abstract"
+status: doi_verified
+checked: 2026-10-22
+notes: "Values from the abstract; measurement at room temperature (VUV spectroscopic ellipsometry, Kramers–Kronig)."

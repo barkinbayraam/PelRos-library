@@ -1,0 +1,21 @@
+id: raman/diamond-solin1970
+technique: raman
+material: Diamond
+formula: C
+category: carbon
+conditions:
+  form: single crystal
+  temperature_K: 295
+peaks:
+- position: 1332
+  intensity: s
+  label: F2g (zone-centre optical phonon), first order
+source:
+  doi: 10.1103/PhysRevB.1.1687
+  citation: Solin & Ramdas, Phys. Rev. B 1, 1687 (1970)
+  title: Raman Spectrum of Diamond
+  where: abstract
+status: doi_verified
+checked: 2026-10-22
+notes: Single sharp line; stress shifts/splits it and nanodiamond broadens and downshifts it. The abstract also
+  reports a weak second-order band between 1600 and 2100 cm⁻¹ in addition to the main second-order spectrum.

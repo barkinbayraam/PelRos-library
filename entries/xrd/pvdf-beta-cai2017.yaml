@@ -1,0 +1,38 @@
+id: xrd/pvdf-beta-cai2017
+technique: xrd
+material: PVDF (β phase)
+formula: PVDF
+aliases:
+- poly(vinylidene fluoride)
+- beta PVDF
+- electroactive PVDF
+category: polymer
+conditions:
+  form: film
+  radiation: Cu Kα
+  wavelength_A: 1.5406
+peaks:
+- position: 20.6
+  d: 4.3081
+  hkl: 110/200
+  intensity: s
+  width: null
+  label: null
+- position: 36.3
+  d: 2.4728
+  hkl: null
+  intensity: w
+  width: null
+  label: null
+source:
+  doi: 10.1039/C7RA01267E
+  citation: Cai, Lei, Sun & Lin, RSC Adv. 7, 15382–15389 (2017)
+  title: A critical analysis of the α, β and γ phases in poly(vinylidene fluoride) using FTIR
+  where: Results, "Electrospun nanofibrous membranes" (Fig. 3A–B, type c) and solution-cast/drawn membrane (Fig.
+    4A)
+status: doi_verified
+checked: 2026-10-22
+notes: 'β-rich electrospun membrane: "very strong" peak at 20.6° and weak peak at 36.3° (hkl of the 36.3° peak not
+  stated); drawn solution-cast film also 20.6°. d computed from 2θ with λ = 1.5406 Å. Orthorhombic all-trans β phase.
+  The γ phase (20.3°, 18.5°, 39.0°) overlaps strongly — XRD alone cannot cleanly separate β and γ; combine with
+  FTIR.'

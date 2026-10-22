@@ -1,0 +1,28 @@
+id: ftir/tpu-asensio2019
+technique: ftir
+material: Thermoplastic polyurethane (TPU, segmented)
+formula: TPU
+aliases: [thermoplastic polyurethane, polyurethane, PU, segmented polyurethane]
+category: polymer, elastomer
+conditions:
+  form: film
+  mode: ATR
+peaks:
+  - {position: 3276, intensity: w, label: "urethane N–H stretch (H-bonded; 'small broad peak')"}
+  - {position: 1740, intensity: null, label: "free C=O of carbonate/ester soft segment (band I; polycarbonate/polyester TPUs)"}
+  - {position: 1730, intensity: null, label: "free urethane C=O (polyether/PTMG TPUs)"}
+  - {position: 1720, intensity: null, label: "H-bonded carbonate/ester C=O (band II)"}
+  - {position: 1700, intensity: null, label: "free urethane C=O (polyester/polycarbonate TPUs) / H-bonded urethane C=O (polyether TPUs)"}
+  - {position: 1685, intensity: null, label: "H-bonded urethane C=O (band IV; polyester/polycarbonate TPUs)"}
+source:
+  doi: 10.3390/polym11121910
+  citation: "Asensio, Costa, Nohales, Bianchi & Gómez, Polymers 11, 1910 (2019)"
+  title: "Tunable Structure and Properties of Segmented Thermoplastic Polyurethanes as a Function of Flexible Segment"
+  where: "Section 3 FTIR text, Fig. 3 (carbonyl-region peak fitting)"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  Single-bounce ATR, 4000–400 cm⁻¹. Carbonyl positions depend on the soft segment (polyether vs polyester vs
+  polycarbonate); the H-bonded/free urethane C=O area ratio gives the hydrogen-bonded fraction. Absence of the NCO band
+  (2273 cm⁻¹, 2260 in another sentence) and of polyol O–H (3470) confirms complete reaction. C–O–C (~1100 polyether)
+  and amide II (~1530) are not given in this source. The 'w' on 3276 follows the text ("small broad peak").

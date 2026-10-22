@@ -1,0 +1,37 @@
+id: raman/co3o4-hadjiev1988
+technique: raman
+material: Co₃O₄ (spinel)
+formula: Co3O4
+aliases:
+- cobalt oxide
+- cobalt(II,III) oxide
+category: oxide
+conditions:
+  form: single crystal
+  temperature_K: 312
+peaks:
+- position: 194
+  intensity: m
+  label: F2g
+- position: 482
+  intensity: m
+  label: Eg
+- position: 522
+  intensity: m
+  label: F2g
+- position: 618
+  intensity: w
+  label: F2g
+- position: 691
+  intensity: s
+  label: A1g
+source:
+  doi: 10.1088/0022-3719/21/7/007
+  citation: 'Hadjiev, Iliev & Vergilov, J. Phys. C: Solid State Phys. 21, L199 (1988)'
+  title: The Raman spectra of Co3O4
+  where: abstract (all five frequencies; single crystal at 312 K)
+status: doi_verified
+checked: 2026-10-22
+notes: Abstract lists the five modes without symmetry labels; assignments shown follow the usual spinel scheme (check
+  the paper). All five spinel modes are usually visible; nanocrystals downshift/broaden them by a few cm⁻¹. CoO
+  (rock salt) has no first-order Raman and laser heating can reduce Co3O4.

@@ -1,0 +1,40 @@
+id: raman/anatase-ohsaka1978
+technique: raman
+material: Anatase TiO₂
+formula: TiO2
+aliases:
+- titania
+- titanium dioxide
+category: oxide
+conditions:
+  form: single crystal
+  temperature_K: 295
+peaks:
+- position: 144
+  intensity: s
+  label: Eg
+- position: 197
+  intensity: w
+  label: Eg
+- position: 399
+  intensity: m
+  label: B1g
+- position: 513
+  intensity: m
+  label: A1g
+- position: 519
+  intensity: m
+  label: B1g
+- position: 639
+  intensity: m
+  label: Eg
+source:
+  doi: 10.1002/jrs.1250070606
+  citation: Ohsaka, Izumi & Fujiki, J. Raman Spectrosc. 7, 321 (1978)
+  title: Raman spectrum of anatase, TiO2
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. 513 and 519 are usually
+  unresolved at room temperature (one band ~515). The 144 Eg band upshifts and broadens in nanocrystals (phonon
+  confinement, oxygen deficiency). Second-order band ~796 (weak).

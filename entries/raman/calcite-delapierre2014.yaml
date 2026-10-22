@@ -1,0 +1,41 @@
+id: raman/calcite-delapierre2014
+technique: raman
+material: Calcite (CaCO₃)
+formula: CaCO3
+aliases:
+- calcium carbonate
+- limestone
+category: carbonate
+conditions:
+  form: powder / single crystal
+  temperature_K: 295
+peaks:
+- position: 155
+  intensity: m
+  label: Eg (translational lattice)
+- position: 282
+  intensity: m
+  label: Eg (librational lattice)
+- position: 712
+  intensity: w
+  label: Eg ν4 (CO3 in-plane bend)
+- position: 1086
+  intensity: s
+  label: A1g ν1 (CO3 symmetric stretch)
+- position: 1436
+  intensity: vw
+  label: Eg ν3 (CO3 antisymmetric stretch)
+- position: 1749
+  intensity: vw
+  label: ν1+ν4 combination
+source:
+  doi: 10.1063/1.4871900
+  citation: De La Pierre et al., J. Chem. Phys. 140, 164509 (2014)
+  title: 'The Raman spectrum of CaCO3 polymorphs calcite and aragonite: A combined experimental and computational
+    study'
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: 'DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. Room-temperature
+  typical values (paper gives RT and 80 K experiment plus calculation). Calcite vs aragonite: use the lattice modes
+  and the ν4 region (calcite single 712; aragonite 701/705 doublet).'

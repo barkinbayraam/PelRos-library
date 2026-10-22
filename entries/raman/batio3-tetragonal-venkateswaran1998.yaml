@@ -1,0 +1,38 @@
+id: raman/batio3-tetragonal-venkateswaran1998
+technique: raman
+material: BaTiO₃ (tetragonal)
+formula: BaTiO3
+aliases:
+- barium titanate
+- BTO
+category: perovskite oxide
+conditions:
+  form: polycrystalline ceramic
+  temperature_K: 295
+peaks:
+- position: 185
+  intensity: vw
+  label: A1(TO1)/E antiresonance (interference dip)
+- position: 260
+  intensity: s
+  label: A1(TO2), broad
+- position: 305
+  intensity: m
+  label: B1 + E(TO+LO), sharp
+- position: 518
+  intensity: s
+  label: A1(TO3) + E(TO)
+- position: 717
+  intensity: m
+  label: A1(LO3) + E(LO)
+source:
+  doi: 10.1103/PhysRevB.58.14256
+  citation: Venkateswaran, Naik & Naik, Phys. Rev. B 58, 14256 (1998)
+  title: High-pressure Raman studies of polycrystalline BaTiO3
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: 'DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. The ≈185 cm⁻¹ feature
+  is an interference dip, not a peak. The sharp ≈305 band and ≈717 band mark tetragonality. In the cubic (paraelectric)
+  phase — reached above ~400 K or under pressure — no first-order modes are allowed but broad disorder-induced bands
+  near ~260 and ~520 persist; very fine-grained BaTiO3 looks similar. BaCO3 impurity: sharp 1059.'

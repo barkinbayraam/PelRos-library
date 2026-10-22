@@ -1,0 +1,24 @@
+id: raman/wse2-tonndorf2013
+technique: raman
+material: WSe₂ (monolayer)
+formula: WSe2
+aliases:
+- tungsten diselenide
+category: 2D material
+peaks:
+- position: 250
+  intensity: s
+  label: E¹2g + A1g (nearly degenerate)
+- position: 260
+  intensity: m
+  label: 2LA(M), second order
+source:
+  doi: 10.1364/OE.21.004908
+  citation: Tonndorf et al., Opt. Express 21, 4908 (2013)
+  title: Photoluminescence emission and Raman response of monolayer MoS_2, MoSe_2, and WSe_2
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. The ~308 B¹2g interlayer
+  mode is absent in the monolayer and appears for ≥2 layers. Relative intensities of the 250/260 pair depend strongly
+  on laser (resonance).

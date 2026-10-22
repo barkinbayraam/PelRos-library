@@ -1,0 +1,34 @@
+id: raman/zro2-tetragonal-phillippi1971
+technique: raman
+material: ZrO₂ (tetragonal)
+formula: ZrO2
+aliases:
+- zirconia
+- t-ZrO2
+- YSZ
+category: oxide
+conditions:
+  form: powder
+peaks:
+- position: 148
+  intensity: m
+  label: Eg
+- position: 263
+  intensity: s
+  label: A1g/Eg
+- position: 464
+  intensity: m
+  label: Eg
+- position: 640
+  intensity: m
+  label: Eg
+source:
+  doi: 10.1111/j.1151-2916.1971.tb12283.x
+  citation: Phillippi & Mazdiyasni, J. Am. Ceram. Soc. 54, 254 (1971)
+  title: Infrared and Raman Spectra of Zirconia Polymorphs
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: DOI confirmed on Crossref 2026-10-22; positions not yet checked against the paper text. Tetragonal ZrO2 is
+  stabilised at RT by Y2O3 (YSZ) or small crystallite size; positions shift with dopant level. Cubic ZrO2 shows
+  one broad F2g band ~600–625.

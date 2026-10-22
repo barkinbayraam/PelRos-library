@@ -1,0 +1,28 @@
+id: ftir/nylon66-eren2024
+technique: ftir
+material: Nylon 6,6 (PA66) fabric
+formula: PA66
+aliases: ["nylon 6,6", nylon 66, polyamide 66, PA 6.6, polyhexamethylene adipamide]
+category: polymer, polyamide
+conditions:
+  form: fabric
+peaks:
+  - {position: 3300, intensity: null, label: "H-bonded N–H stretch"}
+  - {position: 2933, intensity: null, label: "CH2 stretch"}
+  - {position: 2862, intensity: null, label: "CH2 stretch"}
+  - {position: 1656, intensity: null, label: "amide I (C=O stretch)"}
+  - {position: 1540, intensity: null, label: "amide II (N–H bend + C–N stretch)"}
+  - {position: 1169, intensity: null, label: "skeletal CO–NH motion"}
+  - {position: 959, intensity: null, label: "in-plane CO–NH vibration"}
+source:
+  doi: 10.3390/polym16111472
+  citation: "Eren & Özyurt, Polymers 16, 1472 (2024)"
+  title: "Waterless Dyeing of Polyamide 6.6"
+  where: "Section 3.7 text, Fig. 6"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  Shimadzu IRTracer-100; sampling mode not stated. Assignments describe undyed and dyed PA6.6 fabrics together
+  (dyeing did not change the spectrum). The source labels 1656 both as amine N–H and carbonyl (amide I); amide I is
+  the standard assignment. Amide III region given as 1370–1200 cm⁻¹. Nylon 6 has essentially the same amide bands
+  (its α/γ crystal forms differ in the 1200–900 cm⁻¹ region). Intensities not stated.

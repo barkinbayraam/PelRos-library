@@ -1,0 +1,67 @@
+id: xrd/pvdf-alpha-cai2017
+technique: xrd
+material: PVDF (α phase)
+formula: PVDF
+aliases:
+- poly(vinylidene fluoride)
+- polyvinylidene fluoride
+- alpha PVDF
+category: polymer
+conditions:
+  form: powder
+  radiation: Cu Kα
+  wavelength_A: 1.5406
+peaks:
+- position: 18.4
+  d: 4.818
+  hkl: '020'
+  intensity: s
+  width: null
+  label: null
+- position: 20.0
+  d: 4.436
+  hkl: '110'
+  intensity: s
+  width: null
+  label: null
+- position: 26.6
+  d: 3.3484
+  hkl: '021'
+  intensity: m
+  width: null
+  label: null
+- position: 33.2
+  d: 2.6963
+  hkl: '130'
+  intensity: w
+  width: null
+  label: null
+- position: 35.9
+  d: 2.4995
+  hkl: '200'
+  intensity: w
+  width: null
+  label: null
+- position: 38.8
+  d: 2.3191
+  hkl: '002'
+  intensity: w
+  width: null
+  label: null
+- position: 41.1
+  d: 2.1944
+  hkl: '111'
+  intensity: w
+  width: null
+  label: null
+source:
+  doi: 10.1039/C7RA01267E
+  citation: Cai, Lei, Sun & Lin, RSC Adv. 7, 15382–15389 (2017)
+  title: A critical analysis of the α, β and γ phases in poly(vinylidene fluoride) using FTIR
+  where: Results, "XRD and FTIR analyses of raw PVDF powder" (Fig. 2A)
+status: doi_verified
+checked: 2026-10-22
+notes: '2θ as stated in the text for raw PVDF powder (Cu Kα, "0.154 nm"); d computed here from 2θ with λ = 1.5406
+  Å. Monoclinic α phase (TGTG′). Intensities qualitative from the text ("intensive", "medium", "weak"). The powder
+  also shows a weak β 110/200 peak at 20.6°. Solution-cast α film (dried 150 °C): 18.4, 19.9, 26.6°. Many papers
+  also list α(100) at ≈17.7°, not mentioned here.'

@@ -1,0 +1,47 @@
+id: ftir/graphene-oxide-aliyev2019
+technique: ftir
+material: Graphene oxide (GO)
+formula: GO
+aliases: [graphene oxide, GO, graphite oxide]
+category: carbon, 2D material
+conditions:
+  form: powder
+  mode: ATR
+peaks:
+  - position: 3600
+    intensity: null
+    label: "O–H stretch, edge hydroxyl groups (shoulder, ~3600)"
+  - position: 3350
+    intensity: null
+    width: null
+    label: "C–OH / O–H stretch, broad band ~3300–3400"
+  - position: 1728
+    intensity: null
+    label: "C=O stretch (carbonyl/carboxyl), reported range 1718–1738"
+  - position: 1620
+    intensity: null
+    label: "H–O–H bend of physisorbed water (~1620)"
+  - position: 1585
+    intensity: null
+    label: "C=C of conjugated aromatic rings (~1585; seen once oxidative debris is removed)"
+  - position: 1410
+    intensity: null
+    label: "O–H bend / C–O stretch of –COOH (1410 or 1370, sample-dependent)"
+  - position: 1220
+    intensity: null
+    label: "C–O stretch of –COOH (1220 or 1230, sample-dependent)"
+  - position: 1045
+    intensity: null
+    label: "C–O–C (epoxy) stretch (1045 or 1050)"
+source:
+  doi: 10.3390/nano9081180
+  citation: "Aliyev, Filiz, Khan, Lee, Abetz & Abetz, Nanomaterials 9, 1180 (2019)"
+  title: "Structural Characterization of Graphene Oxide: Surface Functional Groups and Fractionated Oxidative Debris"
+  where: "Section 3 text, Fig. 3a"
+status: doi_verified
+checked: 2026-10-22
+notes: >-
+  Positions are given in the text as approximate values or ranges; the single numbers above are the printed value or
+  the midpoint of the printed range (3350 = midpoint of 3300–3400, 1728 = midpoint of 1718–1738). After hydrazine
+  reduction (rGO) the –OH, C–O and epoxy bands disappear (text); no separate rGO band list is given. The ~1620 water
+  band disappears for base-washed GO. Oxidation level and debris content shift relative intensities strongly. Intensities are not stated in the text (null).

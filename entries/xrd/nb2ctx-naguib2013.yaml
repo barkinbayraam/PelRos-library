@@ -1,0 +1,29 @@
+id: xrd/nb2ctx-naguib2013
+technique: xrd
+material: Nb₂CTₓ MXene (HF-etched multilayer)
+formula: Nb2CTx
+aliases:
+- MXene
+- Nb2C
+category: MXene
+conditions:
+  form: powder
+  radiation: Cu Kα1
+  wavelength_A: 1.540598
+peaks:
+- position: 7.909
+  d: 11.17
+  hkl: '002'
+  intensity: s
+  width: null
+  label: basal (002), c-LP ≈ 22.34 Å (recalled)
+source:
+  doi: 10.1021/ja405735d
+  citation: Naguib et al., J. Am. Chem. Soc. 135, 15966–15969 (2013)
+  title: New Two-Dimensional Niobium and Vanadium Carbides as Promising Materials for Li-Ion Batteries
+  where: recalled — check
+status: unverified
+checked: 2026-10-22
+notes: Only the (002) basal reflection, computed here from a c-LP of ≈22.34 Å recalled for this paper (NOT read;
+  the abstract read in this session gives no lattice parameters) — check the paper before use. The (002) position
+  of M2CTx MXenes depends on etching time, intercalated water/cations and drying, so expect several degrees of scatter.

@@ -1,0 +1,22 @@
+id: uvvis/cdse-qd-sizing-yu2003
+technique: uvvis
+material: "CdSe colloidal QDs (sizing curve)"
+formula: CdSe
+aliases: ["CdSe quantum dots", "CdSe nanocrystals"]
+category: "II-VI semiconductor"
+conditions:
+  form: "colloidal QDs, ~2–8 nm"
+  temperature_K: 295
+values:
+  - quantity: band_gap_direct
+    value: 1.74
+    unit: eV
+    note: "bulk reference (wurtzite CdSe ≈1.74 eV (≈713 nm) at RT); QD first-exciton absorption peak blue-shifts with decreasing size"
+source:
+  doi: 10.1021/cm034081k
+  citation: "Yu, Qu, Guo & Peng, Chem. Mater. 15, 2854 (2003)"
+  title: "Experimental Determination of the Extinction Coefficient of CdTe, CdSe, and CdS Nanocrystals"
+  where: "recalled — check"
+status: unverified
+checked: 2026-10-22
+notes: "Source of the widely used empirical polynomial D(λ) relating first-exciton absorption wavelength to diameter, and size-dependent extinction coefficients, for CdSe nanocrystals. Bulk gap value is a textbook number, not taken from this paper. DOI confirmed on Crossref 2026-10-22, but the value was not read from the paper."
